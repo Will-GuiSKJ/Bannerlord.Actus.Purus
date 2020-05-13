@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bannerlord.Actus.Purus", "Bannerlord.Actus.Purus\Bannerlord.Actus.Purus.csproj", "{9674A353-1118-4314-90C6-CD86E31004AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actus.Purus", "Actus.Purus\Actus.Purus.csproj", "{9674A353-1118-4314-90C6-CD86E31004AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

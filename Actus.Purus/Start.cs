@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bannerlord.Actus.Purus
 {
-    public class Class1
+    public class Start
     {
     }
 }
