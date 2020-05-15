@@ -67,6 +67,10 @@ Scout skill affects Castle's zone of control (More info in Castle section).
 ##### Approach
 ###### Attackers
 1. Ranged units are able to attack during approach, with a penalty to AttackAccuracy until invading the settlement
+2. Time of approach depends on availability of siege equipment
+	1. None, fastest
+	2. Ram only, slower
+	3. 1+ Towers, slowest
 ###### Defenders
 1. Ranged units attack with a bonus to AttackAccuracy when targeting attacking units that are outside the walls
 
@@ -77,7 +81,7 @@ Approach phase ends when attacking army (plus towers/ram) reach the walls, units
 1. Each round, a number of attacking troops invade the settlement. Towers and breched gates provide higher throughput
 	1. Battering ram, if available, attacks the gate until destroyed
 	2. Once gate is destroyed, new pathway is created for attacking troops to invade
-2. Once inside, infantry assaulting units are capable of attacking defending units
+2. Once inside, assaulting infantry units are capable of attacking defending units
 ###### Defenders
 1. Infantry units are able to attack any assaulting units inside the settlement
 
