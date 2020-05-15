@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-  <Name value="EquipBestItem"/>
+  <Name value="ActusPurus"/>
   <Id value="ActusPurus"/>
   <Version value="v0.0.1"/>
   <SingleplayerModule value="true"/>
