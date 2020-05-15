@@ -60,18 +60,17 @@ Scout skill affects Castle's zone of control (More info in Castle section).
 3. All mounted units become either infantry or ranged units
 4. Polearm units use secondary weapon and weapon skill instead
 5. Infantry units have a bonus against ranged units
+6. Siege weaponry is added to roster as a unit and troop units are removed to "man" the machines, non-ranged low-level troops are given priority to this assignment
+	1. Target priority is Opposing Siege Weaponry -> Ranged -> Infantry
+	2. When destroyed, units are __not__ added back to roster
 
 ##### Approach
 ###### Attackers
-1. Siege attack weaponry is added to attacker roster and troop is removed to "man" the machines, non-ranged low-level troops are given priority to this assignment
-2. Archers are able to attack during approach, with a penalty to AttackAccuracy until invading the settlement
+1. Ranged units are able to attack during approach, with a penalty to AttackAccuracy until invading the settlement
 ###### Defenders
-1. Siege defense weaponry is added to defender roster and troop is removed to "man" the machines, non-ranged low-level troops are given priority to this assignment
-	1. Weapony becomes its own unit that can attack and be attacked
-	2. Weaponry priority target is attacking army's own siege weaponry, including towers and battering rams
-2. Archers attack with a bonus to AttackAccuracy when targeting attacking units that are outside the walls
+1. Ranged units attack with a bonus to AttackAccuracy when targeting attacking units that are outside the walls
 
-Approach phase ends when attacking army (plus towers/ram) reach the walls, units removed to man these are added back to roster.
+Approach phase ends when attacking army (plus towers/ram) reach the walls, units removed to man towers and ram are added back to roster.
 
 ##### Assault
 ###### Attackers
