@@ -29,12 +29,12 @@ Scout skill affects _perceived_ party information, such as party size, while on 
 Scout skill affects Castle's zone of control (More info in Castle section).
 
 #### Leadership
-1. Every (N)PC in an army receives small XP if army leader has higher a Leadership skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
-2. Extra XP if (N)PC has high Charm skill level
+1. Every (N)PC in an army receives small XP if army leader has a higher Leadership skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
+	1. Extra XP if (N)PC has high Charm skill level
 
 #### Tactics
-1. Every (N)PC in an army receives small XP if army leader has higher a Tactics skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
-2. Extra XP if (N)PC has high Charm skill level
+1. Every (N)PC in an army receives small skill XP if army leader has a higher Tactics skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
+	1. Extra XP if (N)PC has high Charm skill level
 
 ### Auto Resolve Calculations
 #### General
