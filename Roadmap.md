@@ -1,94 +1,152 @@
 # Roadmap
 
-1. Castles vs. Towns
-	a. Towns are commercial centres and provide the bulk of taxes
-		x. Add more things to do with the underworld
-		y. Towns have worst militia vs. troop ratio
-		z. Towns have bigger garrisons
-	b. Castles are military centres and provide high-level troops and noble lines, but reduced taxes
-		x. Certain castles provide more unique troops
-		y. Castles have better defenses, morale and resistance to starving
-		z. Castles have better troop vs. militia ratio
-		v. Castles have an area of influence that warring parties are succeptible to ambush by Castle garrison, affected by Scout skill of army leader and castle governor. If numbers are unfavoralble, Castles will lead attrition warfare designed to slow down invading armies and/or remove food
-	c. Castles and Towns with a smithy can provide forging services (crafting by proxy)
-	d. Projects should not just be extra stas but unlock new features, such as crafting by proxy
-	e. Governors should matter more and not be stationary, maybe lead parties from garrison to patrol. Lesser vassals can be set as governors instead of gifting the whole fief.
-		
+## Guidelines
+This roadmap details the features intendended to be included in Bannerlord - Actus Purus. Not all features have been evaluated for feasibility.
 
-2. Kingdom management
-	a. Extra tab in kingdom management for Military and Economical summaries
-		x. Overall military and economic health of kingdom
-		y. Per fief status
-	b. Mercenary money for doing more good for the kingdom
-	c. Clan management
-		x. Marrying into a clan as a player, gaining clan members as companions as relationship rises
-		y. Creating new clan through marriage
-		z. Courtship updates
-	d. New kingdom
-		x. Companions as vassals
+### Better Equipment Check
+Check for better equipment for each slot in player's inventory or visiting shop.
 
-3. Auto-resolve logic
-	a. Field battles
-	b. Sieges
-		x. Defenders and Attackers divided into Infantary and Artillery
-		y. Every round, as many units as possible resolve. Defenders first.
-		z. Siege devided between Approach and Attack
-			1. In approach, infantary set ladders, move ram/towers. More infantary means this is done quicker.
-			2. During approach, defending artillary attack infantary+seige weapons while attacking artillary defend
-			3. Siege weapons are very powerful artillary actors
-			4. Ladders and towers provide a set amount of troops onto the wall. Attacking infantary can only attack once inside the castle.
-			5. Battering ram creates another pathway into the castle once gate is destroyed
-			6. Defending crossbowman get a bonus to attack
-			7. Units weapons are decided by skill. All mounted units dismount. Noone should use polearms.
-			8. Damage/defense is calulated based on weapon + weapon skill (optimum swing animation) and armor + athletics skill. Maybe targeted body damage, probabilty based on skill
+### Settlement Icons
+Icons that notify the player if a settlement has one of these:
+1. Available Issues
+2. High Relationship with Notable
+3. Ongoing Tournament
+> Icon visibility is based on Scout skill level
 
-4. Basic auto-equip mod
+### Castle & Town Garrison Management
+Gives castles and towns, both for player and AI, the ability to automatically recruit from connected villages into the garrison and train them to higher units.
+1. Recruit availability depends on settlement owner's relationship with notables. Settlement recruits as soon as possible to simulate "first dibs" on local recruits
+2. Garrison gains XP daily, troop tier capped at 3 for Towns and 6 for Castles
+3. Recruitment is capped by owner's available income
+4. Troop tier upgrade path chosen to maximize defense (no mounted units or polearm troops, heavy crossbow/archer troop bias)
 
-4.1 Basic AttributePerLevel mode
+### New Skill Systems
+#### Scout
+Scout skill affects _perceived_ party information, such as party size, while on the world map.
+1. More accurate the closer the party is to hero's party
+2. More accurate the higher the hero's Scout skill level is
 
-5. Basic settlement icons mod
+Scout skill affects Castle's zone of control (More info in Castle section).
 
-6. Basic auto-recruit mod for Towns and Castles
-	a. Policy for conscription
-	b. Relationship with notables affect recruit pools
-	c. Auto trainning
+#### Leadership
+1. Every (N)PC in an army receives small XP if army leader has higher a Leadership skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
+2. Extra XP if (N)PC has high Charm skill level
 
-7. New Issues
-	a. Disable boring issues
+#### Tactics
+1. Every (N)PC in an army receives small XP if army leader has higher a Tactics skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
+2. Extra XP if (N)PC has high Charm skill level
 
-8. New Quests
+### Auto Resolve Calculations
+#### General
+1. Each unit gains 5 stats: AttackPower (based unit weapon), AttackAccuracy (based on weapon skill level), Defense (based on unit armor), Health (100 + 25 if unit has a shield) and Morale
+2. Initial Morale is affected by unit tier, commander Leadership skill level, Power Level difference, Cohesion (if Army) and Food supply
+3. Each unit that dies causes Morale damage to 1 to 5 other units. When 0, unit routs and is removed from the roster
+4. Global AttackPower bonus based on the difference of the Tactic skill level of defending and attacking parties
+5. Small Global AttackAccuracy bonus based on the difference of the Scout skill level of defending and attacking parties
 
-9. Map
-	a. Scout skill also affect ability to asses army/garrison strength and units, not just radius and speed
-	b. Tatics gives a percentage of success based on auto-resolve paramaters, sued by heroes in their decision
-	c. King can coordinate target of multiple armies based on Relationship
+#### Field Battles
+1. Lower Power Level party is set as the Defender. Higher Power Level party is set as the Attacker.
+2. Each round, a unit chooses an eligible target and attack
+2. Cavalry units have a bonus against ranged units
+3. Ranged units have a bonus against infantry units
+4. Infantry units have a bonus against cavalry units
+5. Cavalry units attacking priority is Ranged -> Cavalry -> Infantry
+5. Ranged units attacking priority is Cavalry -> Infantry -> Ranged
+5. Infantry units attacking priority is Infantry -> Ranged -> Cavalry
 
-10. Skills. Bonuses are extra skill points, rather than % bonuses. Specializations (forrests, siege defense, etc).
-	a. Leadership afects morale and cohesion decrease as well as bonuses for high values of those.
-	b. Tatics affect probability of positive outcomes in auto-resolve calculation.
-	c. Charm. Persuasion track and Politics track.
+#### Sieges
+1. Split between the approach and assault phases
+2. Each round all units capable of attacking, do so. Defending units act first.
+3. All mounted units become either infantry or ranged units
+4. Polearm units use secondary weapon and weapon skill instead
+5. Infantry units have a bonus against ranged units
 
-11. Armies
-	a. Bonus xp for being in armies where leader has higher Leadership/Tactics skill
-	b. When leading armies, high relationship vassals provide bonus to Leadership/Tactics skills and cohesion
-	c. When leading armies, low relationship vassals provide penaltie to Leadership/Tactics skills and cohesion
-	d. Lower cohesion provide penalties in auto-resolve OR Medinice skill
+##### Approach
+###### Attackers
+1. Siege attack weaponry is added to attacker roster and troop is removed to "man" the machines, non-ranged low-level troops are given priority to this assignment
+2. Archers are able to attack during approach, with a penalty to AttackAccuracy until invading the settlement
+###### Defenders
+1. Siege defense weaponry is added to defender roster and troop is removed to "man" the machines, non-ranged low-level troops are given priority to this assignment
+	1. Weapony becomes its own unit that can attack and be attacked
+	2. Weaponry priority target is attacking army's own siege weaponry, including towers and battering rams
+2. Archers attack with a bonus to AttackAccuracy when targeting attacking units that are outside the walls
 
-12. World events
-	a. Multi-faction treaties that require presence. (Joint war, economic treaties affecting trade routes, etc.)
-	b. Plagues/Famines
-	c. Peasant revolts (Doing nothing creates new clans from the revoltees, fighting them decreases relationship with several notables)
-	
-13. Bank System
-	a. Borrow
-	b. Invest
+Approach phase ends when attacking army (plus towers/ram) reach the walls, units removed to man these are added back to roster.
 
-14. Religion
-	a. Crusade Wars
-	b. Religius Conversion
-	c. Penalties for occupying force of different religion
-	
-15. Companions
-	a. Directives
-	b. Auto-level, with preset classes
-	
+##### Assault
+###### Attackers
+1. Each round, a number of attacking troops invade the settlement based on available towers
+	1. Battering ram, if available, attacks the gate until destroyed
+	2. Once gate is destroyed, new pathway is created for attacking troops to invade
+2. Once inside, attacking troops are capable to attack defending units
+###### Defenders
+1. Infantry units are able to attack any attacking units inside the settlement
+
+### AI
+#### Ars Imperatoria
+Faction Leader's create war plans when war is declared.
+Possible goals:
+1. Border extension - Capture clump of Settlements, likely chosen when 2+ settlements near Faction's border are easily capturable
+2. Economical warfare - Focus on raids and caravans (Favourite of Sturgia), likely chosen when vassals are impoverished
+3. War of attrition - Focus on destroying parties and taken prisoners, likely chosen when neighboring faction has large number parties
+
+### Kingdom
+#### Castles vs. Towns
+1. Towns should be commercial centres and provide the bulk of taxes
+	1. High criminal strength affects prosperity and siphons away taxes. High Roguery lords receive a taxation bonus however, to simulate politcal corruption
+	2. Towns have high militia capacity and smaller garrison capacity, compared to Castles
+2. Castles are military centres and provide high-level troops and access to noble lines, but reduced taxes
+	1. Each minor faction is conected to a Castle, and gives small access to its troop line
+	2. Castles have low militia capacity and high garrison capacity, compared to Towns
+	3. Castles have an area of influence that warring parties, while inside, become succeptible to ambush by Castle garrison, affected by Scout skill level of castle governor
+3. Castles and Towns with a smithy can provide forging services (crafting by proxy)
+5. Governors are not stationary. Smaller vassals can be assigned as Governors instead of being granted the fief
+	1. Governors behave more like lords, periodically patrolling the lands belonging to the fief with a subset of the Garrison	
+
+#### Kingdom management
+1. Extra tab in Kingdom screen for Military and Economical summaries of owned fiefs
+
+#### Armies
+1. (N)PC army leader with high relationship vassals gain bonus to Leadership/Tactics skills and lower cohesion depletion
+2. (N)PC army leader with low relationship vassals gain penaltie to Leadership/Tactics skills and higher cohesion depletion
+3. Armies with lots of mixed faction troops loose cohesion quicker
+4. Armies with low cohesion gain a penalty to Medinice and Tactics skill level
+
+#### Religion
+1. Each faction will have its own religion, with all 3 Empire factions sharing the same religion
+2. Small relation penalty gain for having different religion
+3. Settlements with a Lord/Governor that has a different religion than populace applies penalty to loyalty
+4. Ability to convert settlement to Lord's religion
+5. Religius pressure between settlements
+
+#### Multi-faction Treaties
+1. Trade - Faction caravans give preference to factions in treaty
+2. Defense - Factions will enter war to protect each other
+3. Non Agression - Factions will not go to war with each other
+
+#### World Events
+1. Famine
+2. Plague
+3. Long Winters
+
+### Issues
+1. Minimise chance of _boring_ issues
+2. Add new issues
+
+### New Quests
+Add more Campaign goals than just total domination. Including supporting Policies
+Potential goals:
+1. Trading (money threshold)
+2. Domination (default, conquer Calradia)
+3. Religion (convert Calradia)
+4. Diplomacy (peace threshold + average relation threshold)
+
+### Character Creation
+Add many more background options to allow more different builds and role-play opportunities.
+
+### Companions
+1. Full auto level
+2. Ability for PC to give companion party directives
+	1. Protect fief
+	2. Solve issues
+	3. Recruit from specific faction	
