@@ -5,12 +5,9 @@ namespace Bannerlord.Actus.Purus.Layers
 {
     class InventoryLayer : GauntletLayer
     {
-        InventoryViewModel viewModel;
-
         public InventoryLayer(int localOrder, string categoryId = "GauntletLayer") : base(localOrder, categoryId)
         {
-            viewModel = new InventoryViewModel();
-            this.LoadMovie("ActusPurusInventory", viewModel);
+            this.LoadMovie("ActusPurusInventory", new InventoryViewModel());
         }
     }
 }

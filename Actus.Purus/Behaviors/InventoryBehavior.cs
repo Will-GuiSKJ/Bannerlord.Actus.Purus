@@ -18,16 +18,9 @@ namespace Bannerlord.Actus.Purus.Behaviors
         {
             try
             {
-                if (tutorialContextChangedEvent.NewContext == TutorialContexts.InventoryScreen)
+                if (tutorialContextChangedEvent.NewContext == TutorialContexts.InventoryScreen && ScreenManager.TopScreen is InventoryGauntletScreen)
                 {
-                    InformationManager.DisplayMessage(new InformationMessage("Inventory Opened"));
-
-                    if (ScreenManager.TopScreen is InventoryGauntletScreen)
-                    {
-                        var screen = ScreenManager.TopScreen as InventoryGauntletScreen;
-                        var layer = new InventoryLayer(1000);
-                        screen.AddLayer(layer);
-                    }
+                    ScreenManager.TopScreen.AddLayer(new InventoryLayer(1000));
                 }
             }
             catch (MBException e)

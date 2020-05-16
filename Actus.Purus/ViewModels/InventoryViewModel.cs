@@ -1,6 +1,8 @@
-﻿using TaleWorlds.CampaignSystem;
+﻿using System.Reflection;
+using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.ViewModelCollection;
 using TaleWorlds.Core;
+using TaleWorlds.Engine.Screens;
 using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.ViewModels
@@ -179,11 +181,15 @@ namespace Bannerlord.Actus.Purus.ViewModels
         }
         #endregion PrefabAttributes
 
+        public InventoryViewModel() : base()
+        {
+            var screen = ScreenManager.TopScreen;
+            _inventory = screen.GetType().GetField("_dataSource", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(screen) as SPInventoryVM;
+        }
+
         public override void RefreshValues()
         {
             base.RefreshValues();
-
-            InformationManager.DisplayMessage(new InformationMessage(this.Properties.ToString()));
 
             /*_currentCharacter = GetCharacterByName(_inventory.CurrentCharacterName);
             _characterSettings = SettingsLoader.Instance.GetCharacterSettingsByName(_currentCharacter.Name.ToString());
