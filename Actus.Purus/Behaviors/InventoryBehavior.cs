@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Bannerlord.Actus.Purus.Layers;
+using SandBox.GauntletUI;
+using System;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
+using TaleWorlds.Engine.Screens;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
@@ -18,23 +21,14 @@ namespace Bannerlord.Actus.Purus.Behaviors
                 if (tutorialContextChangedEvent.NewContext == TutorialContexts.InventoryScreen)
                 {
                     InformationManager.DisplayMessage(new InformationMessage("Inventory Opened"));
-                }
-                /*if (tutorialContextChangedEvent.NewContext == TutorialContexts.InventoryScreen)
-                {
+
                     if (ScreenManager.TopScreen is InventoryGauntletScreen)
                     {
-                        _inventoryScreen = ScreenManager.TopScreen as InventoryGauntletScreen;
-                        Inventory = _inventoryScreen.GetField("_dataSource") as SPInventoryVM;
-
-                        this._mainLayer = new MainLayer(1000, "GauntletLayer");
-                        _inventoryScreen.AddLayer(this._mainLayer);
-                        this._mainLayer.InputRestrictions.SetInputRestrictions(true, InputUsageMask.All);
-
-                        _filterLayer = new FilterLayer(1001, "GauntletLayer");
-                        _inventoryScreen.AddLayer(this._filterLayer);
-                        this._filterLayer.InputRestrictions.SetInputRestrictions(true, InputUsageMask.All);
+                        var screen = ScreenManager.TopScreen as InventoryGauntletScreen;
+                        var layer = new InventoryLayer(1000);
+                        screen.AddLayer(layer);
                     }
-                }*/
+                }
             }
             catch (MBException e)
             {

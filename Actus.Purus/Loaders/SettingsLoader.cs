@@ -6,18 +6,16 @@ namespace Bannerlord.Actus.Purus.Loaders
 {
     public class SettingsLoader : XmlLoader<Settings>
     {
-        private string settingsPath = Path.Combine(BasePath.Name, "Modules", "ActusPurus", "ModuleData", "Settings.xml");
         public Settings settings;
 
         public SettingsLoader()
         {
-            settings = Load(settingsPath);
+            settings = Load(Path.Combine(BasePath.Name, "Modules", "ActusPurus", "ModuleData", "Settings.xml"));
         }
 
         public SettingsLoader(string alternatePath)
         {
-            settingsPath = alternatePath;
-            settings = Load(settingsPath);
+            settings = Load(alternatePath);
         }
     }
 }
