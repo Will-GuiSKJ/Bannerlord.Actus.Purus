@@ -229,6 +229,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ActusPurus\ModuleData\project.mbproj" />
+    <None Include="PostBuild.ps1" />
+    <None Include="Quests\minor_factions.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>powershell -ExecutionPolicy Unrestricted $(ProjectDir)PostBuild.ps1</PostBuildEvent>
+  </PropertyGroup>
 </Project>

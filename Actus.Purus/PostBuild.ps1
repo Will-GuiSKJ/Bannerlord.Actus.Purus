@@ -1,0 +1,1 @@
+Remove-Item ./ActusPurus/bin/Win64_Shipping_Client/* -Exclude Bannerlord.Actus.Purus.dll
