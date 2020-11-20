@@ -11,10 +11,10 @@ namespace Bannerlord.Actus.Purus.Loaders.Tests
         [TestMethod()]
         public void SettingsLoaderTest()
         {
-            var filepath = Path.Combine(solutionpath, "Actus.Purus", "Assets", "ModuleData", "Settings.xml");
+            var filepath = Path.Combine(solutionpath, "Actus.Purus", "ActusPurus", "Settings.xml");
             var loader = new SettingsLoader(filepath);
 
-            Assert.IsTrue(loader.settings.EnableEquipmentManagement);
+            Assert.IsTrue(loader.settings.EnableMercenaryQuests);
         }
     }
 }

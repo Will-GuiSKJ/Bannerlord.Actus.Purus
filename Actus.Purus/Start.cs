@@ -1,8 +1,9 @@
-﻿using Bannerlord.Actus.Purus.Behaviors;
-using Bannerlord.Actus.Purus.Loaders;
+﻿using Bannerlord.Actus.Purus.Loaders;
 using Bannerlord.Actus.Purus.Models;
+using Bannerlord.Actus.Purus.Quests;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
+using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
 namespace Bannerlord.Actus.Purus
@@ -17,24 +18,18 @@ namespace Bannerlord.Actus.Purus
 
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
         {
-            try
-            {
-                base.OnGameStart(game, gameStarterObject);
-                if (game.GameType is Campaign)
-                {
-                    CampaignGameStarter campaignStarter = (CampaignGameStarter)gameStarterObject;
+            base.OnGameStart(game, gameStarterObject);
+            if (!(game.GameType is StoryMode.CampaignStoryMode))
+                return;
 
-                    if (settings.EnableEquipmentManagement)
-                    {
-                        campaignStarter.AddBehavior(new InventoryBehavior());
-                    }
-                }
-                InformationManager.DisplayMessage(new InformationMessage("Actus Purus Loaded"));
-            }
-            catch (MBException e)
-            {
-                InformationManager.DisplayMessage(new InformationMessage("SubModule " + e.Message));
-            }
+            var starter = (CampaignGameStarter)gameStarterObject;
+            starter.AddBehavior(new ExampleBehavior());
+        }
+
+        protected override void OnBeforeInitialModuleScreenSetAsRoot()
+        {
+            base.OnBeforeInitialModuleScreenSetAsRoot();
+            InformationManager.DisplayMessage(new InformationMessage("Bannerlord Actus Purus has been loaded", Color.ConvertStringToColor("#00FFD700")));
         }
     }
 }

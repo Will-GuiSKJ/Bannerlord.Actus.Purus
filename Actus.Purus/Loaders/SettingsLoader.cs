@@ -10,7 +10,7 @@ namespace Bannerlord.Actus.Purus.Loaders
 
         public SettingsLoader()
         {
-            settings = Load(Path.Combine(BasePath.Name, "Modules", "ActusPurus", "ModuleData", "Settings.xml"));
+            settings = Load(Path.Combine(BasePath.Name, "Modules", "ActusPurus", "Settings.xml"));
         }
 
         public SettingsLoader(string alternatePath)

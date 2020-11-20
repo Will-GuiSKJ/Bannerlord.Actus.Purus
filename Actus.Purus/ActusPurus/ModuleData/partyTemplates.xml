@@ -1,0 +1,17 @@
+<!--You can add new or override old party templates by adding nodes to this xml. For examples please refer to: SandBox/ModuleData/partyTemplates.xml.-->
+<partyTemplates>
+    <MBPartyTemplate id="followers_of_soon_template">
+        <stacks>
+            <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.fos_recruit" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.fos_ranged1" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.fos_ranged2" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.fos_ranged3" />
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.fos_infantry1" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.fos_infantry2" />
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.fos_infantry3" />
+            <PartyTemplateStack min_value="12" max_value="2" troop="NPCCharacter.fos_cavalry1" />
+            <PartyTemplateStack min_value="8" max_value="2" troop="NPCCharacter.fos_noble1" />
+            <PartyTemplateStack min_value="4" max_value="2" troop="NPCCharacter.fos_noble3" />
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>
