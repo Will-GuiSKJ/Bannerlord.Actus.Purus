@@ -1,9 +1,9 @@
 ﻿using Bannerlord.Actus.Purus.Loaders;
 using Bannerlord.Actus.Purus.Models;
 using Bannerlord.Actus.Purus.Quests;
+using Bannerlord.Actus.Purus.Utils;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
-using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade;
 
 namespace Bannerlord.Actus.Purus
@@ -14,6 +14,9 @@ namespace Bannerlord.Actus.Purus
         public Start() : base()
         {
             settings = (new SettingsLoader()).settings;
+
+            if (settings.DebugMode)
+                Logger.debugMode = true;
         }
 
         protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
@@ -23,13 +26,17 @@ namespace Bannerlord.Actus.Purus
                 return;
 
             var starter = (CampaignGameStarter)gameStarterObject;
-            starter.AddBehavior(new ExampleBehavior());
+
+            if (settings.EnableMinorFactionQuests)
+            {
+                starter.AddBehavior(new MinorFactionQuestGeneratorBehavior());
+            }
         }
 
         protected override void OnBeforeInitialModuleScreenSetAsRoot()
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
-            InformationManager.DisplayMessage(new InformationMessage("Bannerlord Actus Purus has been loaded", Color.ConvertStringToColor("#00FFD700")));
+            Logger.Log("Bannerlord Actus Purus has been loaded", true);
         }
     }
 }

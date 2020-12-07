@@ -14,7 +14,8 @@ namespace Bannerlord.Actus.Purus.Loaders.Tests
             var filepath = Path.Combine(solutionpath, "Actus.Purus", "ActusPurus", "Settings.xml");
             var loader = new SettingsLoader(filepath);
 
-            Assert.IsTrue(loader.settings.EnableMercenaryQuests);
+            Assert.IsTrue(loader.settings.DebugMode is bool);
+            Assert.IsTrue(loader.settings.EnableMinorFactionQuests is bool);
         }
     }
 }

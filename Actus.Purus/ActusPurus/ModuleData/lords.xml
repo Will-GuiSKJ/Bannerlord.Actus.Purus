@@ -1,33 +1,3 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter
-    id="fos_noble_garaman"
-    name="Garaman"
-    age="52"
-    voice="curt"
-    culture="Culture.empire"
-    is_hero="true"
-    occupation="Lord"
-    default_group="Cavalry"
-    battleTemplate="NPCCharacter.emp_bat_template_heavy"
-    civilianTemplate="NPCCharacter.emp_civ_template_heavy" 
-  >
-    <face>
-      <BodyProperties version="4" key="0000440C0FFC360D26870C0FF139117045F990002E7CA0049068C60F7C9004663A9276570B7A310686660000670300780000000000005B7900000000337C60C3" />
-    </face>
-    <skills />
-    <Traits>
-      <!-- USED TO DERIVE SKILLS-->
-      <Trait id="KnightFightingSkills" value="7" />
-      <Trait id="Commander" value="7" />
-      <Trait id="Politician" value="6" />
-      <Trait id="Manager" value="10" />
-
-      <!-- PERSONALITY/REPUTATION-->
-      <Trait id="Valor" value="1" />
-      <Trait id="Honor" value="1" />
-      <Trait id="Generosity" value="1" />
-      <Trait id="Egalitarian" value="1" />
-    </Traits>
-  </NPCCharacter>
 </NPCCharacters>

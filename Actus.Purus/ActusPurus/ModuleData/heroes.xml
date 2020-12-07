@@ -1,4 +1,3 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Heroes>
-  <Hero id="fos_noble_garaman" is_noble="true" faction="Faction.followers_of_soon" text="I need a description!!!" />
 </Heroes>

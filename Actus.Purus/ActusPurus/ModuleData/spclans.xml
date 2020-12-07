@@ -1,25 +1,3 @@
 <!--You can add new or override old clan entries by adding nodes to this xml. For examples please refer to: SandBox/ModuleData/spclans.xml.-->
 <Factions>
-    <Faction
-        id="followers_of_soon"
-        tier="4"
-        name="Followers of Soon"
-        owner="Hero.fos_noble_garaman"
-        culture="Culture.empire"
-        default_party_template="PartyTemplate.followers_of_soon_template"
-        text="Add description of the Followers of Soon!"
-        banner_key="19.140.149.1822.1822.768.788.1.0.-30.504.140.116.480.480.768.604.1.1.180.504.140.116.480.480.764.924.1.1.0.322.116.116.50.70.764.504.1.1.180.522.116.116.70.70.724.1029.1.1.180.322.116.116.40.70.784.1029.1.1.0.322.116.116.40.70.814.1029.1.1.0"
-        label_color="FF0B0C11"
-        color="FFD9D9D9"
-        color2="FF0B0C11"
-        alternative_color="FFD9D9D9"
-        alternative_color2="FF0B0C11"
-        settlement_banner_mesh="encounter_flag_f"
-        initial_posX="465.18"
-        initial_posY="328.76"
-        is_minor_faction="true"
-        is_outlaw="false"
-        is_mafia="false"
-    >
-    </Faction>
 </Factions>
