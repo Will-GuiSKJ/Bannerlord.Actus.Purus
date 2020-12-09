@@ -1,4 +1,5 @@
-﻿using Bannerlord.Actus.Purus.Loaders;
+﻿using Bannerlord.Actus.Purus.Behaviors;
+using Bannerlord.Actus.Purus.Loaders;
 using Bannerlord.Actus.Purus.Models;
 using Bannerlord.Actus.Purus.Quests;
 using Bannerlord.Actus.Purus.Utils;
@@ -26,6 +27,16 @@ namespace Bannerlord.Actus.Purus
                 return;
 
             var starter = (CampaignGameStarter)gameStarterObject;
+
+            if (settings.DebugMode)
+            {
+                // add debug behavior
+            }
+
+            if (settings.EnableMinorFactionTroopRecruitment)
+            {
+                starter.AddBehavior(new MinorFactionTroopRecruitmentBehavior());
+            }
 
             if (settings.EnableMinorFactionQuests)
             {

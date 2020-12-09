@@ -188,8 +188,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\MinorFactionTroopRecruitment.cs" />
     <Compile Include="Dialogs\DialogTokenShortcuts.cs" />
-    <Compile Include="Dialogs\JawwalQuestLineDialogs.cs" />
+    <Compile Include="Dialogs\MinorFactionTroopRecruitmentDialogs.cs" />
     <Compile Include="Dialogs\MinorFactionQuestStarterDialogs.cs" />
     <Compile Include="Loaders\SettingsLoader.cs" />
     <Compile Include="Loaders\XmlLoader.cs" />

@@ -6,7 +6,7 @@ namespace Bannerlord.Actus.Purus.Dialogs.MinorFactionQuestStarter
     {
         public static string message = "I'm looking for work. Have you heard of anyone needing a salesword?";
         public static string entry = DialogTokenShortcuts.tavernKeeperStart;
-        public static string next = "actus.purus.tavern_work_response";
+        public static string next = "actus.purus.minor_faction_quest_tavern_work_response";
         public static string Id { get => QuestIdGenerator.Generate(message); }
     }
 

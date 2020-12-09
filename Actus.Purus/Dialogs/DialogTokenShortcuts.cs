@@ -11,4 +11,9 @@
         public static string mainOptions = "hero_main_options";
         public static string end = "close_window";
     }
+
+    static class DialogIconShortcuts
+    {
+        public static string gold = "{=!}<img src=\"Icons\\Coin@2x\">";
+    }
 }

@@ -15,6 +15,7 @@ namespace Bannerlord.Actus.Purus.Loaders.Tests
             var loader = new SettingsLoader(filepath);
 
             Assert.IsTrue(loader.settings.DebugMode is bool);
+            Assert.IsTrue(loader.settings.EnableMinorFactionTroopRecruitment is bool);
             Assert.IsTrue(loader.settings.EnableMinorFactionQuests is bool);
         }
     }

@@ -81,17 +81,19 @@ Castles and Towns should feel different to each other and provide different adva
 Add more Campaign goals than just total domination. Including new Policies to support these new goals.
 Potential goals:
 1. Trading (money threshold)
-2. Domination (default, conquer Calradia)
-3. Religion (convert Calradia)
-4. Diplomacy (peace length threshold + average relation threshold)
+1. Domination (default, conquer Calradia)
+1. Religion (convert Calradia)
+1. Diplomacy (peace length threshold + average relation threshold)
 
 ### New Quests & Dialogues
 1. More dialogue variation in existing conversations to better the roleplay aspect
-2. Enhanced minor quests with better story arcs
+1. Enhanced minor quests with better story arcs
 1. Add new quests, including fleshing out minor factions
+1. Add way to recruit minor faction units dialogs
 
 ### Character Creation
 Add many more background options to allow more different builds and role-play opportunities.
+Blank-Slate start: Bypass the backgroud option steps and award player a number of focus point.
 
 ### Fun Defeat
 Add more mechanics to make having your party wiped out and being taken prisoner be more fun (or at least less soul crushin).
