@@ -1,7 +1,6 @@
 ﻿using Bannerlord.Actus.Purus.Dialogs.MinorFactionTroopRecruitment;
-using Bannerlord.Actus.Purus.Utils;
-using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.Actions;
 using TaleWorlds.ObjectSystem;
 
 namespace Bannerlord.Actus.Purus.Behaviors
@@ -17,7 +16,6 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {
-            Logger.Log("ActusPurus: Minor Faction Troop Recruitment activated");
             starter.AddPlayerLine(MinorFactionTroopRecruitmentQuery.Id, MinorFactionTroopRecruitmentQuery.entry, MinorFactionTroopRecruitmentQuery.next, MinorFactionTroopRecruitmentQuery.message, () => Hero.OneToOneConversationHero.IsMinorFactionHero, null);
 
             // Main Flow
@@ -33,7 +31,6 @@ namespace Bannerlord.Actus.Purus.Behaviors
             starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeRelation.Id, MinorFactionTroopRecruitmentResponseNegativeRelation.entry, MinorFactionTroopRecruitmentResponseNegativeRelation.next, MinorFactionTroopRecruitmentResponseNegativeRelation.message, LacksRelationship, null);
             starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.Id, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.entry, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.next, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.message, HasRecruits, LowerRelationConsequence);
             starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeNoMoney.Id, MinorFactionTroopRecruitmentResponseNegativeNoMoney.entry, MinorFactionTroopRecruitmentResponseNegativeNoMoney.next, MinorFactionTroopRecruitmentResponseNegativeNoMoney.message, LacksMoney, null);
-
         }
 
         private bool RecruitmentCondition()
@@ -48,14 +45,14 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private bool LacksRelationship()
         {
-            return Hero.OneToOneConversationHero.GetRelationWithPlayer() < 30;
+            return Hero.OneToOneConversationHero.GetRelationWithPlayer() < 20;
         }
 
         private bool HasRecruits()
         {
-            var playerParty = new List<PartyBase>(Hero.MainHero.OwnedParties)[0];
-            var troops = new List<CharacterObject>(playerParty.MemberRoster.Troops);
-            return troops.FindAll(troop => troop.StringId == GetRecruitUnitId()).Count > 10;
+            var troop = MBObjectManager.Instance.GetObject<CharacterObject>(GetRecruitUnitId());
+            var count = MobileParty.MainParty.MemberRoster.GetTroopCount(troop);
+            return count > 10;
         }
 
         private bool LacksMoney()
@@ -89,13 +86,13 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private void RecruitmentConsequence()
         {
+            GiveGoldAction.ApplyBetweenCharacters(Hero.MainHero, Hero.OneToOneConversationHero, 1000);
             MobileParty.MainParty.MemberRoster.AddToCounts(MBObjectManager.Instance.GetObject<CharacterObject>(GetRecruitUnitId()), 20);
         }
 
         private void LowerRelationConsequence()
         {
-            Hero.OneToOneConversationHero.SetPersonalRelation(Hero.MainHero, -10);
-            //Hero.OneToOneConversationHero.Clan.Leader.SetPersonalRelation(Hero.MainHero, -10);
+            ChangeRelationAction.ApplyPlayerRelation(Hero.OneToOneConversationHero, -5);
         }
     }
 }

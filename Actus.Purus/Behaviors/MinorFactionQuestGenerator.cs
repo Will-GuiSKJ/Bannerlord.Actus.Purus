@@ -1,12 +1,11 @@
 ﻿using Bannerlord.Actus.Purus.Dialogs.MinorFactionQuestStarter;
-using Bannerlord.Actus.Purus.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Localization;
 
-namespace Bannerlord.Actus.Purus.Quests
+namespace Bannerlord.Actus.Purus.Behaviors
 {
     class MinorFactionQuestGeneratorBehavior : CampaignBehaviorBase
     {
@@ -21,7 +20,6 @@ namespace Bannerlord.Actus.Purus.Quests
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {
-            Logger.Log("ActusPurus: Minor Faction Generator activated");
             starter.AddPlayerLine(TavernWorkQuery.Id, TavernWorkQuery.entry, TavernWorkQuery.next, TavernWorkQuery.message, null, null);
             starter.AddDialogLine(TavernWorkResponse.Id, TavernWorkResponse.entry, TavernWorkResponse.next, TavernWorkResponse.message, new ConversationSentence.OnConditionDelegate(NoQuestCheck), null);
 

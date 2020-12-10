@@ -1,22 +1,7 @@
 # Roadmap
 
 ## Guidelines
-This roadmap details the features intendended to be included in Bannerlord - Actus Purus. Not all features have been evaluated for feasibility.
-
-### Castle & Town Garrison Management
-Gives castles and towns, both for player and AI, the ability to automatically recruit from connected villages into the garrison and train them to higher units.
-1. Recruit availability depends on settlement owner's relationship with notables. Settlement recruits as soon as possible to simulate "first dibs" on local recruits
-1. Garrison gains XP daily, troop tier capped at 3 for Towns and 6 for Castles
-1. Recruitment is capped by owner's available income
-1. Troop tier upgrade path chosen to maximize defense (no mounted units or polearm troops, heavy crossbow/archer troop bias)
-
-### New Skill Systems
-#### Scout
-Scout skill affects _perceived_ party information, such as party size, while on the world map.
-1. More accurate the closer the party is to hero's party
-1. More accurate the higher the hero's Scout skill level is
-
-Scout skill affects Castle's zone of control (More info in Castle section).
+This roadmap details the features intended to be included in Bannerlord Actus Purus. Not all features have been evaluated for feasibility.
 
 #### Leadership
 1. Every (N)PC in an army receives small XP if army leader has a higher Leadership skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
@@ -38,6 +23,7 @@ Possible goals:
 1. War of attrition - Focus on destroying parties and take prisoners, likely chosen when neighboring faction has large number parties
 
 ### Kingdom
+
 #### Castles vs. Towns
 Castles and Towns should feel different to each other and provide different advantages.
 1. Towns should be commercial centres and provide the bulk of taxes
@@ -71,11 +57,14 @@ Castles and Towns should feel different to each other and provide different adva
 1. Defense - Factions will enter war to protect each other
 1. Non Agression - Factions will not go to war with each other
 
-#### World Events
+### Crisis
 1. Famine
 1. Plague
 1. Long Winters
 1. Foreign Invasion
+	1. Shogunate Invasion
+	1. Viking Invasion
+	1. Nubian Invasion
 
 ### New Endgame(s)
 Add more Campaign goals than just total domination. Including new Policies to support these new goals.
@@ -89,7 +78,7 @@ Potential goals:
 1. More dialogue variation in existing conversations to better the roleplay aspect
 1. Enhanced minor quests with better story arcs
 1. Add new quests, including fleshing out minor factions
-1. Add way to recruit minor faction units dialogs
+1. Add way to recruit minor faction units through dialogs
 
 ### Character Creation
 Add many more background options to allow more different builds and role-play opportunities.
