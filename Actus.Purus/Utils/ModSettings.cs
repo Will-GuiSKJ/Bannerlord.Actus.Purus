@@ -6,7 +6,7 @@ using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Utils
 {
-    public static class ModSettings
+    static class ModSettings
     {
         private static Settings _settings;
 
@@ -39,10 +39,65 @@ namespace Bannerlord.Actus.Purus.Utils
     public class Settings
     {
         public bool DebugMode { get; set; }
-        public bool EnableCharacterGenPresets { get; set; }
+        public CharacterPresets CharacterPresets { get; set; }
         public bool EnableMinorFactionTroopRecruitment { get; set; }
         public bool EnableMinorFactionQuests { get; set; }
         public int InitialPartyCount { get; set; }
         public int InitialWorkshopCount { get; set; }
+        public PassiveXPSettings PassiveXPSettings { get; set; }
+    }
+
+    [Serializable()]
+    public class CharacterPresets
+    {
+        public bool Enabled { get; set; }
+        public BodyProperties[] FemalePresets { get; set; }
+        public BodyProperties[] MalePresets { get; set; }
+    }
+
+    [Serializable()]
+    public class BodyProperties
+    {
+        [XmlAttribute]
+        public int version { get; set; }
+        [XmlAttribute]
+        public float age { get; set; }
+        [XmlAttribute]
+        public float weight { get; set; }
+        [XmlAttribute]
+        public float build { get; set; }
+        [XmlAttribute]
+        public string key { get; set; }
+        public override string ToString()
+        {
+            return $"<BodyProperties version=\"{version}\" age=\"{age}\" weight=\"{weight}\" build=\"{build}\"  key=\"{key}\" />";
+        }
+    }
+
+    [Serializable()]
+    public class PassiveXPSettings
+    {
+        public bool Enabled { get; set; }
+        public bool GivePassiveXPOnlyToSkillsWithFocusPoints { get; set; }
+        public bool GivePassiveXPToClanMembersAsWell { get; set; }
+        public int PassiveXPSkillLevelCap { get; set; }
+        public float PassiveOneHandedXP { get; set; }
+        public float PassiveTwoHandedXP { get; set; }
+        public float PassivePolearmXP { get; set; }
+        public float PassiveBowXP { get; set; }
+        public float PassiveCrossbowXP { get; set; }
+        public float PassiveThrowingXP { get; set; }
+        public float PassiveRidingXP { get; set; }
+        public float PassiveAthleticsXP { get; set; }
+        public float PassiveCraftingXP { get; set; }
+        public float PassiveScoutingXP { get; set; }
+        public float PassiveTacticsXP { get; set; }
+        public float PassiveRogueryXP { get; set; }
+        public float PassiveCharmXP { get; set; }
+        public float PassiveLeadershipXP { get; set; }
+        public float PassiveTradeXP { get; set; }
+        public float PassiveStewardXP { get; set; }
+        public float PassiveMedicineXP { get; set; }
+        public float PassiveEngineeringXP { get; set; }
     }
 }

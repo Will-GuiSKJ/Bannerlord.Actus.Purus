@@ -36,7 +36,7 @@ TBD.
 
 ### AI
 
-#### Ars Imperatoria
+#### Ars Imperatoria (Long-term)
 Faction Leader's create war plans when war is declared and communicates to all vassals, including PC.
 Possible goals:
 1. Border extension - Capture clump of Settlements, likely chosen when 2+ settlements near Faction's border are easily capturable
@@ -49,42 +49,23 @@ Possible goals:
 Castles and Towns should feel different to each other and provide different advantages.
 1. Towns should be commercial centres and provide the bulk of taxes
 	1. High criminal strength affects prosperity and siphons away taxes. High Roguery lords receive a taxation bonus however, to simulate politcal corruption
-	1. Towns have high militia capacity and smaller garrison capacity, compared to Castles
 1. Castles are military centres and provide high-level troops and access to noble lines, but reduced taxes
-	1. Castles have low militia capacity and high garrison capacity, compared to Towns
 	1. Castles have an area of influence that warring parties, while inside, become succeptible to ambush by Castle garrison, affected by Scout skill level of castle governor
 1. Castles, and Towns with a smithy, can provide forging services (crafting by proxy) to PC for a price
-1. Governors are not stationary. Smaller vassals can be assigned as Governors instead of being granted a fief
-	1. Governors behave more like lords, periodically patrolling the lands belonging to the fief with a subset of the Garrison	
+1. Configurable rate of militia and garrison recruitment
+1. Half of garrison units should be from Owner's culture, rather than settlement's culture
 
 #### Kingdom management
 1. Extra tab in Kingdom screen for Military and Economical summaries of owned fiefs
 
-#### Armies
-1. (N)PC army leader with high relationship vassals gain bonus to Leadership/Tactics skill levels and lower cohesion depletion
-1. (N)PC army leader with low relationship vassals gain penaltie to Leadership/Tactics skill levels and higher cohesion depletion
-1. Armies with lots of mixed cultural troops loose cohesion quicker
-1. Armies with low cohesion gain a penalty to Medinice and Tactics skill level
-
-#### Religion
+#### Religion (Long-term)
 1. Each faction has its own religion, with all 3 Empire factions sharing the same religion
 1. Small relation gain penalty for having different religion
 1. Settlements with a Lord/Governor that has a different religion than populace applies penalty to loyalty
 1. Ability to forcefully convert settlement to Lord's religion
 1. Religius pressure between settlements
 
-#### Multi-faction Treaties
+#### Multi-faction Treaties (Long-term)
 1. Trade - Faction caravans give preference (and gain bonus money) to trade routes to factions in treaty
 1. Defense - Factions will enter war to protect each other
 1. Non Agression - Factions will not go to war with each other
-
-### New Endgame(s)
-Add more Campaign goals than just total domination. Including new Policies to support these new goals.
-Potential goals:
-1. Trading (money threshold)
-1. Domination (default, conquer Calradia)
-1. Religion (convert Calradia)
-1. Diplomacy (peace length threshold + average relation threshold)
-
-### Fun Defeat
-Add more mechanics to make having your party wiped out and being taken prisoner be more fun (or at least less soul crushin).

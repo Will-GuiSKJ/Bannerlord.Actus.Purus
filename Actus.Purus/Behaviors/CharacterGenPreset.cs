@@ -1,6 +1,5 @@
 ﻿using Bannerlord.Actus.Purus.CustomEvents;
 using Bannerlord.Actus.Purus.Screens;
-using Bannerlord.Actus.Purus.Utils;
 using System;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
@@ -15,11 +14,8 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         public override void RegisterEvents()
         {
-            if (ModSettings.Settings.EnableCharacterGenPresets)
-            {
-                Game.Current.EventManager.RegisterEvent(new Action<FaceGenVMCustomEventOn>(AddLayer));
-                Game.Current.EventManager.RegisterEvent(new Action<FaceGenVMCustomEventOff>(RemoveLayer));
-            }
+            Game.Current.EventManager.RegisterEvent(new Action<FaceGenVMCustomEventOn>(AddLayer));
+            Game.Current.EventManager.RegisterEvent(new Action<FaceGenVMCustomEventOff>(RemoveLayer));
         }
 
         private void AddLayer(FaceGenVMCustomEventOn customEvent)

@@ -1,9 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Settings>
   <DebugMode>true</DebugMode>
-  <EnableCharacterGenPresets>true</EnableCharacterGenPresets>
+
+  <!--List of BodyProperties that you can cycle through during Character Creation-->
+  <CharacterPresets>
+    <Enabled>true</Enabled>
+    <FemalePresets>
+      <BodyProperties version="4" age="21.00" weight="0.5" build="0.5" key="0022800B52FC0011D5870000F8F93E74369E766975679E0F21FEFF6F811F403801A776130AC3A603000000000000000000000000000000000000000035442003" />
+    </FemalePresets>
+    <MalePresets>
+      <BodyProperties version="4" age="21.00" weight="1" build="0" key="0028640E5A5823CE9C811B5A151A8B83909B8AADA98BFDBEAEB648698B8F03880180F614F88886030000000000000000000000000000000000000000650C30C2" />
+    </MalePresets>
+  </CharacterPresets>
+
+  <!--Minor Factions that have reputation 20+ with player allows its units to be recruited for a price-->
   <EnableMinorFactionTroopRecruitment>true</EnableMinorFactionTroopRecruitment>
+
+  <!--Questline for each vanilla Minor Faction-->
   <EnableMinorFactionQuests>true</EnableMinorFactionQuests>
+
+  <!--Number of parties the player character can have at Clan Rank 0-->
   <InitialPartyCount>3</InitialPartyCount>
+
+  <!--Number of workshops the player character can have at Clan Rank 0-->
   <InitialWorkshopCount>3</InitialWorkshopCount>
+
+  <!--Settings for passive, daily, XP awards to Skills-->
+  <PassiveXPSettings>
+    <Enabled>true</Enabled>
+
+    <!--Flag to award passive XP only to skills that have Focus Points-->
+    <GivePassiveXPOnlyToSkillsWithFocusPoints>true</GivePassiveXPOnlyToSkillsWithFocusPoints>
+
+    <!--Flag to award passive XP to adult NPC clan members as well-->
+    <GivePassiveXPToClanMembersAsWell>true</GivePassiveXPToClanMembersAsWell>
+
+    <!--Skill level cap where passive XP stops being awarded-->
+    <PassiveXPSkillLevelCap>125</PassiveXPSkillLevelCap>
+
+    <!--Award Passive XP to Skills (as long as learning rate is not 0 for the Skill)-->
+    <PassiveOneHandedXP>0</PassiveOneHandedXP>
+    <PassiveTwoHandedXP>0</PassiveTwoHandedXP>
+    <PassivePolearmXP>0</PassivePolearmXP>
+    <PassiveBowXP>0</PassiveBowXP>
+    <PassiveCrossbowXP>0</PassiveCrossbowXP>
+    <PassiveThrowingXP>0</PassiveThrowingXP>
+    <PassiveRidingXP>0</PassiveRidingXP>
+    <PassiveAthleticsXP>0</PassiveAthleticsXP>
+    <PassiveCraftingXP>0</PassiveCraftingXP>
+    <PassiveScoutingXP>0</PassiveScoutingXP>
+    <PassiveTacticsXP>10</PassiveTacticsXP>
+    <PassiveRogueryXP>10</PassiveRogueryXP>
+    <PassiveCharmXP>5</PassiveCharmXP>
+    <PassiveLeadershipXP>20</PassiveLeadershipXP>
+    <PassiveTradeXP>0</PassiveTradeXP>
+    <PassiveStewardXP>0</PassiveStewardXP>
+    <PassiveMedicineXP>5</PassiveMedicineXP>
+    <PassiveEngineeringXP>10</PassiveEngineeringXP>
+  </PassiveXPSettings>
 </Settings>

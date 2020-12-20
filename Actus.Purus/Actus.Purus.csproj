@@ -212,6 +212,7 @@
     <Compile Include="Behaviors\CharacterGenPreset.cs" />
     <Compile Include="Behaviors\MinorFactionTroopRecruitment.cs" />
     <Compile Include="Behaviors\MinorFactionQuestGenerator.cs" />
+    <Compile Include="Behaviors\PassiveXP.cs" />
     <Compile Include="CustomEvents\FaceGenVMCustomEvent.cs" />
     <Compile Include="Dialogs\DialogTokenShortcuts.cs" />
     <Compile Include="Dialogs\MinorFactionTroopRecruitmentDialogs.cs" />

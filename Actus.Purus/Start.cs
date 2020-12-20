@@ -26,19 +26,24 @@ namespace Bannerlord.Actus.Purus
 
             var starter = (CampaignGameStarter)gameStarterObject;
 
+            if (ModSettings.Settings.CharacterPresets.Enabled)
+            {
+                starter.AddBehavior(new CharacterGenPresetBehavior());
+            }
+
             if (ModSettings.Settings.EnableMinorFactionTroopRecruitment)
             {
                 starter.AddBehavior(new MinorFactionTroopRecruitmentBehavior());
             }
 
-            if (ModSettings.Settings.EnableCharacterGenPresets)
-            {
-                starter.AddBehavior(new CharacterGenPresetBehavior());
-            }
-
             if (ModSettings.Settings.EnableMinorFactionQuests)
             {
                 starter.AddBehavior(new MinorFactionQuestGeneratorBehavior());
+            }
+
+            if (ModSettings.Settings.PassiveXPSettings.Enabled)
+            {
+                starter.AddBehavior(new PassiveXPBehavior());
             }
         }
 
