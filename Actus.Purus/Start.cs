@@ -1,7 +1,6 @@
 ﻿using Bannerlord.Actus.Purus.Behaviors;
-using Bannerlord.Actus.Purus.Loaders;
-using Bannerlord.Actus.Purus.Models;
 using Bannerlord.Actus.Purus.Utils;
+using HarmonyLib;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
@@ -10,12 +9,9 @@ namespace Bannerlord.Actus.Purus
 {
     public class Start : MBSubModuleBase
     {
-        Settings settings;
         public Start() : base()
         {
-            settings = (new SettingsLoader()).settings;
-
-            if (settings.DebugMode)
+            if (ModSettings.Settings.DebugMode)
                 Logger.debugMode = true;
         }
 
@@ -25,14 +21,22 @@ namespace Bannerlord.Actus.Purus
             if (!(game.GameType is StoryMode.CampaignStoryMode))
                 return;
 
+            var harmony = new Harmony("bannerlord.modding.actus.purus");
+            harmony.PatchAll();
+
             var starter = (CampaignGameStarter)gameStarterObject;
 
-            if (settings.EnableMinorFactionTroopRecruitment)
+            if (ModSettings.Settings.EnableMinorFactionTroopRecruitment)
             {
                 starter.AddBehavior(new MinorFactionTroopRecruitmentBehavior());
             }
 
-            if (settings.EnableMinorFactionQuests)
+            if (ModSettings.Settings.EnableCharacterGenPresets)
+            {
+                starter.AddBehavior(new CharacterGenPresetBehavior());
+            }
+
+            if (ModSettings.Settings.EnableMinorFactionQuests)
             {
                 starter.AddBehavior(new MinorFactionQuestGeneratorBehavior());
             }

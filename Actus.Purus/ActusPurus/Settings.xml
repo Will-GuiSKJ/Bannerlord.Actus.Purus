@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Settings>
   <DebugMode>true</DebugMode>
+  <EnableCharacterGenPresets>true</EnableCharacterGenPresets>
   <EnableMinorFactionTroopRecruitment>true</EnableMinorFactionTroopRecruitment>
   <EnableMinorFactionQuests>true</EnableMinorFactionQuests>
+  <InitialPartyCount>3</InitialPartyCount>
+  <InitialWorkshopCount>3</InitialWorkshopCount>
 </Settings>

@@ -31,8 +31,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.4\lib\net472\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="SandBox">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\SandBox\bin\Win64_Shipping_Client\SandBox.dll</HintPath>
+    </Reference>
+    <Reference Include="SandBox.GauntletUI">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\SandBox\bin\Win64_Shipping_Client\SandBox.GauntletUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SandBox.View">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\SandBox\bin\Win64_Shipping_Client\SandBox.View.dll</HintPath>
+    </Reference>
+    <Reference Include="SandBox.ViewModelCollection">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\SandBox\bin\Win64_Shipping_Client\SandBox.ViewModelCollection.dll</HintPath>
     </Reference>
     <Reference Include="StoryMode">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\StoryMode\bin\Win64_Shipping_Client\StoryMode.dll</HintPath>
@@ -132,11 +144,20 @@
     <Reference Include="TaleWorlds.MountAndBlade.Diamond">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.Diamond.dll</HintPath>
     </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.GauntletUI">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Native\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.GauntletUI.dll</HintPath>
+    </Reference>
     <Reference Include="TaleWorlds.MountAndBlade.GauntletUI.Widgets">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.GauntletUI.Widgets.dll</HintPath>
     </Reference>
     <Reference Include="TaleWorlds.MountAndBlade.Helpers">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.Platform.PC">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Native\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.Platform.PC.dll</HintPath>
+    </Reference>
+    <Reference Include="TaleWorlds.MountAndBlade.View">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Native\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.View.dll</HintPath>
     </Reference>
     <Reference Include="TaleWorlds.MountAndBlade.ViewModelCollection">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\bin\Win64_Shipping_Client\TaleWorlds.MountAndBlade.ViewModelCollection.dll</HintPath>
@@ -188,21 +209,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\CharacterGenPreset.cs" />
     <Compile Include="Behaviors\MinorFactionTroopRecruitment.cs" />
     <Compile Include="Behaviors\MinorFactionQuestGenerator.cs" />
+    <Compile Include="CustomEvents\FaceGenVMCustomEvent.cs" />
     <Compile Include="Dialogs\DialogTokenShortcuts.cs" />
     <Compile Include="Dialogs\MinorFactionTroopRecruitmentDialogs.cs" />
     <Compile Include="Dialogs\MinorFactionQuestStarterDialogs.cs" />
-    <Compile Include="Loaders\SettingsLoader.cs" />
-    <Compile Include="Loaders\XmlLoader.cs" />
-    <Compile Include="Models\Settings.cs" />
+    <Compile Include="Patches\FaceGenVMPatch.cs" />
+    <Compile Include="Patches\GetMaxWorkshopForPlayerPatch.cs" />
+    <Compile Include="Patches\GetPartyLimitForTierPatch.cs" />
     <Compile Include="Quests\JawwalQuestLine.cs" />
+    <Compile Include="Screens\CharacterGenPreset.cs" />
     <Compile Include="Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\Logger.cs" />
+    <Compile Include="Utils\ModSettings.cs" />
     <Compile Include="Utils\QuestIdGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActusPurus\GUI\Prefabs\CharacterGenPreset.xml" />
     <Content Include="ActusPurus\ModuleData\action_sets.xml" />
     <Content Include="ActusPurus\ModuleData\action_types.xml" />
     <Content Include="ActusPurus\ModuleData\collision_infos.xml" />
@@ -231,11 +257,13 @@
     <Folder Include="ActusPurus\Assets\" />
     <Folder Include="ActusPurus\bin\Win64_Shipping_Client\" />
     <Folder Include="ActusPurus\EmAssetPackages\" />
+    <Folder Include="ActusPurus\GUI\Brushes\" />
     <Folder Include="ActusPurus\SceneEditData\" />
     <Folder Include="ActusPurus\SceneObj\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ActusPurus\ModuleData\project.mbproj" />
+    <None Include="packages.config" />
     <None Include="PostBuild.ps1" />
     <None Include="Quests\minor_factions.md" />
   </ItemGroup>

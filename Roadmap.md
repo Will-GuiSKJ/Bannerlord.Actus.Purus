@@ -3,6 +3,26 @@
 ## Guidelines
 This roadmap details the features intended to be included in Bannerlord Actus Purus. Not all features have been evaluated for feasibility.
 
+### New Quests & Dialogues
+1. Add new quests, including fleshing out minor factions
+1. Add way to recruit minor faction units through dialogs
+1. Create more content around Roguery
+
+### Character Creation
+1. Blank-Slate start: Bypass the background option steps and award player a number of focus point.
+1. Presets for male and female
+
+### Crisis
+1. Famine
+1. Plague
+1. Long Winters
+1. Foreign Invasion
+	1. Shogunate Invasion
+	1. Viking Invasion
+	1. Nubian Invasion
+
+### Skills
+
 #### Leadership
 1. Every (N)PC in an army receives small XP if army leader has a higher Leadership skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
 	1. Extra XP if (N)PC has high Charm skill level
@@ -15,6 +35,7 @@ This roadmap details the features intended to be included in Bannerlord Actus Pu
 TBD.
 
 ### AI
+
 #### Ars Imperatoria
 Faction Leader's create war plans when war is declared and communicates to all vassals, including PC.
 Possible goals:
@@ -57,15 +78,6 @@ Castles and Towns should feel different to each other and provide different adva
 1. Defense - Factions will enter war to protect each other
 1. Non Agression - Factions will not go to war with each other
 
-### Crisis
-1. Famine
-1. Plague
-1. Long Winters
-1. Foreign Invasion
-	1. Shogunate Invasion
-	1. Viking Invasion
-	1. Nubian Invasion
-
 ### New Endgame(s)
 Add more Campaign goals than just total domination. Including new Policies to support these new goals.
 Potential goals:
@@ -73,16 +85,6 @@ Potential goals:
 1. Domination (default, conquer Calradia)
 1. Religion (convert Calradia)
 1. Diplomacy (peace length threshold + average relation threshold)
-
-### New Quests & Dialogues
-1. More dialogue variation in existing conversations to better the roleplay aspect
-1. Enhanced minor quests with better story arcs
-1. Add new quests, including fleshing out minor factions
-1. Add way to recruit minor faction units through dialogs
-
-### Character Creation
-Add many more background options to allow more different builds and role-play opportunities.
-Blank-Slate start: Bypass the backgroud option steps and award player a number of focus point.
 
 ### Fun Defeat
 Add more mechanics to make having your party wiped out and being taken prisoner be more fun (or at least less soul crushin).
