@@ -70,7 +70,7 @@ namespace Bannerlord.Actus.Purus.Utils
         public string key { get; set; }
         public override string ToString()
         {
-            return $"<BodyProperties version=\"{version}\" age=\"{age}\" weight=\"{weight}\" build=\"{build}\"  key=\"{key}\" />";
+            return $"<BodyProperties version='{version}' age='{age}' weight='{weight}' build='{build}' key='{key}' />";
         }
     }
 

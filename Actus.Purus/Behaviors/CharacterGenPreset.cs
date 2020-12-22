@@ -5,6 +5,7 @@ using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.Engine.GauntletUI;
 using TaleWorlds.Engine.Screens;
+using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
@@ -22,6 +23,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
         {
             _layer = new CharacterGenPresetLayer(10);
             ScreenManager.TopScreen.AddLayer(_layer);
+            _layer.InputRestrictions.SetInputRestrictions(true, InputUsageMask.MouseButtons);
         }
 
         private void RemoveLayer(FaceGenVMCustomEventOff customEvent)

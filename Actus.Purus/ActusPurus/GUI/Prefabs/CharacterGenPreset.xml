@@ -4,12 +4,11 @@
   <VisualDefinitions>
   </VisualDefinitions>
   <Window>
-    <Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent">
+    <Widget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="40" HorizontalAlignment="Right" VerticalAlignment="Center" MarginRight="650" MarginTop="500">
       <Children>
 
-        <ButtonWidget  WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="40" HorizontalAlignment="Right" VerticalAlignment="Center" Brush="FaceGen.Extension.Button" Command.Click="TogglePresets" MarginRight="650" MarginTop="500">
+        <ButtonWidget Id="ActusPurusCharacterPresetToggle" Command.Click="TogglePresets" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="FaceGen.Extension.Button">
           <Children>
-            <!--<ButtonWidget WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="34" SuggestedHeight="25" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="FaceGen.Extension.Clothe.Button"/>-->
             <ImageWidget DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" HorizontalAlignment="Center" VerticalAlignment="Center" SuggestedWidth="34" SuggestedHeight="25" Brush="FaceGen.Extension.Clothe.Button" />
             <HintWidget DataSource="{PresetHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
           </Children>

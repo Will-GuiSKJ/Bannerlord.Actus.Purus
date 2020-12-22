@@ -33,11 +33,13 @@ namespace Bannerlord.Actio.Probat.Puri
         [TestMethod()]
         public void CharacterPresetsSettings()
         {
-            Assert.IsTrue(settings.CharacterPresets.MalePresets.Length >= 0);
-            Assert.IsTrue(settings.CharacterPresets.FemalePresets.Length >= 0);
+            Assert.IsTrue(settings.CharacterPresets.MalePresets.Length > 0);
+            Assert.IsTrue(settings.CharacterPresets.FemalePresets.Length > 0);
+            Assert.IsTrue(settings.CharacterPresets.FemalePresets[0] is BodyProperties);
+            Assert.IsTrue(settings.CharacterPresets.FemalePresets[0] is BodyProperties);
 
             var bodyPropertiy = new BodyProperties() { age = 21, build = 0.5f, version = 4, weight = 0.5f, key = "HelloWorld" };
-            Assert.AreEqual("<BodyProperties version=\"4\" age=\"21\" weight=\"0.5\" build=\"0.5\"  key=\"HelloWorld\" />", bodyPropertiy.ToString());
+            Assert.AreEqual("<BodyProperties version=\"4\" age=\"21\" weight=\"0.5\" build=\"0.5\" key=\"HelloWorld\" />", bodyPropertiy.ToString());
         }
 
         [TestMethod()]
