@@ -40,6 +40,7 @@ namespace Bannerlord.Actus.Purus.Utils
     {
         public bool DebugMode { get; set; }
         public CharacterPresets CharacterPresets { get; set; }
+        public bool EnableBlankCharacterCreation { get; set; }
         public bool EnableMinorFactionTroopRecruitment { get; set; }
         public bool EnableMinorFactionQuests { get; set; }
         public int InitialPartyCount { get; set; }

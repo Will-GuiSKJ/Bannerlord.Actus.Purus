@@ -31,6 +31,11 @@ namespace Bannerlord.Actus.Purus
                 starter.AddBehavior(new CharacterGenPresetBehavior());
             }
 
+            if (ModSettings.Settings.EnableBlankCharacterCreation)
+            {
+                starter.AddBehavior(new BlankCharacterCreation());
+            }
+
             if (ModSettings.Settings.EnableMinorFactionTroopRecruitment)
             {
                 starter.AddBehavior(new MinorFactionTroopRecruitmentBehavior());

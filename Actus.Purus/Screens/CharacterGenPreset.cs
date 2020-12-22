@@ -9,7 +9,7 @@ using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Screens
 {
-    public class CharacterGenPresetLayer : GauntletLayer
+    class CharacterGenPresetLayer : GauntletLayer
     {
         public CharacterGenPresetLayer(int localOrder) : base(localOrder)
         {
@@ -56,7 +56,8 @@ namespace Bannerlord.Actus.Purus.Screens
         public void TogglePresets()
         {
             var previousPresetIndex = _presetIndex;
-            Utils.Logger.Log($"Preset {_presetIndex}");
+            var gender = isFemale ? "Female" : "Male";
+            Utils.Logger.Log($"{gender} Preset {_presetIndex}");
 
             string presetBodyProperties;
             if (isFemale)

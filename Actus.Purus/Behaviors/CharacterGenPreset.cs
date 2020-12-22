@@ -9,7 +9,7 @@ using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    public class CharacterGenPresetBehavior : CampaignBehaviorBase
+    class CharacterGenPresetBehavior : CampaignBehaviorBase
     {
         private GauntletLayer _layer;
 
