@@ -59,9 +59,9 @@
     </MalePresets>
   </CharacterPresets>
 
-  <!--Player Character has all skills set to 1 and is refunded all focus points at the end of the Tutorial, allowing the player to spec their characters with total control-->
+  <!--At the start of "Rebuild Your Clan" quest, the player's character has all skills and attributes set to 0 and is awarded 20 attribute points and 10 focus points-->
   <EnableBlankCharacterCreation>true</EnableBlankCharacterCreation>
-  
+
   <!--Minor Factions that have reputation 20+ with player allow its units to be recruited for a price-->
   <EnableMinorFactionTroopRecruitment>true</EnableMinorFactionTroopRecruitment>
 

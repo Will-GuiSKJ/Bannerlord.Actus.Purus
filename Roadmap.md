@@ -12,6 +12,15 @@ This roadmap details the features intended to be included in Bannerlord Actus Pu
 1. Blank-Slate start: Bypass the background option steps and award player a number of focus point.
 1. Presets for male and female
 
+### Crafting
+Allow player to restore stamina while moving in the world map
+Crafting Stamina multiplier
+
+### Configuration
+1. Starting number of parties
+1. Starting number of workshops
+1. Starting number of companions
+
 ### Crisis
 1. Famine
 1. Plague
@@ -30,9 +39,6 @@ This roadmap details the features intended to be included in Bannerlord Actus Pu
 #### Tactics
 1. Every (N)PC in an army receives small skill XP if army leader has a higher Tactics skill level and (N)PC has high relationship with leader. This simulates (N)PCs being in the leader's "inner circle"
 	1. Extra XP if (N)PC has high Charm skill level
-
-### Auto Resolve Calculations
-TBD.
 
 ### AI
 
@@ -58,7 +64,7 @@ Castles and Towns should feel different to each other and provide different adva
 1. Configurable rate of militia and garrison recruitment
 1. Half of garrison units should be from Owner's culture, rather than settlement's culture
 
-#### Kingdom management
+#### Kingdom management (Long-term)
 1. Extra tab in Kingdom screen for Military and Economical summaries of owned fiefs
 
 #### Religion (Long-term)
