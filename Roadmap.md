@@ -37,7 +37,7 @@ TBD.
 ### AI
 
 #### Combat
-More challenging battle AI based on game difficulty. Inspired by Realistc Battle Mod.
+More challenging battle AI based on game difficulty. Inspired by Realistic Battle Mod.
 
 #### Ars Imperatoria (Long-term)
 Faction Leader's create war plans when war is declared and communicates to all vassals, including PC.
