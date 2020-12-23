@@ -13,8 +13,8 @@ This roadmap details the features intended to be included in Bannerlord Actus Pu
 1. Presets for male and female
 
 ### Crafting
-Allow player to restore stamina while moving in the world map
-Crafting Stamina multiplier
+1. Allow player to restore stamina while moving in the world map.
+1. Crafting Stamina multiplier.
 
 ### Configuration
 1. Starting number of parties
@@ -46,7 +46,7 @@ Crafting Stamina multiplier
 More challenging battle AI based on game difficulty. Inspired by Realistic Battle Mod.
 
 #### Ars Imperatoria (Long-term)
-Faction Leader's create war plans when war is declared and communicates to all vassals, including PC.
+Faction Leader's create war plans when war is declared and communicates to all vassals, including PC.  
 Possible goals:
 1. Border extension - Capture clump of Settlements, likely chosen when 2+ settlements near Faction's border are easily capturable
 1. Economical warfare - Focus on village raids and caravans (Favourite of Sturgia), likely chosen when vassals are impoverished
