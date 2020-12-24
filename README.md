@@ -41,7 +41,7 @@ This is completely generic, meaning this *should* work with any custom minor fac
 
 ### Crafting
 - Heroes now restore stamina while moving in the world map, at a configurable rate.
-- Configurable max Stamina multiplier.
+- Configurable Stamina cost multipliers for Smelting, Smithing and Refining.
 
 ### Passive XP Gain
 Each day, several skills are awarded a set amount of XP for the player.

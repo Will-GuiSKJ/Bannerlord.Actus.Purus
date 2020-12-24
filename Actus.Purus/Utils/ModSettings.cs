@@ -92,6 +92,7 @@ namespace Bannerlord.Actus.Purus.Utils
         public float StaminaCostForRefiningMultiplier { get; set; }
         public float StaminaCostForSmithingMultiplier { get; set; }
         public float StaminaCostForSmeltingMultiplier { get; set; }
+        public float PartResearchXPGainMultiplier { get; set; }
         public int HourlySettlementStaminaRecoveryRate { get; set; }
         public int HourlyMovingStaminaRecoveryRate { get; set; }
     }

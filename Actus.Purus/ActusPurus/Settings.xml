@@ -90,6 +90,7 @@
     <StaminaCostForRefiningMultiplier>0.5</StaminaCostForRefiningMultiplier>
     <StaminaCostForSmithingMultiplier>0.5</StaminaCostForSmithingMultiplier>
     <StaminaCostForSmeltingMultiplier>0.5</StaminaCostForSmeltingMultiplier>
+    <PartResearchXPGainMultiplier>2</PartResearchXPGainMultiplier>
     <HourlySettlementStaminaRecoveryRate>5</HourlySettlementStaminaRecoveryRate>
     <HourlyMovingStaminaRecoveryRate>1</HourlyMovingStaminaRecoveryRate>
   </CraftingConfig>

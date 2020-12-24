@@ -40,6 +40,16 @@ namespace Bannerlord.Actus.Purus.Patches
                 __result = (int)Math.Floor(__result * ModSettings.Settings.CraftingConfig.StaminaCostForSmeltingMultiplier);
             }
         }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(nameof(DefaultSmithingModel.GetPartResearchGainForSmithingItem))]
+        static void GetPartResearchGainForSmithingItemPostfix(ref int __result)
+        {
+            if (ModSettings.Settings.CraftingConfig.Enabled)
+            {
+                __result = (int)Math.Ceiling(__result * ModSettings.Settings.CraftingConfig.PartResearchXPGainMultiplier);
+            }
+        }
     }
 
     [HarmonyPatch(typeof(CraftingCampaignBehavior))]
