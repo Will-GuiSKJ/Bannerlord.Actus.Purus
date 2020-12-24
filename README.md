@@ -51,6 +51,13 @@ Each day, several skills are awarded a set amount of XP for the player.
 - Configurable Skill Level cap that determines whether a Skill can be awarded XP.
 - Each individual Skill can be configurable to receive any amount of daily XP.
 
+## Known Issues
+
+### Character Presets
+1. Changing sliders sometimes reverts the body properties to the first preset.
+1. Sometimes the preset button stays on screen after closing the character creation screen
+1. Changing between genders can sometimes crash to desktop
+
 ## Roadmap
 For all the features I intend to add to this mod, please see the [https://github.com/Will-GuiSKJ/Bannerlord.Actus.Purus/blob/master/Roadmap.md](Roadmap).
 
