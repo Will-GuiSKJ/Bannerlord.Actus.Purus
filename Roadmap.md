@@ -5,6 +5,8 @@ This roadmap details the features intended to be included in Bannerlord Actus Pu
 
 ### New Quests & Dialogues
 1. Add new quests, including fleshing out minor factions
+	1. Beduin Trouble: Questline for the Jawwal involving a merchant wanting retribution for poached caravans
+	1. Captive Betrayer: Questline for the Legion of the Betrayed involving rescuing one of its former Legates now held prisoner by the Norther Empire
 1. Add way to recruit minor faction units through dialogs
 1. Create more content around Roguery
 

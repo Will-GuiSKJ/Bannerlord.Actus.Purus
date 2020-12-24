@@ -218,9 +218,11 @@
     <Compile Include="Dialogs\DialogTokenShortcuts.cs" />
     <Compile Include="Dialogs\MinorFactionTroopRecruitmentDialogs.cs" />
     <Compile Include="Dialogs\MinorFactionQuestStarterDialogs.cs" />
-    <Compile Include="Patches\FaceGenVMPatch.cs" />
-    <Compile Include="Patches\GetMaxWorkshopForPlayerPatch.cs" />
-    <Compile Include="Patches\GetPartyLimitForTierPatch.cs" />
+    <Compile Include="Patches\CraftingPatch.cs" />
+    <Compile Include="Patches\CharacterPresetsPatch.cs" />
+    <Compile Include="Patches\InitialWorkshopCountPatch.cs" />
+    <Compile Include="Patches\InitialCompanionCountPatch.cs" />
+    <Compile Include="Patches\InitialPartyCountPatch.cs" />
     <Compile Include="Quests\JawwalQuestLine.cs" />
     <Compile Include="Screens\CharacterGenPreset.cs" />
     <Compile Include="Start.cs" />

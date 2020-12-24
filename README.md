@@ -36,9 +36,11 @@ This is completely generic, meaning this *should* work with any custom minor fac
 - Set starting cap of number of workshops for player, at Clan tier 0.
 - Set starting cap of number of parties for player, at Clan tier 0.
 - Set starting cap of number of companions for player, at Clan tier 0.
+- Garrisons are made up of a configurable percentage of units from the settlement's owner's culture
+	- Ex: an Empire castle held by a Sturgian lord will have some of its automaticly generated garrison units be Sturgian units
 
 ### Crafting
-- Heros now restore stamina while moving in the world map, at a configurable rate.
+- Heroes now restore stamina while moving in the world map, at a configurable rate.
 - Configurable max Stamina multiplier.
 
 ### Passive XP Gain
@@ -57,7 +59,7 @@ However, *coming up* with those quests is an exercise in imagination that a can'
 So, if you have ideas for a cool questline for a minor faction or even for anything else please let me know!
 
 ## Modder Support
-I have spent so many years enjoying the benefits of mods in my games, specially Skyrim, without ever supporting the authors. So now that I got into modding, it would be highly hipocrytical for me to ask you to support me.  
-However, if you ar eone of those awesome people that support your mod authors and you whish to contribute monetarely in some way for this mod, I ask you that make a donation to a local charity of your choice instead. I am partically partial to animal shelters.
+I have spent so many years enjoying the benefits of mods in my games, specially Skyrim, without ever supporting the authors.  
+So now that I got into modding, it would be highly hypocritical for me to ask you to support me.
 
-#Thank you for using my mod
+However, if you are one of those awesome people that support your mod authors and you wish to contribute monetarily in some way to this mod, I ask you that you make a donation to a local charity of your choice instead. I am partically partial to animal shelters.

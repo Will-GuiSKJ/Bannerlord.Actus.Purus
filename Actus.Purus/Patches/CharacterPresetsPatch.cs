@@ -1,5 +1,4 @@
 ﻿using Bannerlord.Actus.Purus.CustomEvents;
-using Bannerlord.Actus.Purus.Utils;
 using HarmonyLib;
 using System;
 using System.Reflection;
@@ -12,7 +11,7 @@ using TaleWorlds.MountAndBlade.ViewModelCollection;
 namespace Bannerlord.Actus.Purus.Patches
 {
     [HarmonyPatch(typeof(FaceGenVM))]
-    class FaceGenVMPatch
+    class CharacterPresetsPatch
     {
         [HarmonyPostfix]
         [HarmonyPatch(MethodType.Constructor, new Type[] { typeof(BodyGenerator), typeof(IFaceGeneratorHandler), typeof(Action<float>), typeof(Action), typeof(TextObject), typeof(TextObject), typeof(int), typeof(int), typeof(int), typeof(Action<int>), typeof(bool), typeof(bool), typeof(IFaceGeneratorCustomFilter) })]
@@ -32,7 +31,7 @@ namespace Bannerlord.Actus.Purus.Patches
 
         [HarmonyPostfix]
         [HarmonyPatch("SelectedGender", MethodType.Setter)]
-        static void OnSelectedGender(int value)
+        static void SelectedGenderPostfix(int value)
         {
             Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventGenderChanged(value));
         }

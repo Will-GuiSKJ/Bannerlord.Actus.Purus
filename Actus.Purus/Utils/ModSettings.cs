@@ -38,14 +38,24 @@ namespace Bannerlord.Actus.Purus.Utils
     [Serializable()]
     public class Settings
     {
-        public bool DebugMode { get; set; }
+        [NonSerialized()]
+        public bool DebugMode = true;
         public CharacterPresets CharacterPresets { get; set; }
         public bool EnableBlankCharacterCreation { get; set; }
         public bool EnableMinorFactionTroopRecruitment { get; set; }
         public bool EnableMinorFactionQuests { get; set; }
-        public int InitialPartyCount { get; set; }
-        public int InitialWorkshopCount { get; set; }
+        public SimpleConfig InitialCompanionCount { get; set; }
+        public SimpleConfig InitialPartyCount { get; set; }
+        public SimpleConfig InitialWorkshopCount { get; set; }
+        public CraftingConfig CraftingConfig { get; set; }
         public PassiveXPSettings PassiveXPSettings { get; set; }
+    }
+
+    [Serializable()]
+    public class SimpleConfig
+    {
+        public bool Enabled { get; set; }
+        public int Value { get; set; }
     }
 
     [Serializable()]
@@ -73,6 +83,17 @@ namespace Bannerlord.Actus.Purus.Utils
         {
             return $"<BodyProperties version='{version}' age='{age}' weight='{weight}' build='{build}' key='{key}' />";
         }
+    }
+
+    [Serializable()]
+    public class CraftingConfig
+    {
+        public bool Enabled { get; set; }
+        public float StaminaCostForRefiningMultiplier { get; set; }
+        public float StaminaCostForSmithingMultiplier { get; set; }
+        public float StaminaCostForSmeltingMultiplier { get; set; }
+        public int HourlySettlementStaminaRecoveryRate { get; set; }
+        public int HourlyMovingStaminaRecoveryRate { get; set; }
     }
 
     [Serializable()]

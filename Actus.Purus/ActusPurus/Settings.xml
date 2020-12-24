@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Settings>
-  <DebugMode>true</DebugMode>
-
   <!--List of BodyProperties that you can cycle through during Character Creation-->
   <CharacterPresets>
     <Enabled>true</Enabled>
@@ -68,11 +66,33 @@
   <!--Questline for each vanilla Minor Faction that awards large reputation to the player-->
   <EnableMinorFactionQuests>true</EnableMinorFactionQuests>
 
-  <!--Number of parties the player character can have at Clan Rank 0-->
-  <InitialPartyCount>3</InitialPartyCount>
+  <!--Number of companions the player character can have at Clan Tier 0-->
+  <InitialCompanionCount>
+    <Enabled>true</Enabled>
+    <Value>3</Value>
+  </InitialCompanionCount>
 
-  <!--Number of workshops the player character can have at Clan Rank 0-->
-  <InitialWorkshopCount>3</InitialWorkshopCount>
+  <!--Number of parties the player character can have at Clan Tier 0-->
+  <InitialPartyCount>
+    <Enabled>true</Enabled>
+    <Value>3</Value>
+  </InitialPartyCount>
+
+  <!--Number of workshops the player character can have at Clan Tier 0-->
+  <InitialWorkshopCount>
+    <Enabled>true</Enabled>
+    <Value>3</Value>
+  </InitialWorkshopCount>
+
+  <!--Crafting Customizations-->
+  <CraftingConfig>
+    <Enabled>true</Enabled>
+    <StaminaCostForRefiningMultiplier>0.5</StaminaCostForRefiningMultiplier>
+    <StaminaCostForSmithingMultiplier>0.5</StaminaCostForSmithingMultiplier>
+    <StaminaCostForSmeltingMultiplier>0.5</StaminaCostForSmeltingMultiplier>
+    <HourlySettlementStaminaRecoveryRate>5</HourlySettlementStaminaRecoveryRate>
+    <HourlyMovingStaminaRecoveryRate>1</HourlyMovingStaminaRecoveryRate>
+  </CraftingConfig>
 
   <!--Settings for passive, daily, XP awards to Skills-->
   <PassiveXPSettings>

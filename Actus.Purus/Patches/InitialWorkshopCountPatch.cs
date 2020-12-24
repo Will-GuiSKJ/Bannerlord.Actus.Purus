@@ -6,11 +6,12 @@ using TaleWorlds.CampaignSystem.SandBox.GameComponents;
 namespace Bannerlord.Actus.Purus.Patches
 {
     [HarmonyPatch(typeof(DefaultWorkshopModel), nameof(DefaultWorkshopModel.GetMaxWorkshopCountForPlayer))]
-    class GetMaxWorkshopForPlayerPatch
+    class InitialWorkshopCountPatch
     {
         static void Postfix(ref int __result)
         {
-            __result = ModSettings.Settings.InitialWorkshopCount + Clan.PlayerClan.Tier;
+            if (ModSettings.Settings.InitialWorkshopCount.Enabled)
+                __result = ModSettings.Settings.InitialWorkshopCount.Value + Clan.PlayerClan.Tier;
         }
     }
 }
