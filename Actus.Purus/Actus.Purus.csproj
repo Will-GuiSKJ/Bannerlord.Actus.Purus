@@ -211,6 +211,7 @@
   <ItemGroup>
     <Compile Include="Behaviors\BlankCharacterCreation.cs" />
     <Compile Include="Behaviors\CharacterGenPreset.cs" />
+    <Compile Include="Behaviors\GarrisonRecruitment.cs" />
     <Compile Include="Behaviors\MinorFactionTroopRecruitment.cs" />
     <Compile Include="Behaviors\MinorFactionQuestGenerator.cs" />
     <Compile Include="Behaviors\PassiveXP.cs" />

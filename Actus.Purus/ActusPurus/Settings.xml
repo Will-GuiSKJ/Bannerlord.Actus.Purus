@@ -95,6 +95,16 @@
     <HourlyMovingStaminaRecoveryRate>1</HourlyMovingStaminaRecoveryRate>
   </CraftingConfig>
 
+  <!--Every day, add a number of recruit-level troops to a settlement's garrison's party. Values between 0 and 1 are treated as a percentage chance of spawning the troop-->
+  <!--Recruit troops are chosen from the settlement's Culture and the Owner's Clan's Culture, according to the ratio configuration-->
+  <GarrisonRecruitment>
+    <EnabledForPlayer>true</EnabledForPlayer>
+    <EnabledForAI>true</EnabledForAI>
+    <DailyNumberOfRecruits>1</DailyNumberOfRecruits>
+    <ChanceToSpawnNobleTroop>0.2</ChanceToSpawnNobleTroop>
+    <RatioOfPlayerCultureTroops>0.5</RatioOfPlayerCultureTroops>
+  </GarrisonRecruitment>
+
   <!--Settings for passive, daily, XP awards to Skills-->
   <PassiveXPSettings>
     <Enabled>true</Enabled>

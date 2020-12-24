@@ -33,7 +33,7 @@ namespace Bannerlord.Actus.Purus
 
             if (ModSettings.Settings.EnableBlankCharacterCreation)
             {
-                starter.AddBehavior(new BlankCharacterCreation());
+                starter.AddBehavior(new BlankCharacterCreationBehavior());
             }
 
             if (ModSettings.Settings.EnableMinorFactionTroopRecruitment)
@@ -44,6 +44,11 @@ namespace Bannerlord.Actus.Purus
             if (ModSettings.Settings.EnableMinorFactionQuests)
             {
                 starter.AddBehavior(new MinorFactionQuestGeneratorBehavior());
+            }
+
+            if (ModSettings.Settings.GarrisonRecruitment.EnabledForAI || ModSettings.Settings.GarrisonRecruitment.EnabledForPlayer)
+            {
+                starter.AddBehavior(new GarrisonRecruitmentBehavior());
             }
 
             if (ModSettings.Settings.PassiveXPSettings.Enabled)

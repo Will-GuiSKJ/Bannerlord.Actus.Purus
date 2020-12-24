@@ -48,6 +48,7 @@ namespace Bannerlord.Actus.Purus.Utils
         public SimpleConfig InitialPartyCount { get; set; }
         public SimpleConfig InitialWorkshopCount { get; set; }
         public CraftingConfig CraftingConfig { get; set; }
+        public GarrisonRecruitment GarrisonRecruitment { get; set; }
         public PassiveXPSettings PassiveXPSettings { get; set; }
     }
 
@@ -95,6 +96,16 @@ namespace Bannerlord.Actus.Purus.Utils
         public float PartResearchXPGainMultiplier { get; set; }
         public int HourlySettlementStaminaRecoveryRate { get; set; }
         public int HourlyMovingStaminaRecoveryRate { get; set; }
+    }
+
+    [Serializable()]
+    public class GarrisonRecruitment
+    {
+        public bool EnabledForPlayer { get; set; }
+        public bool EnabledForAI { get; set; }
+        public float DailyNumberOfRecruits { get; set; }
+        public float ChanceToSpawnNobleTroop { get; set; }
+        public float RatioOfPlayerCultureTroops { get; set; }
     }
 
     [Serializable()]

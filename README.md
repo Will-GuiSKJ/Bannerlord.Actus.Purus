@@ -37,16 +37,17 @@ This is completely generic, meaning this *should* work with any custom minor fac
 - Set starting cap of number of parties for player, at Clan tier 0.
 - Set starting cap of number of companions for player, at Clan tier 0.
 - Garrisons are made up of a configurable percentage of units from the settlement's owner's culture
-	- Ex: an Empire castle held by a Sturgian lord will have some of its automaticly generated garrison units be Sturgian units
+	- Ex: an Empire castle held by a Sturgian lord will have some of its automatically generated garrison units be Sturgian units
 
 ### Crafting
 - Heroes now restore stamina while moving in the world map, at a configurable rate.
 - Configurable Stamina cost multipliers for Smelting, Smithing and Refining.
+- Configurable Part Research XP multiplier.
 
 ### Passive XP Gain
 Each day, several skills are awarded a set amount of XP for the player.
 - XP can be awarded to all skills or only to those with Focus Points
-- XP can be awared to player character only or for all adult members of the player's Clan (including companions).
+- XP can be awarded to player character only or for all adult members of the player's Clan (including companions).
 - Configurable Skill Level cap that determines whether a Skill can be awarded XP.
 - Each individual Skill can be configurable to receive any amount of daily XP.
 

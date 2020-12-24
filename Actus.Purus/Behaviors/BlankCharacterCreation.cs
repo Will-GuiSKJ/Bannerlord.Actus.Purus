@@ -4,7 +4,7 @@ using TaleWorlds.CampaignSystem;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class BlankCharacterCreation : CampaignBehaviorBase
+    class BlankCharacterCreationBehavior : CampaignBehaviorBase
     {
         public override void RegisterEvents()
         {
@@ -20,7 +20,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
                 Hero.MainHero.HeroDeveloper.UnspentAttributePoints = 20;
                 Hero.MainHero.HeroDeveloper.UnspentFocusPoints = 10;
 
-                Logger.Log("Actus Purus - Main Hero Reset");
+                Logger.Log("Main Hero Reset");
             }
         }
 
