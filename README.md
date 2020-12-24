@@ -1,7 +1,7 @@
 # Bannerlord.Actus.Purus
 ["Pure Actuality"](https://en.wikipedia.org/wiki/Actus_purus)
 
-**Banerlord Supported Version: 1.5.4**
+**Banerlord Supported Version: 1.5.6**
 
 ## Goal
 This project is a mod for Mount &amp; Blade 2 Bannerlord that aims to create a perfected version of the game, in my eyes anyway. Though I plan for this mod to grow and include many facets, its main goal is to provide Quality of Life features and more Rolepaying content to the game, making the world of Calradia feel more alive.
@@ -54,9 +54,12 @@ Each day, several skills are awarded a set amount of XP for the player.
 ## Known Issues
 
 ### Character Presets
-1. Changing sliders sometimes reverts the body properties to the first preset.
 1. Sometimes the preset button stays on screen after closing the character creation screen
+	- This usually happens when opening the character editor after the campaign has started.
 1. Changing between genders can sometimes crash to desktop
+	- This seems related to how some BodyProperties don't translate well between gender. This is a vanilla issue and it is **not** part of this mod.
+1. Character Preset button layer is blocking the player's ability to rotate the character model during Character Creation
+	- The Layer that contains the preset button has InputRestrictions on it, which is what *makes* the button clickable, but has the side effect of interfeering with the click-and-drag to rate the character.
 
 ## Roadmap
 For all the features I intend to add to this mod, please see the [https://github.com/Will-GuiSKJ/Bannerlord.Actus.Purus/blob/master/Roadmap.md](Roadmap).

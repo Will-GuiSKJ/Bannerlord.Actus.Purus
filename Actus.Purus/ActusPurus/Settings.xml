@@ -68,13 +68,13 @@
 
   <!--Number of companions the player character can have at Clan Tier 0-->
   <InitialCompanionCount>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Value>3</Value>
   </InitialCompanionCount>
 
   <!--Number of parties the player character can have at Clan Tier 0-->
   <InitialPartyCount>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Value>3</Value>
   </InitialPartyCount>
 
@@ -90,7 +90,7 @@
     <StaminaCostForRefiningMultiplier>0.5</StaminaCostForRefiningMultiplier>
     <StaminaCostForSmithingMultiplier>0.5</StaminaCostForSmithingMultiplier>
     <StaminaCostForSmeltingMultiplier>0.5</StaminaCostForSmeltingMultiplier>
-    <PartResearchXPGainMultiplier>2</PartResearchXPGainMultiplier>
+    <PartResearchXPGainMultiplier>3</PartResearchXPGainMultiplier>
     <HourlySettlementStaminaRecoveryRate>5</HourlySettlementStaminaRecoveryRate>
     <HourlyMovingStaminaRecoveryRate>1</HourlyMovingStaminaRecoveryRate>
   </CraftingConfig>
@@ -119,19 +119,19 @@
     <PassiveXPSkillLevelCap>125</PassiveXPSkillLevelCap>
 
     <!--Award Passive XP to Skills (as long as learning rate is not 0 for the Skill)-->
-    <PassiveOneHandedXP>1</PassiveOneHandedXP>
-    <PassiveTwoHandedXP>1</PassiveTwoHandedXP>
-    <PassivePolearmXP>1</PassivePolearmXP>
-    <PassiveBowXP>1</PassiveBowXP>
-    <PassiveCrossbowXP>1</PassiveCrossbowXP>
-    <PassiveThrowingXP>1</PassiveThrowingXP>
+    <PassiveOneHandedXP>0</PassiveOneHandedXP>
+    <PassiveTwoHandedXP>0</PassiveTwoHandedXP>
+    <PassivePolearmXP>0</PassivePolearmXP>
+    <PassiveBowXP>0</PassiveBowXP>
+    <PassiveCrossbowXP>0</PassiveCrossbowXP>
+    <PassiveThrowingXP>0</PassiveThrowingXP>
     <PassiveRidingXP>0</PassiveRidingXP>
     <PassiveAthleticsXP>0</PassiveAthleticsXP>
     <PassiveCraftingXP>0</PassiveCraftingXP>
     <PassiveScoutingXP>0</PassiveScoutingXP>
     <PassiveTacticsXP>10</PassiveTacticsXP>
     <PassiveRogueryXP>10</PassiveRogueryXP>
-    <PassiveCharmXP>1</PassiveCharmXP>
+    <PassiveCharmXP>5</PassiveCharmXP>
     <PassiveLeadershipXP>20</PassiveLeadershipXP>
     <PassiveTradeXP>0</PassiveTradeXP>
     <PassiveStewardXP>0</PassiveStewardXP>

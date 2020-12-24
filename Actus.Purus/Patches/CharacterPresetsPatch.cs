@@ -37,16 +37,6 @@ namespace Bannerlord.Actus.Purus.Patches
         }
 
         [HarmonyPostfix]
-        [HarmonyPatch("OnTabClicked")]
-        static void OnTabClickedPostfix(int index)
-        {
-            if (index == 0)
-                Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventOn());
-            else
-                Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventOff());
-        }
-
-        [HarmonyPostfix]
         [HarmonyPatch("ExecuteCancel")]
         static void ExecuteCancelPostfix()
         {

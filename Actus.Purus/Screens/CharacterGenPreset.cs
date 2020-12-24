@@ -33,7 +33,7 @@ namespace Bannerlord.Actus.Purus.Screens
                 if (value == _presetHint)
                     return;
                 _presetHint = value;
-                OnPropertyChangedWithValue((object)value, nameof(_presetHint));
+                OnPropertyChangedWithValue(value, nameof(_presetHint));
             }
         }
 
@@ -57,7 +57,7 @@ namespace Bannerlord.Actus.Purus.Screens
         {
             var previousPresetIndex = _presetIndex;
             var gender = isFemale ? "Female" : "Male";
-            Utils.Logger.Log($"{gender} Preset {_presetIndex}");
+            Utils.Logger.Log($"{gender} Preset {_presetIndex}", true);
 
             string presetBodyProperties;
             if (isFemale)

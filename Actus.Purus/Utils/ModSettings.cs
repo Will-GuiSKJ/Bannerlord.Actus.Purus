@@ -39,7 +39,7 @@ namespace Bannerlord.Actus.Purus.Utils
     public class Settings
     {
         [NonSerialized()]
-        public bool DebugMode = true;
+        public bool DebugMode = false;
         public CharacterPresets CharacterPresets { get; set; }
         public bool EnableBlankCharacterCreation { get; set; }
         public bool EnableMinorFactionTroopRecruitment { get; set; }
