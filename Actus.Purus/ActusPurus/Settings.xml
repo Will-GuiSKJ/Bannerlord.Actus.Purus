@@ -84,17 +84,6 @@
     <Value>3</Value>
   </InitialWorkshopCount>
 
-  <!--Crafting Customizations-->
-  <CraftingConfig>
-    <Enabled>true</Enabled>
-    <StaminaCostForRefiningMultiplier>0.5</StaminaCostForRefiningMultiplier>
-    <StaminaCostForSmithingMultiplier>0.5</StaminaCostForSmithingMultiplier>
-    <StaminaCostForSmeltingMultiplier>0.5</StaminaCostForSmeltingMultiplier>
-    <PartResearchXPGainMultiplier>3</PartResearchXPGainMultiplier>
-    <HourlySettlementStaminaRecoveryRate>5</HourlySettlementStaminaRecoveryRate>
-    <HourlyMovingStaminaRecoveryRate>1</HourlyMovingStaminaRecoveryRate>
-  </CraftingConfig>
-
   <!--Every day, add a number of recruit-level troops to a settlement's garrison's party. Values between 0 and 1 are treated as a percentage chance of spawning the troop-->
   <!--Recruit troops are chosen from the settlement's Culture and the Owner's Clan's Culture, according to the ratio configuration-->
   <GarrisonRecruitment>
@@ -104,6 +93,22 @@
     <ChanceToSpawnNobleTroop>0.2</ChanceToSpawnNobleTroop>
     <RatioOfPlayerCultureTroops>0.5</RatioOfPlayerCultureTroops>
   </GarrisonRecruitment>
+
+  <!--Crafting Customizations-->
+  <CraftingConfig>
+    <Enabled>true</Enabled>
+    <StaminaCostMultiplier>0.5</StaminaCostMultiplier>
+    <PartResearchXPGainMultiplier>3</PartResearchXPGainMultiplier>
+    <HourlySettlementStaminaRecoveryRate>5</HourlySettlementStaminaRecoveryRate>
+    <HourlyMovingStaminaRecoveryRate>1</HourlyMovingStaminaRecoveryRate>
+  </CraftingConfig>
+
+  <!--Custom Equipment Drop logic from Battle. For every troop fought, a random (weighted on value) item is chosen from its equipment set then checked against a loot drop chance-->
+  <!--Items with values closer to or surpassing the ItemValueThreshold are highly unlikely to drop, though not impossible-->
+  <EquipmentBattleReward>
+    <Enabled>true</Enabled>
+    <ItemValueThreshold>5000</ItemValueThreshold>
+  </EquipmentBattleReward>
 
   <!--Settings for passive, daily, XP awards to Skills-->
   <PassiveXPSettings>
@@ -118,15 +123,15 @@
     <!--Skill level cap where passive XP stops being awarded-->
     <PassiveXPSkillLevelCap>125</PassiveXPSkillLevelCap>
 
-    <!--Award Passive XP to Skills (as long as learning rate is not 0 for the Skill)-->
-    <PassiveOneHandedXP>0</PassiveOneHandedXP>
-    <PassiveTwoHandedXP>0</PassiveTwoHandedXP>
-    <PassivePolearmXP>0</PassivePolearmXP>
-    <PassiveBowXP>0</PassiveBowXP>
-    <PassiveCrossbowXP>0</PassiveCrossbowXP>
-    <PassiveThrowingXP>0</PassiveThrowingXP>
-    <PassiveRidingXP>0</PassiveRidingXP>
-    <PassiveAthleticsXP>0</PassiveAthleticsXP>
+    <!--Award Passive XP to Skills (as long as learning rate is not 0 for the Skill). This value is multiplied by the current skill level-->
+    <PassiveOneHandedXP>2</PassiveOneHandedXP>
+    <PassiveTwoHandedXP>2</PassiveTwoHandedXP>
+    <PassivePolearmXP>2</PassivePolearmXP>
+    <PassiveBowXP>2</PassiveBowXP>
+    <PassiveCrossbowXP>2</PassiveCrossbowXP>
+    <PassiveThrowingXP>3</PassiveThrowingXP>
+    <PassiveRidingXP>1</PassiveRidingXP>
+    <PassiveAthleticsXP>1</PassiveAthleticsXP>
     <PassiveCraftingXP>0</PassiveCraftingXP>
     <PassiveScoutingXP>0</PassiveScoutingXP>
     <PassiveTacticsXP>10</PassiveTacticsXP>

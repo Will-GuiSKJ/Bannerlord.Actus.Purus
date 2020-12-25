@@ -44,6 +44,9 @@ This is completely generic, meaning this *should* work with any custom minor fac
 - Configurable Stamina cost multipliers for Smelting, Smithing and Refining.
 - Configurable Part Research XP multiplier.
 
+### Equipment Battle Reward
+- Allows a weighted chance (based on item value) of *any* equipment drop from a troop you have battled
+
 ### Passive XP Gain
 Each day, several skills are awarded a set amount of XP for the player.
 - XP can be awarded to all skills or only to those with Focus Points

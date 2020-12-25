@@ -4,54 +4,9 @@ using System;
 using System.Reflection;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors;
-using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
 
 namespace Bannerlord.Actus.Purus.Patches
 {
-    [HarmonyPatch(typeof(DefaultSmithingModel))]
-    class CraftingCostsPatch
-    {
-        [HarmonyPostfix]
-        [HarmonyPatch(nameof(DefaultSmithingModel.GetEnergyCostForRefining))]
-        static void GetEnergyCostForRefiningPostfix(ref int __result)
-        {
-            if (ModSettings.Settings.CraftingConfig.Enabled)
-            {
-                __result = (int)Math.Floor(__result * ModSettings.Settings.CraftingConfig.StaminaCostForRefiningMultiplier);
-            }
-        }
-
-        [HarmonyPostfix]
-        [HarmonyPatch(nameof(DefaultSmithingModel.GetEnergyCostForSmithing))]
-        static void GetEnergyCostForSmithingPostfix(ref int __result)
-        {
-            if (ModSettings.Settings.CraftingConfig.Enabled)
-            {
-                __result = (int)Math.Floor(__result * ModSettings.Settings.CraftingConfig.StaminaCostForSmithingMultiplier);
-            }
-        }
-
-        [HarmonyPostfix]
-        [HarmonyPatch(nameof(DefaultSmithingModel.GetEnergyCostForSmelting))]
-        static void GetEnergyCostForSmeltingPostfix(ref int __result)
-        {
-            if (ModSettings.Settings.CraftingConfig.Enabled)
-            {
-                __result = (int)Math.Floor(__result * ModSettings.Settings.CraftingConfig.StaminaCostForSmeltingMultiplier);
-            }
-        }
-
-        [HarmonyPostfix]
-        [HarmonyPatch(nameof(DefaultSmithingModel.GetPartResearchGainForSmithingItem))]
-        static void GetPartResearchGainForSmithingItemPostfix(ref int __result)
-        {
-            if (ModSettings.Settings.CraftingConfig.Enabled)
-            {
-                __result = (int)Math.Ceiling(__result * ModSettings.Settings.CraftingConfig.PartResearchXPGainMultiplier);
-            }
-        }
-    }
-
     [HarmonyPatch(typeof(CraftingCampaignBehavior))]
     class CraftingRecoveryRatePatch
     {

@@ -78,11 +78,18 @@ namespace Bannerlord.Actus.Purus.Quests
                     .BeginPlayerOptions()
                         .PlayerOption("You'll have to do better than that - ADD PERSUASION FLOW HERE.")
                         .PlayerOption("Deal.")
-                    .EndPlayerOptions()
-                .CloseDialog();
+                            .Consequence(EndQuestBySidingWithMerchantConsequence)
+                            .CloseDialog()
+                    .EndPlayerOptions();
 
             Campaign.Current.ConversationManager.AddDialogFlow(dialogFlowStart, this);
             Campaign.Current.ConversationManager.AddDialogFlow(dialogFlowEnd, this);
+        }
+
+        private void MerchantDialogConsequence()
+        {
+            _merchantQuestAccpted = true;
+            AddLog(new TextObject($"{QuestGiver.Name} has asked you to defeat at least one of the Jawwal parties and bring the leader as a prisoner back."));
         }
 
         private bool hasJawwalPrisonersCondition()
@@ -93,10 +100,15 @@ namespace Bannerlord.Actus.Purus.Quests
             return jawwalPrisoners.Count > 0;
         }
 
-        private void MerchantDialogConsequence()
+        private void EndQuestBySidingWithMerchantConsequence()
         {
-            _merchantQuestAccpted = true;
-            AddLog(new TextObject($"{QuestGiver.Name} has asked you to defeat at least one of the Jawwal parties and bring the leader as a prisoner back."));
+            var playerParties = new List<PartyBase>(Hero.MainHero.OwnedParties);
+            var playerPrisoners = new List<CharacterObject>(playerParties[0].PrisonerHeroes());
+            var jawwalPrisoners = playerPrisoners.FindAll(c => c.HeroObject.Clan.StringId == "jawwal");
+            foreach(var prisoner in jawwalPrisoners)
+            {
+                //QuestGiver.HomeSettlement.
+            }
         }
     }
 }

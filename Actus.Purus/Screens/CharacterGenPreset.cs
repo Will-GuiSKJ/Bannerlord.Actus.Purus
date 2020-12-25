@@ -21,7 +21,7 @@ namespace Bannerlord.Actus.Purus.Screens
     class CharacterGenPresetViewModel : ViewModel
     {
         private int _presetIndex = 0;
-        private bool isFemale = false;
+        private bool _isFemale = false;
 
         private HintViewModel _presetHint = new HintViewModel("Cycle through body presets");
         [DataSourceProperty]
@@ -42,9 +42,9 @@ namespace Bannerlord.Actus.Purus.Screens
             Game.Current.EventManager.RegisterEvent(new Action<FaceGenVMCustomEventGenderChanged>(
                 (FaceGenVMCustomEventGenderChanged customEvent) =>
                 {
-                    var oldIsFemale = isFemale;
-                    isFemale = customEvent.Gender == 1;
-                    if (isFemale != oldIsFemale)
+                    var oldIsFemale = _isFemale;
+                    _isFemale = customEvent.Gender == 1;
+                    if (_isFemale != oldIsFemale)
                     {
                         _presetIndex = 0;
                         TogglePresets();
@@ -56,11 +56,11 @@ namespace Bannerlord.Actus.Purus.Screens
         public void TogglePresets()
         {
             var previousPresetIndex = _presetIndex;
-            var gender = isFemale ? "Female" : "Male";
+            var gender = _isFemale ? "Female" : "Male";
             Utils.Logger.Log($"{gender} Preset {_presetIndex}", true);
 
             string presetBodyProperties;
-            if (isFemale)
+            if (_isFemale)
             {
                 presetBodyProperties = ModSettings.Settings.CharacterPresets.FemalePresets[_presetIndex].ToString();
                 _presetIndex++;
@@ -79,7 +79,7 @@ namespace Bannerlord.Actus.Purus.Screens
 
             if (TaleWorlds.Core.BodyProperties.FromString(presetBodyProperties, out bodyProperties))
             {
-                CharacterObject.PlayerCharacter.UpdatePlayerCharacterBodyProperties(bodyProperties, isFemale);
+                CharacterObject.PlayerCharacter.UpdatePlayerCharacterBodyProperties(bodyProperties, _isFemale);
                 Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventUpdate());
             }
             else
@@ -89,7 +89,7 @@ namespace Bannerlord.Actus.Purus.Screens
         public override void RefreshValues()
         {
             base.RefreshValues();
-            Utils.Logger.Log("RefreshValues");
+            Utils.Logger.Log("CharacterGenPresetViewModel RefreshValues");
         }
     }
 }

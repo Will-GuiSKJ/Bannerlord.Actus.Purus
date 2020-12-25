@@ -219,11 +219,13 @@
     <Compile Include="Dialogs\DialogTokenShortcuts.cs" />
     <Compile Include="Dialogs\MinorFactionTroopRecruitmentDialogs.cs" />
     <Compile Include="Dialogs\MinorFactionQuestStarterDialogs.cs" />
-    <Compile Include="Patches\CraftingPatch.cs" />
+    <Compile Include="Models\BattleRewardModel.cs" />
+    <Compile Include="Models\ClanTierModel.cs" />
+    <Compile Include="Models\SmithingModel.cs" />
+    <Compile Include="Models\WorkshopModel.cs" />
+    <Compile Include="Patches\CraftingRecoveryRatePatch.cs" />
     <Compile Include="Patches\CharacterPresetsPatch.cs" />
-    <Compile Include="Patches\InitialWorkshopCountPatch.cs" />
     <Compile Include="Patches\InitialCompanionCountPatch.cs" />
-    <Compile Include="Patches\InitialPartyCountPatch.cs" />
     <Compile Include="Quests\JawwalQuestLine.cs" />
     <Compile Include="Screens\CharacterGenPreset.cs" />
     <Compile Include="Start.cs" />

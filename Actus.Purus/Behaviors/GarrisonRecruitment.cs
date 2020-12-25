@@ -25,7 +25,11 @@ namespace Bannerlord.Actus.Purus.Behaviors
                     var numberOfTroopsToAdd = Math.Min(dailyNumberOfRecruits, garrisonSizeLimit - currentGarrisonSize);
                     var troop = GetTroopToAdd(settlement);
                     if (troop != null)
+                    {
                         settlement.Town.GarrisonParty.MemberRoster.AddToCounts(troop, numberOfTroopsToAdd);
+                        if (settlement.OwnerClan.Leader.StringId == Hero.MainHero.StringId)
+                            Logger.Log($"{numberOfTroopsToAdd} {troop.Name} were added to {settlement.Name}'s guarrison", true);
+                    }
                     else
                         Logger.Log($"{settlement.Culture.Name} or {settlement.OwnerClan.Culture} have missing troop data");
                 }

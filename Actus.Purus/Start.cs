@@ -46,9 +46,29 @@ namespace Bannerlord.Actus.Purus
                 starter.AddBehavior(new MinorFactionQuestGeneratorBehavior());
             }
 
+            if (ModSettings.Settings.InitialPartyCount.Enabled)
+            {
+                starter.AddModel(new Models.ClanTierModel());
+            }
+
+            if (ModSettings.Settings.InitialWorkshopCount.Enabled)
+            {
+                starter.AddModel(new Models.WorkshopModel());
+            }
+
+            if (ModSettings.Settings.CraftingConfig.Enabled)
+            {
+                starter.AddModel(new Models.SmithingModel());
+            }
+
             if (ModSettings.Settings.GarrisonRecruitment.EnabledForAI || ModSettings.Settings.GarrisonRecruitment.EnabledForPlayer)
             {
                 starter.AddBehavior(new GarrisonRecruitmentBehavior());
+            }
+
+            if (ModSettings.Settings.EquipmentBattleReward.Enabled)
+            {
+                starter.AddModel(new Models.BattleRewardModel());
             }
 
             if (ModSettings.Settings.PassiveXPSettings.Enabled)

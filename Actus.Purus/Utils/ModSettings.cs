@@ -39,7 +39,7 @@ namespace Bannerlord.Actus.Purus.Utils
     public class Settings
     {
         [NonSerialized()]
-        public bool DebugMode = false;
+        public bool DebugMode = true;
         public CharacterPresets CharacterPresets { get; set; }
         public bool EnableBlankCharacterCreation { get; set; }
         public bool EnableMinorFactionTroopRecruitment { get; set; }
@@ -49,6 +49,7 @@ namespace Bannerlord.Actus.Purus.Utils
         public SimpleConfig InitialWorkshopCount { get; set; }
         public CraftingConfig CraftingConfig { get; set; }
         public GarrisonRecruitment GarrisonRecruitment { get; set; }
+        public EquipmentBattleReward EquipmentBattleReward { get; set; }
         public PassiveXPSettings PassiveXPSettings { get; set; }
     }
 
@@ -90,9 +91,7 @@ namespace Bannerlord.Actus.Purus.Utils
     public class CraftingConfig
     {
         public bool Enabled { get; set; }
-        public float StaminaCostForRefiningMultiplier { get; set; }
-        public float StaminaCostForSmithingMultiplier { get; set; }
-        public float StaminaCostForSmeltingMultiplier { get; set; }
+        public float StaminaCostMultiplier { get; set; }
         public float PartResearchXPGainMultiplier { get; set; }
         public int HourlySettlementStaminaRecoveryRate { get; set; }
         public int HourlyMovingStaminaRecoveryRate { get; set; }
@@ -106,6 +105,13 @@ namespace Bannerlord.Actus.Purus.Utils
         public float DailyNumberOfRecruits { get; set; }
         public float ChanceToSpawnNobleTroop { get; set; }
         public float RatioOfPlayerCultureTroops { get; set; }
+    }
+
+    [Serializable()]
+    public class EquipmentBattleReward
+    {
+        public bool Enabled { get; set; }
+        public int ItemValueThreshold { get; set; }
     }
 
     [Serializable()]

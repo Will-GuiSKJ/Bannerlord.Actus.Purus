@@ -9,6 +9,9 @@ This roadmap details the features intended to be included in Bannerlord Actus Pu
 	1. Captive Betrayer: Questline for the Legion of the Betrayed involving rescuing one of its former Legates now held prisoner by the Norther Empire
 1. Add way to recruit minor faction units through dialogs
 1. Create more content around Roguery
+	1. Recruit bandit parties if high roguery skill and charm
+	1. Recruit bandit camp boss party if high roguery and charm
+	1. minor faction recruitment lower requirements if high roguery
 
 ### Character Creation
 1. Blank-Slate start: Bypass the background option steps and award player a number of focus point.
