@@ -60,27 +60,24 @@
   <!--At the start of "Rebuild Your Clan" quest, the player's character has all skills and attributes set to 0 and is awarded 20 attribute points and 10 focus points-->
   <EnableBlankCharacterCreation>true</EnableBlankCharacterCreation>
 
-  <!--Minor Factions that have reputation 20+ with player allow its units to be recruited for a price-->
+  <!--Minor Factions allow its units to be recruited by the player for a price-->
   <EnableMinorFactionTroopRecruitment>true</EnableMinorFactionTroopRecruitment>
-
-  <!--Questline for each vanilla Minor Faction that awards large reputation to the player-->
-  <EnableMinorFactionQuests>true</EnableMinorFactionQuests>
 
   <!--Number of companions the player character can have at Clan Tier 0-->
   <InitialCompanionCount>
-    <Enabled>false</Enabled>
-    <Value>3</Value>
+    <Enabled>true</Enabled>
+    <Value>5</Value>
   </InitialCompanionCount>
 
   <!--Number of parties the player character can have at Clan Tier 0-->
   <InitialPartyCount>
     <Enabled>false</Enabled>
-    <Value>3</Value>
+    <Value>2</Value>
   </InitialPartyCount>
 
   <!--Number of workshops the player character can have at Clan Tier 0-->
   <InitialWorkshopCount>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Value>3</Value>
   </InitialWorkshopCount>
 
@@ -134,10 +131,10 @@
     <PassiveAthleticsXP>1</PassiveAthleticsXP>
     <PassiveCraftingXP>0</PassiveCraftingXP>
     <PassiveScoutingXP>0</PassiveScoutingXP>
-    <PassiveTacticsXP>10</PassiveTacticsXP>
+    <PassiveTacticsXP>5</PassiveTacticsXP>
     <PassiveRogueryXP>10</PassiveRogueryXP>
-    <PassiveCharmXP>5</PassiveCharmXP>
-    <PassiveLeadershipXP>20</PassiveLeadershipXP>
+    <PassiveCharmXP>2</PassiveCharmXP>
+    <PassiveLeadershipXP>10</PassiveLeadershipXP>
     <PassiveTradeXP>0</PassiveTradeXP>
     <PassiveStewardXP>0</PassiveStewardXP>
     <PassiveMedicineXP>5</PassiveMedicineXP>

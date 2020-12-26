@@ -28,15 +28,17 @@ You are then awarded 20 Attribute Points and 10 Focus Points to spend as you wis
 
 ### Minor Faction Troop Recruitment
 All minor factions now allow the player to recruit some of its junior troops through new Dialogs.  
-Once your Clan is Tier 3 (or Tier 2 if you are of the same Culture as the minor faction) and once you reach 20 relation with heros of the minor faction, you are able to recruit 20 of the lowest tier troop of that faction for 1000 denars.  
+Once your Clan is Tier 3 (or Tier 2 if you are of the same Culture as the minor faction) and once you reach 20 relation with heroes of the minor faction, you are able to recruit 20 of the lowest tier troop of that faction for 1000 denars.  
 That faction will not allow you to recruit more until you have no more of those troops, meaning those recruits either upgraded or died.  
-This is completely generic, meaning this *should* work with any custom minor factions such as those added by the [https://www.nexusmods.com/mountandblade2bannerlord/mods/411](Calradia at War mod).
+For players with high Roguery skill, they skip the relation requirement for outlaw minor factions.  
+This is completely generic, meaning this *should* work with any custom minor factions such as those added by the [Calradia at War mod](https://www.nexusmods.com/mountandblade2bannerlord/mods/411).
 
 ### Generic Configurations
 - Set starting cap of number of workshops for player, at Clan tier 0.
 - Set starting cap of number of parties for player, at Clan tier 0.
 - Set starting cap of number of companions for player, at Clan tier 0.
 - Garrisons are made up of a configurable percentage of units from the settlement's owner's culture
+	- Each day, a configurable number of garrison base troops are generated.
 	- Ex: an Empire castle held by a Sturgian lord will have some of its automatically generated garrison units be Sturgian units
 
 ### Crafting
@@ -45,7 +47,10 @@ This is completely generic, meaning this *should* work with any custom minor fac
 - Configurable Part Research XP multiplier.
 
 ### Equipment Battle Reward
-- Allows a weighted chance (based on item value) of *any* equipment drop from a troop you have battled
+- Allows a weighted chance (based on item value) of *any* equipment drop from a troop you have battled.
+	- Each troop is evaluated based on its equipment set.
+	- An item is chosen from that set based on a weigthed (based on value) random chance.
+	- Then the item is evaluated against a drop chance that is dependent on the ItemValueThreshold configuration.
 
 ### Passive XP Gain
 Each day, several skills are awarded a set amount of XP for the player.

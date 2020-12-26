@@ -13,6 +13,7 @@
         public static string lordDiscussion = "lord_politics_request";
         public static string issueDiscussion = "issue_offer";
         public static string questDiscussion = "quest_discuss";
+        public static string attackingBandits = "bandit_attacker";
         public static string leave = "hero_leave";
         public static string end = "close_window";
     }

@@ -46,7 +46,7 @@ namespace Bannerlord.Actus.Purus
                 starter.AddBehavior(new MinorFactionQuestGeneratorBehavior());
             }
 
-            if (ModSettings.Settings.InitialPartyCount.Enabled)
+            if (ModSettings.Settings.InitialPartyCount.Enabled || ModSettings.Settings.InitialCompanionCount.Enabled)
             {
                 starter.AddModel(new Models.ClanTierModel());
             }

@@ -39,11 +39,12 @@ namespace Bannerlord.Actus.Purus.Utils
     public class Settings
     {
         [NonSerialized()]
-        public bool DebugMode = true;
+        public bool DebugMode = false;
         public CharacterPresets CharacterPresets { get; set; }
         public bool EnableBlankCharacterCreation { get; set; }
         public bool EnableMinorFactionTroopRecruitment { get; set; }
-        public bool EnableMinorFactionQuests { get; set; }
+        [NonSerialized()]
+        public bool EnableMinorFactionQuests = false;
         public SimpleConfig InitialCompanionCount { get; set; }
         public SimpleConfig InitialPartyCount { get; set; }
         public SimpleConfig InitialWorkshopCount { get; set; }

@@ -1,6 +1,9 @@
 ﻿using Bannerlord.Actus.Purus.Dialogs.MinorFactionTroopRecruitment;
+using System;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Actions;
+using TaleWorlds.Core;
+using TaleWorlds.Library;
 using TaleWorlds.ObjectSystem;
 
 namespace Bannerlord.Actus.Purus.Behaviors
@@ -45,7 +48,17 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private bool LacksRelationship()
         {
-            return Hero.OneToOneConversationHero.GetRelationWithPlayer() < 20;
+            return Hero.OneToOneConversationHero.GetRelationWithPlayer() < (int)Math.Floor(20 * OutlawModifier());
+        }
+
+        private float OutlawModifier()
+        {
+            if (Hero.OneToOneConversationHero.Clan.IsOutlaw)
+            {
+                return 1 - (MathF.Clamp( Hero.MainHero.GetSkillValue(DefaultSkills.Roguery) / 100.0f, 0, 0.75f));
+            }
+            else
+                return 1;
         }
 
         private bool HasRecruits()
