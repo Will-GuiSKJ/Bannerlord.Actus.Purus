@@ -225,6 +225,7 @@
     <Compile Include="Models\ClanTierModel.cs" />
     <Compile Include="Models\SmithingModel.cs" />
     <Compile Include="Models\WorkshopModel.cs" />
+    <Compile Include="Patches\CavalryWorldMapSpeedPatch.cs" />
     <Compile Include="Patches\CraftingRecoveryRatePatch.cs" />
     <Compile Include="Patches\CharacterPresetsPatch.cs" />
     <Compile Include="Quests\JawwalQuestLine.cs" />

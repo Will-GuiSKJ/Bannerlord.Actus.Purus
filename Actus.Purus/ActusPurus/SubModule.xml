@@ -1,7 +1,7 @@
 <Module>
   <Name value="Actus Purus"/>
   <Id value="ActusPurus"/>
-  <Version value="e0.0.1"/>
+  <Version value="e0.1.0"/>
   <DefaultModule value="false"/>
   <SingleplayerModule value="true"/>
   <MultiplayerModule value="false"/>

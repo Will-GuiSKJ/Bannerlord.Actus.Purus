@@ -30,7 +30,7 @@ You are then awarded 20 Attribute Points and 10 Focus Points to spend as you wis
 All minor factions now allow the player to recruit some of its junior troops through new Dialogs.  
 Once your Clan is Tier 3 (or Tier 2 if you are of the same Culture as the minor faction) and once you reach 20 relation with heroes of the minor faction, you are able to recruit 20 of the lowest tier troop of that faction for 1000 denars.  
 That faction will not allow you to recruit more until you have no more of those troops, meaning those recruits either upgraded or died.  
-For players with high Roguery skill, they skip the relation requirement for outlaw minor factions.  
+For players with high Roguery skill, the relation requirement is reduced to as little as 5 for outlaw minor factions.  
 This is completely generic, meaning this *should* work with any custom minor factions such as those added by the [Calradia at War mod](https://www.nexusmods.com/mountandblade2bannerlord/mods/411).
 
 ### Generic Configurations
@@ -40,6 +40,7 @@ This is completely generic, meaning this *should* work with any custom minor fac
 - Garrisons are made up of a configurable percentage of units from the settlement's owner's culture
 	- Each day, a configurable number of garrison base troops are generated.
 	- Ex: an Empire castle held by a Sturgian lord will have some of its automatically generated garrison units be Sturgian units
+- Cavalry Speed modifers can be configurable to help reduce Khuzait hegemony in late game
 
 ### Crafting
 - Heroes now restore stamina while moving in the world map, at a configurable rate.
@@ -51,6 +52,10 @@ This is completely generic, meaning this *should* work with any custom minor fac
 	- Each troop is evaluated based on its equipment set.
 	- An item is chosen from that set based on a weigthed (based on value) random chance.
 	- Then the item is evaluated against a drop chance that is dependent on the ItemValueThreshold configuration.
+
+### Cavalry World Map Speed Modifiers
+When enabled, the player can control how much of a modifier do cavalry units contribute to world map speed, as well as footman soldiers on horses.   
+This also allows the player to disable the Khuzait's racial bonus, which helps reduce snowballing in the late game.
 
 ### Passive XP Gain
 Each day, several skills are awarded a set amount of XP for the player.
@@ -66,11 +71,11 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- This usually happens when opening the character editor after the campaign has started.
 1. Changing between genders can sometimes crash to desktop
 	- This seems related to how some BodyProperties don't translate well between gender. This is a vanilla issue and it is **not** part of this mod.
-1. Character Preset button layer is blocking the player's ability to rotate the character model during Character Creation
-	- The Layer that contains the preset button has InputRestrictions on it, which is what *makes* the button clickable, but has the side effect of interfeering with the click-and-drag to rate the character.
+1. Character Preset button layer is impacting the player's ability to rotate the character model during Character Creation
+	- The Layer that contains the preset button has InputRestrictions on it, which is what *makes* the button clickable, but has the side effect of interfering with the click-and-drag to rate the character.
 
 ## Roadmap
-For all the features I intend to add to this mod, please see the [https://github.com/Will-GuiSKJ/Bannerlord.Actus.Purus/blob/master/Roadmap.md](Roadmap).
+For all the features I intend to add to this mod, please see the [Roadmap](https://github.com/Will-GuiSKJ/Bannerlord.Actus.Purus/blob/master/Roadmap.md).
 
 ## I Need Your Help!
 One of the main things I want to add with this mod is a whole plethora of quests, starting with adding quests to Minor Factions to both flesh them out as well as give reputation so players can recruit their units.  

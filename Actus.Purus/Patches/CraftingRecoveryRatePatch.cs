@@ -45,11 +45,11 @@ namespace Bannerlord.Actus.Purus.Patches
                     }
                 }
 
-                return true;
+                return false;
             }
             else
             {
-                return false;
+                return true;
             }
         }
     }

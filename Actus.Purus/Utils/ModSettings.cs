@@ -51,6 +51,7 @@ namespace Bannerlord.Actus.Purus.Utils
         public CraftingConfig CraftingConfig { get; set; }
         public GarrisonRecruitment GarrisonRecruitment { get; set; }
         public EquipmentBattleReward EquipmentBattleReward { get; set; }
+        public CavalrySpeedModifiers CavalrySpeedModifiers { get; set; }
         public PassiveXPSettings PassiveXPSettings { get; set; }
     }
 
@@ -113,6 +114,15 @@ namespace Bannerlord.Actus.Purus.Utils
     {
         public bool Enabled { get; set; }
         public int ItemValueThreshold { get; set; }
+    }
+
+    [Serializable()]
+    public class CavalrySpeedModifiers
+    {
+        public bool Enabled { get; set; }
+        public bool DisableKhuzaitRacialBonus { get; set; }
+        public float CavalryRatioModifier { get; set; }
+        public float MountedFootmenRatioModifier { get; set; }
     }
 
     [Serializable()]

@@ -71,14 +71,14 @@
 
   <!--Number of parties the player character can have at Clan Tier 0-->
   <InitialPartyCount>
-    <Enabled>false</Enabled>
-    <Value>2</Value>
+    <Enabled>true</Enabled>
+    <Value>5</Value>
   </InitialPartyCount>
 
   <!--Number of workshops the player character can have at Clan Tier 0-->
   <InitialWorkshopCount>
-    <Enabled>false</Enabled>
-    <Value>3</Value>
+    <Enabled>true</Enabled>
+    <Value>5</Value>
   </InitialWorkshopCount>
 
   <!--Every day, add a number of recruit-level troops to a settlement's garrison's party. Values between 0 and 1 are treated as a percentage chance of spawning the troop-->
@@ -106,6 +106,15 @@
     <Enabled>true</Enabled>
     <ItemValueThreshold>5000</ItemValueThreshold>
   </EquipmentBattleReward>
+
+  <!--Rebalance of world map speed modifiers for cavalry. Default CavalryRatioModifier is 0.6 and MountedFootmenRatioModifier is 0.3-->
+  <!--Lower cavalry speed modifiers and removal of Khuzait racial bonus helps diminsh snowballing effect in late game-->
+  <CavalrySpeedModifiers>
+    <Enabled>true</Enabled>
+    <DisableKhuzaitRacialBonus>true</DisableKhuzaitRacialBonus>
+    <CavalryRatioModifier>0.45</CavalryRatioModifier>
+    <MountedFootmenRatioModifier>0.3</MountedFootmenRatioModifier>
+  </CavalrySpeedModifiers>
 
   <!--Settings for passive, daily, XP awards to Skills-->
   <PassiveXPSettings>
