@@ -12,30 +12,34 @@ namespace Bannerlord.Actus.Purus.Models
         public override EquipmentElement GetLootedItemFromTroop(CharacterObject character, float targetValue)
         {
             var troopEquimentSet = character.AllEquipments.GetRandomElement<Equipment>();
-            var rewardChest = new List<WeigthedItem>();
-
-            var accumulatedChestValue = 0;
+            var reward = new EquipmentElement();
+            var rewardChest = new List<EquipmentElement>();
             var equipmentIndexList = ShuffleEquipmentIndexes();
+
             foreach (var index in equipmentIndexList)
             {
                 var equipment = troopEquimentSet.GetEquipmentFromSlot(index);
                 if (equipment.Item != null && !equipment.Item.NotMerchandise)
                 {
-                    var itemValue = equipment.ItemValue;
-                    accumulatedChestValue += itemValue;
-                    rewardChest.Add(new WeigthedItem(equipment, accumulatedChestValue));
+                    rewardChest.Add(equipment);
                 }
             }
 
-            var rnd = new Random();
-            var valueTarget = rnd.NextDouble() * accumulatedChestValue;
-            foreach (var weigthedItem in rewardChest)
+            var normalItemValueThreshold = GetRandomThreshold(ModSettings.Settings.EquipmentBattleReward.ItemValueThreshold);
+            var rareItemValueThreshold = GetRandomThreshold(500000);
+            foreach (var item in rewardChest)
             {
-                if (weigthedItem.cumulativeWeight >= valueTarget && DropCheck(weigthedItem.item.ItemValue))
-                    return weigthedItem.item;
+                if (item.ItemValue >= normalItemValueThreshold)
+                {
+                    if (item.ItemValue > ModSettings.Settings.EquipmentBattleReward.ItemValueThreshold && item.ItemValue > rareItemValueThreshold)
+                        continue;
+
+                    reward = item;
+                    break;
+                }
             }
 
-            return new EquipmentElement();
+            return reward;
         }
 
         private List<EquipmentIndex> ShuffleEquipmentIndexes()
@@ -70,27 +74,12 @@ namespace Bannerlord.Actus.Purus.Models
             return list;
         }
 
-        private bool DropCheck(int itemValue)
+        private int GetRandomThreshold(int maxValue)
         {
-            var cleanedItemValue = itemValue <= 0 ? 1 : itemValue;
-            var chance = (float)cleanedItemValue / ModSettings.Settings.EquipmentBattleReward.ItemValueThreshold;
-            if (chance > 1)
-                chance = 1;
-
             var rnd = new Random();
-            return rnd.NextDouble() >= chance;
-        }
-
-        internal class WeigthedItem
-        {
-            public int cumulativeWeight;
-            public EquipmentElement item;
-
-            public WeigthedItem(EquipmentElement _item, int _weight)
-            {
-                item = _item;
-                cumulativeWeight = _weight;
-            }
+            return (int)Math.Floor(Math.Abs(rnd.NextDouble() - rnd.NextDouble()) * (1 + maxValue));
         }
     }
 }
+
+//https://gamedev.stackexchange.com/questions/116832/random-number-in-a-range-biased-toward-the-low-end-of-the-range

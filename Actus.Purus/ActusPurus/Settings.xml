@@ -101,7 +101,7 @@
   </CraftingConfig>
 
   <!--Custom Equipment Drop logic from Battle. For every troop fought, a random (weighted on value) item is chosen from its equipment set then checked against a loot drop chance-->
-  <!--Items with values closer to or surpassing the ItemValueThreshold are highly unlikely to drop, though not impossible-->
+  <!--Items with values surpassing the ItemValueThreshold are even more increasingly unlikely to drop (also weighted on value), though never impossible for items below 500,000 denars-->
   <EquipmentBattleReward>
     <Enabled>true</Enabled>
     <ItemValueThreshold>5000</ItemValueThreshold>
