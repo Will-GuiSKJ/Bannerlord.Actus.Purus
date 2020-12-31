@@ -15,25 +15,35 @@ namespace Bannerlord.Actus.Purus.Models
             var reward = new EquipmentElement();
             var rewardChest = new List<EquipmentElement>();
             var equipmentIndexList = ShuffleEquipmentIndexes();
+            var settings = ModSettings.Settings.EquipmentBattleReward;
 
+            var rnd = new Random();
             foreach (var index in equipmentIndexList)
             {
                 var equipment = troopEquimentSet.GetEquipmentFromSlot(index);
-                if (equipment.Item != null && !equipment.Item.NotMerchandise)
+                if (equipment.Item != null && !equipment.Item.NotMerchandise && rnd.NextDouble() < settings.IndividualItemRewardChance)
                 {
                     rewardChest.Add(equipment);
                 }
             }
 
-            var normalItemValueThreshold = GetRandomThreshold(ModSettings.Settings.EquipmentBattleReward.ItemValueThreshold);
-            var rareItemValueThreshold = GetRandomThreshold(500000);
+            var commonItemValueThreshold = GetRandomThreshold(settings.CommonItemValueThreshold);
+            var uncommonItemValueThreshold = GetRandomThreshold(settings.UncommonItemValueThreshold, settings.CommonItemValueThreshold);
+            var rareItemValueThreshold = GetRandomThreshold(settings.RareItemValueThreshold, settings.UncommonItemValueThreshold);
             foreach (var item in rewardChest)
             {
-                if (item.ItemValue >= normalItemValueThreshold)
+                if (item.ItemValue <= commonItemValueThreshold && rnd.NextDouble() < 0.5)
                 {
-                    if (item.ItemValue > ModSettings.Settings.EquipmentBattleReward.ItemValueThreshold && item.ItemValue > rareItemValueThreshold)
-                        continue;
-
+                    reward = item;
+                    break;
+                }
+                else if (item.ItemValue > settings.CommonItemValueThreshold && item.ItemValue <= uncommonItemValueThreshold && rnd.NextDouble() < 0.1)
+                {
+                    reward = item;
+                    break;
+                }
+                else if (item.ItemValue > settings.UncommonItemValueThreshold && item.ItemValue <= rareItemValueThreshold && rnd.NextDouble() < 0.01)
+                {
                     reward = item;
                     break;
                 }
@@ -74,10 +84,10 @@ namespace Bannerlord.Actus.Purus.Models
             return list;
         }
 
-        private int GetRandomThreshold(int maxValue)
+        private int GetRandomThreshold(int maxValue, int minValue = 0)
         {
             var rnd = new Random();
-            return (int)Math.Floor(Math.Abs(rnd.NextDouble() - rnd.NextDouble()) * (1 + maxValue));
+            return (int)Math.Floor(Math.Abs(rnd.NextDouble() - rnd.NextDouble()) * (1 + maxValue - minValue) + minValue);
         }
     }
 }

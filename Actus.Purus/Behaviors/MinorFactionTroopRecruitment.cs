@@ -43,7 +43,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private bool LacksRenown()
         {
-            return (Hero.MainHero.Culture.StringId == Hero.OneToOneConversationHero.Culture.StringId && Hero.MainHero.Clan.Tier > 2) || Hero.MainHero.Clan.Tier > 3;
+            return (Hero.MainHero.Culture.StringId == Hero.OneToOneConversationHero.Culture.StringId && Hero.MainHero.Clan.Tier < 2) || Hero.MainHero.Clan.Tier < 3;
         }
 
         private bool LacksRelationship()
@@ -55,7 +55,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
         {
             if (Hero.OneToOneConversationHero.Clan.IsOutlaw)
             {
-                return 1 - (MathF.Clamp( Hero.MainHero.GetSkillValue(DefaultSkills.Roguery) / 100.0f, 0, 0.75f));
+                return 1 - (MathF.Clamp(Hero.MainHero.GetSkillValue(DefaultSkills.Roguery) / 100.0f, 0, 0.75f));
             }
             else
                 return 1;
@@ -64,8 +64,12 @@ namespace Bannerlord.Actus.Purus.Behaviors
         private bool HasRecruits()
         {
             var troop = MBObjectManager.Instance.GetObject<CharacterObject>(GetRecruitUnitId());
-            var count = MobileParty.MainParty.MemberRoster.GetTroopCount(troop);
-            return count > 10;
+            var count = 0;
+            foreach (var party in Hero.MainHero.OwnedParties)
+            {
+                count += party.MemberRoster.GetTroopCount(troop);
+            }
+            return count > 0;
         }
 
         private bool LacksMoney()

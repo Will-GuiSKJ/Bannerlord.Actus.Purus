@@ -113,7 +113,10 @@ namespace Bannerlord.Actus.Purus.Utils
     public class EquipmentBattleReward
     {
         public bool Enabled { get; set; }
-        public int ItemValueThreshold { get; set; }
+        public float IndividualItemRewardChance { get; set; }
+        public int CommonItemValueThreshold { get; set; }
+        public int UncommonItemValueThreshold { get; set; }
+        public int RareItemValueThreshold { get; set; }
     }
 
     [Serializable()]

@@ -60,7 +60,12 @@
   <!--At the start of "Rebuild Your Clan" quest, the player's character has all skills and attributes set to 0 and is awarded 20 attribute points and 10 focus points-->
   <EnableBlankCharacterCreation>true</EnableBlankCharacterCreation>
 
-  <!--Minor Factions allow its units to be recruited by the player for a price-->
+  <!--
+  Minor Factions allow its units to be recruited by the player for a price. 20 recruit-tier units for 1000 denars
+  Must have at least 20 relation with minor faction. Bandit faction require less relation based on player's Roguery skill level
+  Must have Clan tier 3 (or 2 if player is the same culture as the minor faction)
+  Cannot have any recruit-level troop from that minor faction already in any of the player's parties
+  -->
   <EnableMinorFactionTroopRecruitment>true</EnableMinorFactionTroopRecruitment>
 
   <!--Number of companions the player character can have at Clan Tier 0-->
@@ -81,8 +86,10 @@
     <Value>5</Value>
   </InitialWorkshopCount>
 
-  <!--Every day, add a number of recruit-level troops to a settlement's garrison's party. Values between 0 and 1 are treated as a percentage chance of spawning the troop-->
-  <!--Recruit troops are chosen from the settlement's Culture and the Owner's Clan's Culture, according to the ratio configuration-->
+  <!--
+  Every day, add a number of recruit-level troops to a settlement's garrison's party. Values between 0 and 1 are treated as a percentage chance of spawning the troop
+  Recruit troops are chosen from the settlement's Culture and the Owner's Clan's Culture, according to the ratio configuration
+  -->
   <GarrisonRecruitment>
     <EnabledForPlayer>true</EnabledForPlayer>
     <EnabledForAI>true</EnabledForAI>
@@ -100,15 +107,24 @@
     <HourlyMovingStaminaRecoveryRate>1</HourlyMovingStaminaRecoveryRate>
   </CraftingConfig>
 
-  <!--Custom Equipment Drop logic from Battle. For every troop fought, a random (weighted on value) item is chosen from its equipment set then checked against a loot drop chance-->
-  <!--Items with values surpassing the ItemValueThreshold are even more increasingly unlikely to drop (also weighted on value), though never impossible for items below 500,000 denars-->
+  <!--
+  Custom Equipment Drop logic from Battle. For every troop fought, items from its equipment set are chosen as possible reward with a IndividualItemRewardChance between 0 and 1
+  From these possible rewards for each troop, a Common, Uncommon and Rare random thresholds are drawn where the lower values are more statistally likely than the upper values
+  Items with value below CommonItemValueThreshold drop somewhat often. Items with value between CommonItemValueThreshold and UncommonItemValueThreshold are difficult to drop
+  Items with value between UncommonItemValueThreshold and RareItemValueThreshold are extremily rare to drop. Items above RareItemValueThreshold will never drop
+  -->
   <EquipmentBattleReward>
     <Enabled>true</Enabled>
-    <ItemValueThreshold>5000</ItemValueThreshold>
+    <IndividualItemRewardChance>0.2</IndividualItemRewardChance>
+    <CommonItemValueThreshold>5000</CommonItemValueThreshold>
+    <UncommonItemValueThreshold>50000</UncommonItemValueThreshold>
+    <RareItemValueThreshold>500000</RareItemValueThreshold>
   </EquipmentBattleReward>
 
-  <!--Rebalance of world map speed modifiers for cavalry. Default CavalryRatioModifier is 0.6 and MountedFootmenRatioModifier is 0.3-->
-  <!--Lower cavalry speed modifiers and removal of Khuzait racial bonus helps diminsh snowballing effect in late game-->
+  <!--
+  Rebalance of world map speed modifiers for cavalry. Default CavalryRatioModifier is 0.6 and MountedFootmenRatioModifier is 0.3
+  Lower cavalry speed modifiers and removal of Khuzait racial bonus helps diminsh snowballing effect in late game
+  -->
   <CavalrySpeedModifiers>
     <Enabled>true</Enabled>
     <DisableKhuzaitRacialBonus>true</DisableKhuzaitRacialBonus>
