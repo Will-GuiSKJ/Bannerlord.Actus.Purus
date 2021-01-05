@@ -17,16 +17,21 @@ namespace Bannerlord.Actus.Purus.Patches
         [HarmonyPatch(MethodType.Constructor, new Type[] { typeof(BodyGenerator), typeof(IFaceGeneratorHandler), typeof(Action<float>), typeof(Action), typeof(TextObject), typeof(TextObject), typeof(int), typeof(int), typeof(int), typeof(Action<int>), typeof(bool), typeof(bool), typeof(IFaceGeneratorCustomFilter) })]
         static void ConstructorPostfix(FaceGenVM __instance)
         {
-            Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventOn());
+            var filter = __instance.GetType().GetField("_filter", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(__instance);
 
-            Game.Current.EventManager.RegisterEvent(new Action<FaceGenVMCustomEventUpdate>(
-                (FaceGenVMCustomEventUpdate customEvent) =>
-                {
-                    var bodyProperties = CharacterObject.PlayerCharacter.GetBodyProperties(CharacterObject.PlayerCharacter.Equipment, -1);
-                    var method = __instance.GetType().GetMethod("SetBodyProperties", BindingFlags.Public | BindingFlags.Instance);
-                    method.Invoke(__instance, new object[] { bodyProperties, true, -1, true });
-                }
-            ));
+            if(filter == null)
+            {
+                Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventOn());
+
+                Game.Current.EventManager.RegisterEvent(new Action<FaceGenVMCustomEventUpdate>(
+                    (FaceGenVMCustomEventUpdate customEvent) =>
+                    {
+                        var bodyProperties = CharacterObject.PlayerCharacter.GetBodyProperties(CharacterObject.PlayerCharacter.Equipment, -1);
+                        var method = __instance.GetType().GetMethod("SetBodyProperties", BindingFlags.Public | BindingFlags.Instance);
+                        method.Invoke(__instance, new object[] { bodyProperties, true, -1, true });
+                    }
+                ));
+            }
         }
 
         [HarmonyPostfix]
