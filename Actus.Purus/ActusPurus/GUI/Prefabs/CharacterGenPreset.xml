@@ -13,7 +13,6 @@
             <HintWidget DataSource="{PresetHint}" WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
           </Children>
         </ButtonWidget>
-
       </Children>
     </Widget>
   </Window>

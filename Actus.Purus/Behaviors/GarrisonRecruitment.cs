@@ -4,7 +4,7 @@ using TaleWorlds.CampaignSystem;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class GarrisonRecruitmentBehavior : CampaignBehaviorBase
+    internal class GarrisonRecruitmentBehavior : CampaignBehaviorBase
     {
         public override void RegisterEvents()
         {
@@ -81,6 +81,8 @@ namespace Bannerlord.Actus.Purus.Behaviors
             return troop;
         }
 
-        public override void SyncData(IDataStore dataStore) { }
+        public override void SyncData(IDataStore dataStore)
+        {
+        }
     }
 }

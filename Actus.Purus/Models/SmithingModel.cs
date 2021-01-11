@@ -6,7 +6,7 @@ using TaleWorlds.Core;
 
 namespace Bannerlord.Actus.Purus.Models
 {
-    class SmithingModel : DefaultSmithingModel
+    internal class SmithingModel : DefaultSmithingModel
     {
         public override int GetPartResearchGainForSmeltingItem(ItemObject item, Hero hero)
         {

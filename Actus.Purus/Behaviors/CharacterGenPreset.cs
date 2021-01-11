@@ -9,7 +9,7 @@ using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class CharacterGenPresetBehavior : CampaignBehaviorBase
+    internal class CharacterGenPresetBehavior : CampaignBehaviorBase
     {
         private GauntletLayer _layer;
 
@@ -35,6 +35,8 @@ namespace Bannerlord.Actus.Purus.Behaviors
             }
         }
 
-        public override void SyncData(IDataStore dataStore) { }
+        public override void SyncData(IDataStore dataStore)
+        {
+        }
     }
 }

@@ -7,7 +7,7 @@ using TaleWorlds.Core;
 
 namespace Bannerlord.Actus.Purus.Models
 {
-    class BattleRewardModel : DefaultBattleRewardModel
+    internal class BattleRewardModel : DefaultBattleRewardModel
     {
         public override EquipmentElement GetLootedItemFromTroop(CharacterObject character, float targetValue)
         {

@@ -2,15 +2,19 @@
 
 namespace Bannerlord.Actus.Purus.CustomEvents
 {
-    class FaceGenVMCustomEventOn : EventBase { }
+    internal class FaceGenVMCustomEventOn : EventBase
+    { }
 
-    class FaceGenVMCustomEventOff : EventBase { }
+    internal class FaceGenVMCustomEventOff : EventBase
+    { }
 
-    class FaceGenVMCustomEventUpdate : EventBase { }
+    internal class FaceGenVMCustomEventUpdate : EventBase
+    { }
 
-    class FaceGenVMCustomEventGenderChanged : EventBase
+    internal class FaceGenVMCustomEventGenderChanged : EventBase
     {
         public int Gender { get; set; }
+
         public FaceGenVMCustomEventGenderChanged(int gender) => Gender = gender;
     }
 }

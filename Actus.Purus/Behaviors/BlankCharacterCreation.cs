@@ -4,7 +4,7 @@ using TaleWorlds.CampaignSystem;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class BlankCharacterCreationBehavior : CampaignBehaviorBase
+    internal class BlankCharacterCreationBehavior : CampaignBehaviorBase
     {
         public override void RegisterEvents()
         {
@@ -24,6 +24,8 @@ namespace Bannerlord.Actus.Purus.Behaviors
             }
         }
 
-        public override void SyncData(IDataStore dataStore) { }
+        public override void SyncData(IDataStore dataStore)
+        {
+        }
     }
 }

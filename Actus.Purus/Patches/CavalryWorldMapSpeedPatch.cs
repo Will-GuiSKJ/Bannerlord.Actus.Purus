@@ -7,11 +7,11 @@ using TaleWorlds.CampaignSystem.SandBox.GameComponents.Map;
 namespace Bannerlord.Actus.Purus.Patches
 {
     [HarmonyPatch(typeof(DefaultPartySpeedCalculatingModel))]
-    class CavalryWorldMapSpeedPatch
+    internal class CavalryWorldMapSpeedPatch
     {
         [HarmonyPrefix]
         [HarmonyPatch("GetCavalryRatioModifier")]
-        static bool GetCavalryRatioModifierPatch(ref float __result, MobileParty party, int totalMenCount, int totalCavalryCount)
+        private static bool GetCavalryRatioModifierPatch(ref float __result, MobileParty party, int totalMenCount, int totalCavalryCount)
         {
             if (ModSettings.Settings.CavalrySpeedModifiers.Enabled)
             {
@@ -29,7 +29,7 @@ namespace Bannerlord.Actus.Purus.Patches
 
         [HarmonyPrefix]
         [HarmonyPatch("GetMountedFootmenRatioModifier")]
-        static bool GetMountedFootmenRatioModifier(ref float __result, int totalMenCount, int totalCavalryCount)
+        private static bool GetMountedFootmenRatioModifier(ref float __result, int totalMenCount, int totalCavalryCount)
         {
             if (ModSettings.Settings.CavalrySpeedModifiers.Enabled)
             {

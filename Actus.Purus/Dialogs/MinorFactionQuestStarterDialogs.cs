@@ -2,7 +2,7 @@
 
 namespace Bannerlord.Actus.Purus.Dialogs.MinorFactionQuestStarter
 {
-    static class TavernWorkQuery
+    internal static class TavernWorkQuery
     {
         public static string message = "I'm looking for work. Have you heard of anyone needing a salesword?";
         public static string entry = DialogTokenShortcuts.tavernKeeperStart;
@@ -10,7 +10,7 @@ namespace Bannerlord.Actus.Purus.Dialogs.MinorFactionQuestStarter
         public static string Id { get => QuestIdGenerator.Generate(message); }
     }
 
-    static class TavernWorkResponse
+    internal static class TavernWorkResponse
     {
         public static string message = "I haven't heard anything, sorry.";
         public static string entry = TavernWorkQuery.next;
@@ -18,7 +18,7 @@ namespace Bannerlord.Actus.Purus.Dialogs.MinorFactionQuestStarter
         public static string Id { get => QuestIdGenerator.Generate(message); }
     }
 
-    static class TavernWorkJawwalResponse1
+    internal static class TavernWorkJawwalResponse1
     {
         public static string message = "I hear the Jawwal have been stirring up trouble, ambushing caravans coming out of town.";
         public static string entry = TavernWorkQuery.next;
@@ -26,7 +26,7 @@ namespace Bannerlord.Actus.Purus.Dialogs.MinorFactionQuestStarter
         public static string Id { get => QuestIdGenerator.Generate(message); }
     }
 
-    static class TavernWorkJawwalResponse2
+    internal static class TavernWorkJawwalResponse2
     {
         public static string message = "Talk to {MERCHANT}. I'm sure {GENDER_PRONOUN} is looking for someone that can help.";
         public static string entry = TavernWorkJawwalResponse1.next;

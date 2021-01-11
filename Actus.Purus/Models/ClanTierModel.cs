@@ -4,7 +4,7 @@ using TaleWorlds.CampaignSystem.SandBox.GameComponents;
 
 namespace Bannerlord.Actus.Purus.Models
 {
-    class ClanTierModel : DefaultClanTierModel
+    internal class ClanTierModel : DefaultClanTierModel
     {
         public override int GetPartyLimitForTier(Clan clan, int clanTierToCheck)
         {

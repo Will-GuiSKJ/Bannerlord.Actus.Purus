@@ -11,8 +11,10 @@ namespace Bannerlord.Actus.Purus.Quests
     {
         [SaveableField(1)]
         private bool _metMerchant;
+
         [SaveableField(2)]
         private bool _merchantQuestAccpted;
+
         [SaveableField(3)]
         private Hero _metJawwal;
 
@@ -64,7 +66,6 @@ namespace Bannerlord.Actus.Purus.Quests
                 .EndPlayerOptions()
                 .CloseDialog();
 
-
             var dialogFlowEnd = DialogFlow.CreateDialogFlow(DialogTokenShortcuts.mainOptions)
                 .PlayerLine("About your Jawwal problem.")
                     .Condition(() => Hero.OneToOneConversationHero != null && Hero.OneToOneConversationHero == QuestGiver && _metMerchant)
@@ -105,7 +106,7 @@ namespace Bannerlord.Actus.Purus.Quests
             var playerParties = new List<PartyBase>(Hero.MainHero.OwnedParties);
             var playerPrisoners = new List<CharacterObject>(playerParties[0].PrisonerHeroes());
             var jawwalPrisoners = playerPrisoners.FindAll(c => c.HeroObject.Clan.StringId == "jawwal");
-            foreach(var prisoner in jawwalPrisoners)
+            foreach (var prisoner in jawwalPrisoners)
             {
                 //QuestGiver.HomeSettlement.
             }

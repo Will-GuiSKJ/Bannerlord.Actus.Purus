@@ -11,15 +11,15 @@ using TaleWorlds.MountAndBlade.ViewModelCollection;
 namespace Bannerlord.Actus.Purus.Patches
 {
     [HarmonyPatch(typeof(FaceGenVM))]
-    class CharacterPresetsPatch
+    internal class CharacterPresetsPatch
     {
         [HarmonyPostfix]
         [HarmonyPatch(MethodType.Constructor, new Type[] { typeof(BodyGenerator), typeof(IFaceGeneratorHandler), typeof(Action<float>), typeof(Action), typeof(TextObject), typeof(TextObject), typeof(int), typeof(int), typeof(int), typeof(Action<int>), typeof(bool), typeof(bool), typeof(IFaceGeneratorCustomFilter) })]
-        static void ConstructorPostfix(FaceGenVM __instance)
+        private static void ConstructorPostfix(FaceGenVM __instance)
         {
             var filter = __instance.GetType().GetField("_filter", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(__instance);
 
-            if(filter == null)
+            if (filter == null)
             {
                 Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventOn());
 
@@ -36,21 +36,21 @@ namespace Bannerlord.Actus.Purus.Patches
 
         [HarmonyPostfix]
         [HarmonyPatch("SelectedGender", MethodType.Setter)]
-        static void SelectedGenderPostfix(int value)
+        private static void SelectedGenderPostfix(int value)
         {
             Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventGenderChanged(value));
         }
 
         [HarmonyPostfix]
         [HarmonyPatch("ExecuteCancel")]
-        static void ExecuteCancelPostfix()
+        private static void ExecuteCancelPostfix()
         {
             Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventOff());
         }
 
         [HarmonyPostfix]
         [HarmonyPatch("ExecuteDone")]
-        static void ExecuteDonePostfix()
+        private static void ExecuteDonePostfix()
         {
             Game.Current.EventManager.TriggerEvent(new FaceGenVMCustomEventOff());
         }

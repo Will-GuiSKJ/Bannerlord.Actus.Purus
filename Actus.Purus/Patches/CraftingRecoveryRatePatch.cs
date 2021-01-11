@@ -8,11 +8,11 @@ using TaleWorlds.CampaignSystem.SandBox.CampaignBehaviors;
 namespace Bannerlord.Actus.Purus.Patches
 {
     [HarmonyPatch(typeof(CraftingCampaignBehavior))]
-    class CraftingRecoveryRatePatch
+    internal class CraftingRecoveryRatePatch
     {
         [HarmonyPrefix]
         [HarmonyPatch("HourlyTick")]
-        static bool HourlyTickPrefix(CraftingCampaignBehavior __instance)
+        private static bool HourlyTickPrefix(CraftingCampaignBehavior __instance)
         {
             if (ModSettings.Settings.CraftingConfig.Enabled)
             {

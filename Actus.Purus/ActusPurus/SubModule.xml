@@ -1,22 +1,22 @@
 <Module>
-  <Name value="Actus Purus"/>
-  <Id value="ActusPurus"/>
-  <Version value="e0.1.2"/>
-  <DefaultModule value="false"/>
-  <SingleplayerModule value="true"/>
-  <MultiplayerModule value="false"/>
-  <Official value="false"/>
+  <Name value="Actus Purus" />
+  <Id value="ActusPurus" />
+  <Version value="e0.1.2" />
+  <DefaultModule value="false" />
+  <SingleplayerModule value="true" />
+  <MultiplayerModule value="false" />
+  <Official value="false" />
   <DependedModules>
-    <DependedModule Id="Native" DependentVersion="e1.5.6"/>
-    <DependedModule Id="SandBoxCore" DependentVersion="e1.5.6"/>
-    <DependedModule Id="Sandbox" DependentVersion="e1.5.6"/>
-    <DependedModule Id="StoryMode" DependentVersion="e1.5.6"/>
+    <DependedModule Id="Native" DependentVersion="e1.5.6" />
+    <DependedModule Id="SandBoxCore" DependentVersion="e1.5.6" />
+    <DependedModule Id="Sandbox" DependentVersion="e1.5.6" />
+    <DependedModule Id="StoryMode" DependentVersion="e1.5.6" />
   </DependedModules>
   <SubModules>
     <SubModule>
-      <Name value="Bannerlord.Actus.Purus"/>
-      <DLLName value="Bannerlord.Actus.Purus.dll"/>
-      <SubModuleClassType value="Bannerlord.Actus.Purus.Start"/>
+      <Name value="Bannerlord.Actus.Purus" />
+      <DLLName value="Bannerlord.Actus.Purus.dll" />
+      <SubModuleClassType value="Bannerlord.Actus.Purus.Start" />
       <Tags>
         <Tag key="DedicatedServerType" value="none" />
         <Tag key="IsNoRenderModeElement" value="false" />
@@ -25,75 +25,74 @@
   </SubModules>
   <Xmls>
     <XmlNode>
-      <XmlName id="Items" path="items"/>
+      <XmlName id="Items" path="items" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="SPCultures" path="spcultures"/>
+      <XmlName id="SPCultures" path="spcultures" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="spnpccharacters"/>
+      <XmlName id="NPCCharacters" path="spnpccharacters" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="partyTemplates" path="partyTemplates"/>
+      <XmlName id="partyTemplates" path="partyTemplates" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="Kingdoms" path="spkingdoms"/>
+      <XmlName id="Kingdoms" path="spkingdoms" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="Factions" path="spclans"/>
+      <XmlName id="Factions" path="spclans" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="WorkshopTypes" path="spworkshops"/>
+      <XmlName id="WorkshopTypes" path="spworkshops" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="Settlements" path="settlements"/>
+      <XmlName id="Settlements" path="settlements" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="Heroes" path="heroes"/>
+      <XmlName id="Heroes" path="heroes" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="lords"/>
+      <XmlName id="NPCCharacters" path="lords" />
       <IncludedGameTypes>
-        <GameType value="Campaign"/>
-        <GameType value="CampaignStoryMode"/>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
   </Xmls>
 </Module>
-

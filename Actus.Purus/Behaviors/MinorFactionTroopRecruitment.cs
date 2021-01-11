@@ -8,14 +8,16 @@ using TaleWorlds.ObjectSystem;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class MinorFactionTroopRecruitmentBehavior : CampaignBehaviorBase
+    internal class MinorFactionTroopRecruitmentBehavior : CampaignBehaviorBase
     {
         public override void RegisterEvents()
         {
             CampaignEvents.OnSessionLaunchedEvent.AddNonSerializedListener(this, OnSessionLaunched);
         }
 
-        public override void SyncData(IDataStore dataStore) { }
+        public override void SyncData(IDataStore dataStore)
+        {
+        }
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {

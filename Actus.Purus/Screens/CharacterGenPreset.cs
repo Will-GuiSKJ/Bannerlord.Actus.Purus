@@ -9,7 +9,7 @@ using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Screens
 {
-    class CharacterGenPresetLayer : GauntletLayer
+    internal class CharacterGenPresetLayer : GauntletLayer
     {
         public CharacterGenPresetLayer(int localOrder) : base(localOrder)
         {
@@ -18,12 +18,13 @@ namespace Bannerlord.Actus.Purus.Screens
         }
     }
 
-    class CharacterGenPresetViewModel : ViewModel
+    internal class CharacterGenPresetViewModel : ViewModel
     {
         private int _presetIndex = 0;
         private bool _isFemale = false;
 
         private HintViewModel _presetHint = new HintViewModel("Cycle through body presets");
+
         [DataSourceProperty]
         public HintViewModel PresetHint
         {

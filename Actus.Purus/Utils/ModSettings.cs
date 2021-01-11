@@ -6,7 +6,7 @@ using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Utils
 {
-    static class ModSettings
+    internal static class ModSettings
     {
         private static Settings _settings;
 
@@ -34,17 +34,19 @@ namespace Bannerlord.Actus.Purus.Utils
         }
     }
 
-
     [Serializable()]
     public class Settings
     {
         [NonSerialized()]
         public bool DebugMode = false;
+
         public CharacterPresets CharacterPresets { get; set; }
         public bool EnableBlankCharacterCreation { get; set; }
         public bool EnableMinorFactionTroopRecruitment { get; set; }
+
         [NonSerialized()]
         public bool EnableMinorFactionQuests = false;
+
         public SimpleConfig InitialCompanionCount { get; set; }
         public SimpleConfig InitialPartyCount { get; set; }
         public SimpleConfig InitialWorkshopCount { get; set; }
@@ -75,14 +77,19 @@ namespace Bannerlord.Actus.Purus.Utils
     {
         [XmlAttribute]
         public int version { get; set; }
+
         [XmlAttribute]
         public float age { get; set; }
+
         [XmlAttribute]
         public float weight { get; set; }
+
         [XmlAttribute]
         public float build { get; set; }
+
         [XmlAttribute]
         public string key { get; set; }
+
         public override string ToString()
         {
             return $"<BodyProperties version='{version}' age='{age}' weight='{weight}' build='{build}' key='{key}' />";

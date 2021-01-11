@@ -8,16 +8,18 @@ using TaleWorlds.Localization;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class MinorFactionQuestGeneratorBehavior : CampaignBehaviorBase
+    internal class MinorFactionQuestGeneratorBehavior : CampaignBehaviorBase
     {
-        Hero questGiver;
+        private Hero questGiver;
 
         public override void RegisterEvents()
         {
             CampaignEvents.OnSessionLaunchedEvent.AddNonSerializedListener(this, OnSessionLaunched);
         }
 
-        public override void SyncData(IDataStore dataStore) { }
+        public override void SyncData(IDataStore dataStore)
+        {
+        }
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {

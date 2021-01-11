@@ -1,6 +1,6 @@
 ﻿namespace Bannerlord.Actus.Purus.Dialogs
 {
-    static class DialogTokenShortcuts
+    internal static class DialogTokenShortcuts
     {
         public static string start = "start";
         public static string tavernKeeperStart = "tavernkeeper_talk";
@@ -18,7 +18,7 @@
         public static string end = "close_window";
     }
 
-    static class DialogIconShortcuts
+    internal static class DialogIconShortcuts
     {
         public static string gold = "{=!}<img src=\"Icons\\Coin@2x\">";
         //GameTexts.FindText("str_html_influence_icon")

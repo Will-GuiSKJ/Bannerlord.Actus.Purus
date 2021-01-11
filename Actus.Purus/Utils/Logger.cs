@@ -3,7 +3,7 @@ using TaleWorlds.Library;
 
 namespace Bannerlord.Actus.Purus.Utils
 {
-    static class Logger
+    internal static class Logger
     {
         public static bool debugMode = false;
 

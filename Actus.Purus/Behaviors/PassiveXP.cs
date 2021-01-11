@@ -4,7 +4,7 @@ using TaleWorlds.Core;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class PassiveXPBehavior : CampaignBehaviorBase
+    internal class PassiveXPBehavior : CampaignBehaviorBase
     {
         public override void RegisterEvents()
         {
@@ -90,6 +90,8 @@ namespace Bannerlord.Actus.Purus.Behaviors
                 hero.AddSkillXp(DefaultSkills.Engineering, ModSettings.Settings.PassiveXPSettings.PassiveEngineeringXP * hero.GetSkillValue(DefaultSkills.Engineering));
         }
 
-        public override void SyncData(IDataStore dataStore) { }
+        public override void SyncData(IDataStore dataStore)
+        {
+        }
     }
 }

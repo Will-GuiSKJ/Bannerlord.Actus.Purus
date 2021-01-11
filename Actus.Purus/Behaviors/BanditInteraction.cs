@@ -9,18 +9,19 @@ using static TaleWorlds.CampaignSystem.ConversationSentence;
 
 namespace Bannerlord.Actus.Purus.Behaviors
 {
-    class BanditInteractionBehavior : CampaignBehaviorBase
+    internal class BanditInteractionBehavior : CampaignBehaviorBase
     {
         public override void RegisterEvents()
         {
             CampaignEvents.OnSessionLaunchedEvent.AddNonSerializedListener(this, OnSessionLaunched);
         }
 
-        public override void SyncData(IDataStore dataStore) { }
+        public override void SyncData(IDataStore dataStore)
+        {
+        }
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {
-
             MobileParty.MainParty.MemberRoster.AddToCounts(Hero.MainHero.Clan.BasicTroop, 15);
             Hero.MainHero.SetSkillValue(DefaultSkills.Roguery, 80);
 
