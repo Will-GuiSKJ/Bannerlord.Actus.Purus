@@ -72,19 +72,19 @@
 
   <!--Number of companions the player character can have at Clan Tier 0-->
   <InitialCompanionCount>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Value>5</Value>
   </InitialCompanionCount>
 
   <!--Number of parties the player character can have at Clan Tier 0-->
   <InitialPartyCount>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Value>5</Value>
   </InitialPartyCount>
 
   <!--Number of workshops the player character can have at Clan Tier 0-->
   <InitialWorkshopCount>
-    <Enabled>true</Enabled>
+    <Enabled>false</Enabled>
     <Value>5</Value>
   </InitialWorkshopCount>
 
@@ -125,7 +125,7 @@
     <EnabledForAI>true</EnabledForAI>
     <DailyNumberOfRecruits>0.5</DailyNumberOfRecruits>
     <ChanceToSpawnNobleTroop>0.2</ChanceToSpawnNobleTroop>
-    <RatioOfPlayerCultureTroops>0.5</RatioOfPlayerCultureTroops>
+    <RatioOfOwnerCultureTroops>0.5</RatioOfOwnerCultureTroops>
   </GarrisonRecruitment>
 
   <!--

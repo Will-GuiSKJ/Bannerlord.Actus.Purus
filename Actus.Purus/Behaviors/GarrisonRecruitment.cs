@@ -59,7 +59,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private CharacterObject GetTroopToAdd(Settlement settlement)
         {
-            var isOwnerCultureTroop = (new Random()).NextDouble() < ModSettings.Settings.GarrisonRecruitment.RatioOfPlayerCultureTroops;
+            var isOwnerCultureTroop = (new Random()).NextDouble() < ModSettings.Settings.GarrisonRecruitment.RatioOfOwnerCultureTroops;
             var isNobleTroop = (new Random()).NextDouble() < ModSettings.Settings.GarrisonRecruitment.ChanceToSpawnNobleTroop;
 
             CharacterObject troop;

@@ -122,7 +122,7 @@ namespace Bannerlord.Actus.Purus.Utils
         public bool EnabledForAI { get; set; }
         public float DailyNumberOfRecruits { get; set; }
         public float ChanceToSpawnNobleTroop { get; set; }
-        public float RatioOfPlayerCultureTroops { get; set; }
+        public float RatioOfOwnerCultureTroops { get; set; }
     }
 
     [Serializable()]
