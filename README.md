@@ -1,7 +1,7 @@
 # Bannerlord.Actus.Purus
 ["Pure Actuality"](https://en.wikipedia.org/wiki/Actus_purus)
 
-**Banerlord Supported Version: 1.5.6**
+**Banerlord Supported Version: 1.5.7**
 
 ## Goal
 This project is a mod for Mount &amp; Blade 2 Bannerlord that aims to create a perfected version of the game, in my eyes anyway. Though I plan for this mod to grow and include many facets, its main goal is to provide Quality of Life features and more Rolepaying content to the game, making the world of Calradia feel more alive.
@@ -24,7 +24,7 @@ The mod comes with a number of existing presets.
 ### Blank Character Creation
 When enabled, this will "reset" your character once the **Rebuild Your Clan** quest starts.  
 This means all your Attributes and Skills will be set to 0 and all your Focus Points, Perks and Traits removed.  
-You are then awarded 20 Attribute Points and 10 Focus Points to spend as you wish.
+You are then awarded 24 Attribute Points and 10 Focus Points to spend as you wish.
 
 ### Minor Faction Troop Recruitment
 All minor factions now allow the player to recruit some of its junior troops through new Dialogs.  
@@ -40,7 +40,19 @@ This is completely generic, meaning this *should* work with any custom minor fac
 - Garrisons are made up of a configurable percentage of units from the settlement's owner's culture
 	- Each day, a configurable number of garrison base troops are generated.
 	- Ex: an Empire castle held by a Sturgian lord will have some of its automatically generated garrison units be Sturgian units
-- Cavalry Speed modifers can be configurable to help reduce Khuzait hegemony in late game
+
+### Combat AI Progression
+Vanilla Bannerlord unlocks the full potential of Combat AI prowess in a linear format based on the combat skill of the unit in question, from 0 prowess at Skill level 0 of a combat skill to full prowess at Skill level 350.  
+This means that a unit with One Handed Skill at level 250 (a very high level) only has 5/7 of its AI Combat prowess unlocked.  
+This option changes this liner progresion to a logarithmic progression, meaning 80% of a unit's AI Combat prowess is unlocked at a combat Skill level of around 110, with the full 100% still unlocked at level 350.  
+This will make combat more difficult, specially against AI Hero units.  
+Vanilla difficulty combat settings are still respected and influence this progression accordingly.
+
+### Combat Damage Multipliers
+Vanilla Bannerlord allows the player to control the difficulty by allowing the player to choose how much damage the Player, its parties and friendly units can receive.  
+This settings allows the player to control how much damage is dealt to all units, both friendly and enemy.  
+This setting alows the player to gain some control over the *pace* of battle. Lengthing the engagements by lowering the overall damage that units do to eachother, or speeding it up by increasing this damage.  
+The vanilla difficulty settings are not overridden by this option, meaning that an easy difficulty coupled with a low Combat Damage Multiplier will make the game even **easier**.
 
 ### Crafting
 - Heroes now restore stamina while moving in the world map, at a configurable rate.
@@ -50,12 +62,8 @@ This is completely generic, meaning this *should* work with any custom minor fac
 ### Equipment Battle Reward
 - Allows a weighted chance (based on item value) of *any* equipment drop from a troop you have battled.
 	- Each troop is evaluated based on its equipment set.
-	- An item is chosen from that set based on a weigthed (based on value) random chance.
+	- An item is chosen from that set based on a weighted (based on value) random chance.
 	- Then the item is evaluated against a drop chance that is dependent on the ItemValueThreshold configuration.
-
-### Cavalry World Map Speed Modifiers
-When enabled, the player can control how much of a modifier do cavalry units contribute to world map speed, as well as footman soldiers on horses.   
-This also allows the player to disable the Khuzait's racial bonus, which helps reduce snowballing in the late game.
 
 ### Passive XP Gain
 Each day, several skills are awarded a set amount of XP for the player.

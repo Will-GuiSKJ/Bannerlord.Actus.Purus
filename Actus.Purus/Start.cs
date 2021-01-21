@@ -56,6 +56,11 @@ namespace Bannerlord.Actus.Purus
                 starter.AddModel(new Models.WorkshopModel());
             }
 
+            if (ModSettings.Settings.CombatDamageMultiplier.Enabled)
+            {
+                starter.AddModel(new Models.AgentApplyDamageModel());
+            }
+
             if (ModSettings.Settings.CraftingConfig.Enabled)
             {
                 starter.AddModel(new Models.SmithingModel());

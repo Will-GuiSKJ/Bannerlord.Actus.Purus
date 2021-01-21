@@ -22,7 +22,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
                     var garrisonSizeLimit = Campaign.Current.Models.PartySizeLimitModel.GetPartyMemberSizeLimit(settlement.Town.GarrisonParty.Party);
                     var currentGarrisonSize = settlement.Town.GarrisonParty.MemberRoster.TotalManCount;
 
-                    var numberOfTroopsToAdd = Math.Min(dailyNumberOfRecruits, garrisonSizeLimit - currentGarrisonSize);
+                    var numberOfTroopsToAdd = (int)Math.Min(dailyNumberOfRecruits, garrisonSizeLimit.ResultNumber - currentGarrisonSize);
                     var troop = GetTroopToAdd(settlement);
                     if (troop != null)
                     {

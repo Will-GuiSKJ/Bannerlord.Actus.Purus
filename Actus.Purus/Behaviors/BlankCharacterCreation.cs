@@ -17,7 +17,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
             {
                 Hero.MainHero.HeroDeveloper.ClearHero();
 
-                Hero.MainHero.HeroDeveloper.UnspentAttributePoints = 20;
+                Hero.MainHero.HeroDeveloper.UnspentAttributePoints = 24;
                 Hero.MainHero.HeroDeveloper.UnspentFocusPoints = 10;
 
                 Logger.Log("Main Hero Reset");

@@ -50,10 +50,11 @@ namespace Bannerlord.Actus.Purus.Utils
         public SimpleConfig InitialCompanionCount { get; set; }
         public SimpleConfig InitialPartyCount { get; set; }
         public SimpleConfig InitialWorkshopCount { get; set; }
+        public SimpleConfig LogarithmicAICombatDifficulty { get; set; }
+        public CombatDamageMultiplier CombatDamageMultiplier { get; set; }
         public CraftingConfig CraftingConfig { get; set; }
         public GarrisonRecruitment GarrisonRecruitment { get; set; }
         public EquipmentBattleReward EquipmentBattleReward { get; set; }
-        public CavalrySpeedModifiers CavalrySpeedModifiers { get; set; }
         public PassiveXPSettings PassiveXPSettings { get; set; }
     }
 
@@ -61,7 +62,7 @@ namespace Bannerlord.Actus.Purus.Utils
     public class SimpleConfig
     {
         public bool Enabled { get; set; }
-        public int Value { get; set; }
+        public float Value { get; set; }
     }
 
     [Serializable()]
@@ -97,6 +98,14 @@ namespace Bannerlord.Actus.Purus.Utils
     }
 
     [Serializable()]
+    public class CombatDamageMultiplier
+    {
+        public bool Enabled { get; set; }
+        public float PlayerDealtDamageMultiplier { get; set; }
+        public float AIDealtDamageMultiplier { get; set; }
+    }
+
+    [Serializable()]
     public class CraftingConfig
     {
         public bool Enabled { get; set; }
@@ -124,15 +133,6 @@ namespace Bannerlord.Actus.Purus.Utils
         public int CommonItemValueThreshold { get; set; }
         public int UncommonItemValueThreshold { get; set; }
         public int RareItemValueThreshold { get; set; }
-    }
-
-    [Serializable()]
-    public class CavalrySpeedModifiers
-    {
-        public bool Enabled { get; set; }
-        public bool DisableKhuzaitRacialBonus { get; set; }
-        public float CavalryRatioModifier { get; set; }
-        public float MountedFootmenRatioModifier { get; set; }
     }
 
     [Serializable()]

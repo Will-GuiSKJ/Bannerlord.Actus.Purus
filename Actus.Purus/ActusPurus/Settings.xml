@@ -5,59 +5,61 @@
     <Enabled>true</Enabled>
     <FemalePresets>
       <!--Aserai: Courtesan-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="0022800B52FC0011D5870000F8F93E74369E766975679E0921FE5F6F811F40380077760307C3A603000000000000000000000000000000000000000034F42003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="0022800B52FC0011D5870000F8F93E74369E766975679E0921FE5F6F811F40380077760307C3A603000000000000000000000000000000000000000034F42003" />
       <!--Aserai: Commoner-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="002ED00E52FC300101870240F9594FA104EF7737C537CE7021FEFF6F85FF90590077760307C3560300000000000000060000000000001A770000000034EC1003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="002ED00E52FC300101870240F9594FA104EF7737C537CE7021FEFF6F85FF90590077760307C3560300000000000000060000000000001A770000000034EC1003" />
       <!--Aserai: Desert Beauty-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="00298C0D111430027A85654564736C65F196843B318A585A6376CB427CAF272700877603086755E700000000000000000000000000000000000000006B0C1003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="00298C0D111430027A85654564736C65F196843B318A585A6376CB427CAF272700877603086755E700000000000000000000000000000000000000006B0C1003" />
       <!--Battania: Farmer's Daughter-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="00006C055300200498868A3266629726C05B7489548A1717769ACB537CAE1779008776030854736600000000000000000000000000000000000000003F0C2003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="00006C055300200498868A3266629726C05B7489548A1717769ACB537CAE1779008776030854736600000000000000000000000000000000000000003F0C2003" />
       <!--Empire: Femme Fatale-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="000A000090001010308700006D036F5DF0E9F02C033EFB082B79EF6F829844560077760307C5429800000000000E50080000000000001A770000000034E44003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="000A000090001010308700006D036F5DF0E9F02C033EFB082B79EF6F829844560077760307C5429800000000000E50080000000000001A770000000034E44003" />
       <!--Empire: Idealistc Noble-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="001B440E40FC100E6C6A396F138668F05FBA8BAA6D6B08583F9BCCC978D806A600877603080723100015776001000166000000000000000000000000550410C3" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="001B440E40FC100E6C6A396F138668F05FBA8BAA6D6B08583F9BCCC978D806A600877603080723100015776001000166000000000000000000000000550410C3" />
       <!--Empire: Merchant-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="001CB40E52B4200543858B28CB6A7390F0C77DA7A99716B2A4DCFA52794D15160067760306958239000000006A0000390000000000001504000000004CD430C3" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="001CB40E52B4200543858B28CB6A7390F0C77DA7A99716B2A4DCFA52794D15160067760306958239000000006A0000390000000000001504000000004CD430C3" />
       <!--Khuzait: Steppe Princess-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="0015B40D1214200135756F00F0AAB13090EF897A6BCD0D5194948F608B3E04050077760307409410000000006A00003900000000000015040000000044EC0003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="0015B40D1214200135756F00F0AAB13090EF897A6BCD0D5194948F608B3E04050077760307409410000000006A00003900000000000015040000000044EC0003" />
       <!--Sturgia: Frostmaiden-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="000A00029414300614897614FBFAA5C264FF7DB2CBAA7F6287F4BD837D1F040A008776030806C4350000000000000000000000000000140400000000790C2003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="000A00029414300614897614FBFAA5C264FF7DB2CBAA7F6287F4BD837D1F040A008776030806C4350000000000000000000000000000140400000000790C2003" />
       <!--Vlandia: Young Noble-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="000B940A52B410023776678B554486865889A83398A86F0396767A788BC332450087760308625952000000000000000000000000000019A300000000210C1003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="000B940A52B410023776678B554486865889A83398A86F0396767A788BC332450087760308625952000000000000000000000000000019A300000000210C1003" />
       <!--Vlandia: Duchess-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="001068029314300B7C85565766536767C17786A6A48A7343CBA68B418A9EA035007776030795357300000000000000000000000000000000000000007AE44003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="001068029314300B7C85565766536767C17786A6A48A7343CBA68B418A9EA035007776030795357300000000000000000000000000000000000000007AE44003" />
       <!--Vlandia: City Urchin-->
-      <BodyProperties version="4" age="22.74" weight="0.5" build="0.5" key="000A4808D400300D10897C6512B8B0E156FF7EAB9B995B30C6C458247AAF0408006776030608A615000000000000000000000000000014040000000078C42003" />
+      <BodyProperties version="4" age="22.6" weight="0.5" build="0.5" key="000A4808D400300D10897C6512B8B0E156FF7EAB9B995B30C6C458247AAF0408006776030608A615000000000000000000000000000014040000000078C42003" />
     </FemalePresets>
     <MalePresets>
       <!--Aserai: Nobleman-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="0029640E405823CE6C811B5A151A8B83909B8AADA98BFDC9AEB648698B8F038800877603088886030000000000000000000000000000000000000000650C30C2" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="0029640E405823CE6C811B5A151A8B83909B8AADA98BFDC9AEB648698B8F038800877603088886030000000000000000000000000000000000000000650C30C2" />
       <!--Aserai: Slaver-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="0029D40D1AFC1003A7BC6898182879697A97A774788659699946D7735C99B5A500877603089978430000000000000000000000000000000000000000691460C4" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="0029D40D1AFC1003A7BC6898182879697A97A774788659699946D7735C99B5A500877603089978430000000000000000000000000000000000000000691460C4" />
       <!--Battania: Ambusher-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="0005B008095828D00C811B5A151A0B83909B8AA5A98BAD2EAEB648698B83038500877603088886030000000000000000000000000000000000000000650C30C2" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="0005B008095828D00C811B5A151A0B83909B8AA5A98BAD2EAEB648698B83038500877603088886030000000000000000000000000000000000000000650C30C2" />
       <!--Battania: Clansman-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="00000C08075814130776678E53648686588CA83378A87F2099667D788BC332450097760309669983000000000000000000000000000019A300000000213C3002" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="00000C08075814130776678E53648686588CA83378A87F2099667D788BC332450097760309669983000000000000000000000000000019A300000000213C3002" />
       <!--Empire: Maximus-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="001E440FCF00134F00605F9112B673168B1F60F007DF0F20700A084289A93020009776030992701400000000000000000000000000000000000000003F245046" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="001E440FCF00134F00605F9112B673168B1F60F007DF0F20700A084289A93020009776030992701400000000000000000000000000000000000000003F245046" />
       <!--Empire: Pit Fighter-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="001B800C540023D41B75778F7757706B5A8CA435B8998E03AE6BF89A85C372AA00977603092789655774000053102034000000000000197700000000213C3002" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="001B800C540023D41B75778F7757706B5A8CA435B8998E03AE6BF89A85C372AA00977603092789655774000053102034000000000000197700000000213C3002" />
       <!--Empire: Roman Consul-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="000AB00A4000334F0776678E53648686288CA83378A87F2099667D788BC532450077760307669963000000000000000000000000000019A30000000020EC4002" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="000AB00A4000334F0776678E53648686288CA83378A87F2099667D788BC532450077760307669963000000000000000000000000000019A30000000020EC4002" />
       <!--Khuzait: Blood Rider-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="0010CC0E552C2749938B0914FF902F3D056F8FAFA9AE8D5F45F7311B90B001440087760308F764490000000000000000000000000000000000000000071C8004" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="0010CC0E552C2749938B0914FF902F3D056F8FAFA9AE8D5F45F7311B90B001440087760308F764490000000000000000000000000000000000000000071C8004" />
       <!--Khuzait: Nomad-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="0015C40FCECC28480776678E53B48686588CA83B78CB3F2099667D788BC332450097760309669983000000000000000000000000000019A300000000213C3002" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="0015C40FCECC28480776678E53B48686588CA83B78CB3F2099667D788BC332450097760309669983000000000000000000000000000019A300000000213C3002" />
       <!--Sturgia: Viking-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="00054000140003420776678E53648686588CA83378A87F2099667D788BC332450097760309669983000000000000000000000000000019A300000000213C3004" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="00054000140003420776678E53648686588CA83378A87F2099667D788BC332450097760309669983000000000000000000000000000019A300000000213C3004" />
       <!--Vlandia: Young Noble Warrior-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="000A040F0000108B5474344F0056E03110FE859F59532F39CF32737587029304008776030855923200000000000000000000000000000000000000004B1C4004" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="000A040F0000108B5474344F0056E03110FE859F59532F39CF32737587029304008776030855923200000000000000000000000000000000000000004B1C4004" />
       <!--Vlandia: Dogmatic Crusader-->
-      <BodyProperties version="4" age="22.58" weight="0.5" build="0.5" key="00058C0ACE00020C3C51A794542410F59FB7BB6578B70F0BC68646178B88A006008776030895460100000000000000000000000000000000000000004F0C4002" />
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="00058C0ACE00020C3C51A794542410F59FB7BB6578B70F0BC68646178B88A006008776030895460100000000000000000000000000000000000000004F0C4002" />
+      <!--Vlandia: Casa Nova-->
+      <BodyProperties version="4" age="22.1" weight="0.5" build="0.5" key="000004028000200567718A7679304498868A8947BC93FA869DFA7C6A79514446008776030823640500000000000000000000000000000000000000003F1C40C2" />
     </MalePresets>
   </CharacterPresets>
 
-  <!--At the start of "Rebuild Your Clan" quest, the player's character has all skills and attributes set to 0 and is awarded 20 attribute points and 10 focus points-->
+  <!--At the start of "Rebuild Your Clan" quest, the player's character has all skills and attributes set to 0 and is awarded 24 attribute points and 10 focus points-->
   <EnableBlankCharacterCreation>true</EnableBlankCharacterCreation>
 
   <!--
@@ -87,16 +89,23 @@
   </InitialWorkshopCount>
 
   <!--
-  Every day, add a number of recruit-level troops to a settlement's garrison's party. Values between 0 and 1 are treated as a percentage chance of spawning the troop
-  Recruit troops are chosen from the settlement's Culture and the Owner's Clan's Culture, according to the ratio configuration
+  AI Combat capabality is tied to the unit's Skill level, where a 300 value unlocks the full Combat AI in Realistc setting
+  In Vanilla, this Combat AI increases linearly, from Skill Level 0 to 300, meaning the most units behave far below what the AI can do
+  This enables a logarithmic progression for the Combat AI, meaning most of the AI prowess will be unlocked between Skill Level 0 to 200
   -->
-  <GarrisonRecruitment>
-    <EnabledForPlayer>true</EnabledForPlayer>
-    <EnabledForAI>true</EnabledForAI>
-    <DailyNumberOfRecruits>0.5</DailyNumberOfRecruits>
-    <ChanceToSpawnNobleTroop>0.2</ChanceToSpawnNobleTroop>
-    <RatioOfPlayerCultureTroops>0.5</RatioOfPlayerCultureTroops>
-  </GarrisonRecruitment>
+  <LogarithmicAICombatDifficulty>
+    <Enabled>true</Enabled>
+  </LogarithmicAICombatDifficulty>
+
+  <!--
+  Multipliers for damage that units do to each other during battle, both friendly and enemy. This will either extend or quicken the length of battles
+  This change does not override the player's Campaign Options, so easy settings would further reduce damage received by the player
+  -->
+  <CombatDamageMultiplier>
+    <Enabled>true</Enabled>
+    <PlayerDealtDamageMultiplier>1</PlayerDealtDamageMultiplier>
+    <AIDealtDamageMultiplier>0.75</AIDealtDamageMultiplier>
+  </CombatDamageMultiplier>
 
   <!--Crafting Customizations-->
   <CraftingConfig>
@@ -108,7 +117,19 @@
   </CraftingConfig>
 
   <!--
-  Custom Equipment Drop logic from Battle. For every troop fought, items from its equipment set are chosen as possible reward with a IndividualItemRewardChance between 0 and 1
+  Every day, add a number of recruit-level troops to a settlement's garrison's party. Values between 0 and 1 are treated as a percentage chance of spawning the troop
+  Recruit troops are chosen from the settlement's Culture and the Owner's Clan's Culture, according to the ratio configuration
+  -->
+  <GarrisonRecruitment>
+    <EnabledForPlayer>true</EnabledForPlayer>
+    <EnabledForAI>true</EnabledForAI>
+    <DailyNumberOfRecruits>0.5</DailyNumberOfRecruits>
+    <ChanceToSpawnNobleTroop>0.2</ChanceToSpawnNobleTroop>
+    <RatioOfPlayerCultureTroops>0.5</RatioOfPlayerCultureTroops>
+  </GarrisonRecruitment>
+
+  <!--
+  Custom Equipment Drop logic from Battle. For every troop fought, items from its equipment set are chosen as a possible reward with an IndividualItemRewardChance between 0 and 1
   From these possible rewards for each troop, a Common, Uncommon and Rare random thresholds are drawn where the lower values are more statistally likely than the upper values
   Items with value below CommonItemValueThreshold drop somewhat often. Items with value between CommonItemValueThreshold and UncommonItemValueThreshold are difficult to drop
   Items with value between UncommonItemValueThreshold and RareItemValueThreshold are extremily rare to drop. Items above RareItemValueThreshold will never drop
@@ -120,17 +141,6 @@
     <UncommonItemValueThreshold>50000</UncommonItemValueThreshold>
     <RareItemValueThreshold>500000</RareItemValueThreshold>
   </EquipmentBattleReward>
-
-  <!--
-  Rebalance of world map speed modifiers for cavalry. Default CavalryRatioModifier is 0.6 and MountedFootmenRatioModifier is 0.3
-  Lower cavalry speed modifiers and removal of Khuzait racial bonus helps diminsh snowballing effect in late game
-  -->
-  <CavalrySpeedModifiers>
-    <Enabled>true</Enabled>
-    <DisableKhuzaitRacialBonus>true</DisableKhuzaitRacialBonus>
-    <CavalryRatioModifier>0.45</CavalryRatioModifier>
-    <MountedFootmenRatioModifier>0.3</MountedFootmenRatioModifier>
-  </CavalrySpeedModifiers>
 
   <!--Settings for passive, daily, XP awards to Skills-->
   <PassiveXPSettings>

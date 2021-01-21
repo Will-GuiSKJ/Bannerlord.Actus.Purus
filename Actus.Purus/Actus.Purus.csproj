@@ -223,9 +223,10 @@
     <Compile Include="Dialogs\RogueryBanditDialogs.cs" />
     <Compile Include="Models\BattleRewardModel.cs" />
     <Compile Include="Models\ClanTierModel.cs" />
+    <Compile Include="Models\AgentApplyDamageModel.cs" />
     <Compile Include="Models\SmithingModel.cs" />
     <Compile Include="Models\WorkshopModel.cs" />
-    <Compile Include="Patches\CavalryWorldMapSpeedPatch.cs" />
+    <Compile Include="Patches\CalculateAILevelPatch.cs" />
     <Compile Include="Patches\CraftingRecoveryRatePatch.cs" />
     <Compile Include="Patches\CharacterPresetsPatch.cs" />
     <Compile Include="Quests\JawwalQuestLine.cs" />
