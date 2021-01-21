@@ -4,7 +4,7 @@
 **Banerlord Supported Version: 1.5.7**
 
 ## Goal
-This project is a mod for Mount &amp; Blade 2 Bannerlord that aims to create a perfected version of the game, in my eyes anyway. Though I plan for this mod to grow and include many facets, its main goal is to provide Quality of Life features and more Rolepaying content to the game, making the world of Calradia feel more alive.
+This project is a mod for Mount &amp; Blade 2 Bannerlord that aims to create a perfected version of the game, in my eyes anyway. Though I plan for this mod to grow and include many facets, its main goal is to provide Quality of Life features and more Roleplaying content to the game, making the world of Calradia feel more alive.
 
 To achieve such, these are my principles:
 1. Keep as much of the core of Bannerlord intact, both as functionality as well as Lore.
