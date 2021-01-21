@@ -1,16 +1,16 @@
 # Bannerlord.Actus.Purus
 ["Pure Actuality"](https://en.wikipedia.org/wiki/Actus_purus)
 
-**Banerlord Supported Version: 1.5.7**
+**Bannerlord Supported Version: 1.5.7**
 
 ## Goal
-This project is a mod for Mount &amp; Blade 2 Bannerlord that aims to create a perfected version of the game, in my eyes anyway. Though I plan for this mod to grow and include many facets, its main goal is to provide Quality of Life features and more Rolepaying content to the game, making the world of Calradia feel more alive.
+This project is a mod for Mount &amp; Blade 2 Bannerlord that aims to create a perfected version of the game, in my eyes anyway. Though I plan for this mod to grow and include many facets, its main goal is to provide Quality of Life features and more Roleplaying content to the game, making the world of Calradia feel more alive.
 
 To achieve such, these are my principles:
 1. Keep as much of the core of Bannerlord intact, both as functionality as well as Lore.
 1. Keep new functionality simple whenever possible. Complex functionality is hard to test, balance and maintain.
-1. Add content to existing system rather than create new ones. Though new systems _may_ be added in the future, the focus is largely on enhancing existing gameplay elements for a more enjoyable experience.
-1. Modular & Configurable. Considering the various systems that will be affected by this mod, being able to turn off each one is important so players can combine Actus Purus with other mods to create _their_ vision of a perfected Bannerlord.
+1. Add content to existing system rather than create new ones. Though new systems *may* be added in the future, the focus is largely on enhancing existing gameplay elements for a more enjoyable experience.
+1. Modular & Configurable. Considering the various systems that will be affected by this mod, being able to turn off each one is important so players can combine Actus Purus with other mods to create *their* vision of a perfected Bannerlord.
 
 ## Features
 
@@ -31,7 +31,7 @@ All minor factions now allow the player to recruit some of its junior troops thr
 Once your Clan is Tier 3 (or Tier 2 if you are of the same Culture as the minor faction) and once you reach 20 relation with heroes of the minor faction, you are able to recruit 20 of the lowest tier troop of that faction for 1000 denars.  
 That faction will not allow you to recruit more until you have no more of those troops, meaning those recruits either upgraded or died.  
 For players with high Roguery skill, the relation requirement is reduced to as little as 5 for outlaw minor factions.  
-This is completely generic, meaning this *should* work with any custom minor factions such as those added by the [Calradia at War mod](https://www.nexusmods.com/mountandblade2bannerlord/mods/411).
+This is completely generic, meaning this *should* work with any custom minor faction such as those added by the [Calradia at War mod](https://www.nexusmods.com/mountandblade2bannerlord/mods/411).
 
 ### Generic Configurations
 - Set starting cap of number of workshops for player, at Clan tier 0.
@@ -44,14 +44,14 @@ This is completely generic, meaning this *should* work with any custom minor fac
 ### Combat AI Progression
 Vanilla Bannerlord unlocks the full potential of Combat AI prowess in a linear format based on the combat skill of the unit in question, from 0 prowess at Skill level 0 of a combat skill to full prowess at Skill level 350.  
 This means that a unit with One Handed Skill at level 250 (a very high level) only has 5/7 of its AI Combat prowess unlocked.  
-This option changes this liner progresion to a logarithmic progression, meaning 80% of a unit's AI Combat prowess is unlocked at a combat Skill level of around 110, with the full 100% still unlocked at level 350.  
+This option changes this linear progression to a logarithmic progression, meaning 80% of a unit's AI Combat prowess is unlocked at a combat Skill level of around 110, with the full 100% still unlocked at level 350.  
 This will make combat more difficult, specially against AI Hero units.  
 Vanilla difficulty combat settings are still respected and influence this progression accordingly.
 
 ### Combat Damage Multipliers
 Vanilla Bannerlord allows the player to control the difficulty by allowing the player to choose how much damage the Player, its parties and friendly units can receive.  
-This settings allows the player to control how much damage is dealt to all units, both friendly and enemy.  
-This setting alows the player to gain some control over the *pace* of battle. Lengthing the engagements by lowering the overall damage that units do to eachother, or speeding it up by increasing this damage.  
+This setting allows the player to control how much damage is dealt to all units, both friendly and enemy.  
+This setting allows the player to gain some control over the *pace* of battle. Lengthening the engagements by lowering the overall damage that units do to each other, or speeding it up by increasing this damage.  
 The vanilla difficulty settings are not overridden by this option, meaning that an easy difficulty coupled with a low Combat Damage Multiplier will make the game even **easier**.
 
 ### Crafting
@@ -94,4 +94,4 @@ So, if you have ideas for a cool questline for a minor faction or even for anyth
 I have spent so many years enjoying the benefits of mods in my games, specially Skyrim, without ever supporting the authors.  
 So now that I got into modding, it would be highly hypocritical for me to ask you to support me.
 
-However, if you are one of those awesome people that support your mod authors and you wish to contribute monetarily in some way to this mod, I ask you that you make a donation to a local charity of your choice instead. I am partically partial to animal shelters.
+However, if you are one of those awesome people that support your mod authors and you wish to contribute monetarily in some way to this mod, I ask you that you make a donation to a local charity of your choice instead. I am particularly partial to animal shelters.
