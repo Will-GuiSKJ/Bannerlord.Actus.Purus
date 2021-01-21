@@ -3,6 +3,9 @@
 ## Guidelines
 This roadmap details the features intended to be included in Bannerlord Actus Purus. Not all features have been evaluated for feasibility.
 
+### Localization
+I plan to provide support for both EN-GB and PT-BR. If anyone would also like to contribute with localization strings, please contact me.
+
 ### New Quests & Dialogues
 1. Add new quests, including fleshing out minor factions
 	1. Beduin Trouble: Questline for the Jawwal involving a merchant wanting retribution for poached caravans
