@@ -26,6 +26,11 @@ namespace Bannerlord.Actus.Purus
 
             var starter = (CampaignGameStarter)gameStarterObject;
 
+            if (ModSettings.Settings.DebugMode)
+            {
+                starter.AddBehavior(new DebugBehavior());
+            }
+
             if (ModSettings.Settings.CharacterPresets.Enabled)
             {
                 starter.AddBehavior(new CharacterGenPresetBehavior());

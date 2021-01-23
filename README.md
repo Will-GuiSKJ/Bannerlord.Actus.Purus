@@ -41,6 +41,12 @@ This is completely generic, meaning this *should* work with any custom minor fac
 	- Each day, a configurable number of garrison base troops are generated.
 	- Ex: an Empire castle held by a Sturgian lord will have some of its automatically generated garrison units be Sturgian units
 
+### Skills
+
+#### Governor Perks
+So many perks in Bannerlord have Governor facets, which are 100% useless to the player. Now, all Settlements owned by the player **without** a governor assigned, will use the player's character perks as if the player was the assigned governor.  
+Many of the perks will still require that the player spend time in their settlement for them to take effect.
+
 ### Combat AI Progression
 Vanilla Bannerlord unlocks the full potential of Combat AI prowess in a linear format based on the combat skill of the unit in question, from 0 prowess at Skill level 0 of a combat skill to full prowess at Skill level 350.  
 This means that a unit with One Handed Skill at level 250 (a very high level) only has 5/7 of its AI Combat prowess unlocked.  

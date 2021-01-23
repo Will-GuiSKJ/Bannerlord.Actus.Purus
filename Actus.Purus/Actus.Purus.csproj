@@ -209,9 +209,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviors\BanditInteraction.cs" />
     <Compile Include="Behaviors\BlankCharacterCreation.cs" />
     <Compile Include="Behaviors\CharacterGenPreset.cs" />
+    <Compile Include="Behaviors\Debug.cs" />
     <Compile Include="Behaviors\GarrisonRecruitment.cs" />
     <Compile Include="Behaviors\MinorFactionTroopRecruitment.cs" />
     <Compile Include="Behaviors\MinorFactionQuestGenerator.cs" />
@@ -220,7 +220,6 @@
     <Compile Include="Dialogs\DialogTokenShortcuts.cs" />
     <Compile Include="Dialogs\MinorFactionTroopRecruitmentDialogs.cs" />
     <Compile Include="Dialogs\MinorFactionQuestStarterDialogs.cs" />
-    <Compile Include="Dialogs\RogueryBanditDialogs.cs" />
     <Compile Include="Models\BattleRewardModel.cs" />
     <Compile Include="Models\ClanTierModel.cs" />
     <Compile Include="Models\AgentApplyDamageModel.cs" />
@@ -229,6 +228,8 @@
     <Compile Include="Patches\CalculateAILevelPatch.cs" />
     <Compile Include="Patches\CraftingRecoveryRatePatch.cs" />
     <Compile Include="Patches\CharacterPresetsPatch.cs" />
+    <Compile Include="Patches\SkillLevelingManagerPatch.cs" />
+    <Compile Include="Patches\TownPatch.cs" />
     <Compile Include="Quests\JawwalQuestLine.cs" />
     <Compile Include="Screens\CharacterGenPreset.cs" />
     <Compile Include="Start.cs" />

@@ -47,6 +47,7 @@ namespace Bannerlord.Actus.Purus.Utils
         [NonSerialized()]
         public bool EnableMinorFactionQuests = false;
 
+        public bool EnablePlayerAsGovernor { get; set; }
         public SimpleConfig InitialCompanionCount { get; set; }
         public SimpleConfig InitialPartyCount { get; set; }
         public SimpleConfig InitialWorkshopCount { get; set; }

@@ -10,9 +10,9 @@ I plan to provide support for both EN-GB and PT-BR. If anyone would also like to
 1. Add new quests, including fleshing out minor factions
 	1. Beduin Trouble: Questline for the Jawwal involving a merchant wanting retribution for poached caravans
 	1. Captive Betrayer: Questline for the Legion of the Betrayed involving rescuing one of its former Legates now held prisoner by the Norther Empire
-1. Create more content around Roguery
-	1. Recruit bandit parties if high roguery skill and charm
-	1. Recruit bandit camp boss party if high roguery and charm
+	
+### Unique Custom Wanderers
+New handful of unique wanderers with unique backstories, unique opinions on player actions and unique questlines that unlock new Focus Points based on player input.
 
 ### Crisis
 1. Famine
@@ -49,7 +49,7 @@ Castles and Towns should feel different to each other and provide different adva
 1. Towns should be commercial centres and provide the bulk of taxes
 	1. High criminal strength affects prosperity and siphons away taxes. High Roguery lords receive a taxation bonus however, to simulate politcal corruption
 1. Castles are military centres and provide high-level troops and access to noble lines, but reduced taxes
-	1. Castles have an area of influence that warring parties, while inside, become succeptible to ambush by Castle garrison, affected by Scout skill level of castle governor
+	1. Castles have an area of influence that warring parties, while inside, become susceptible to ambush by Castle garrison, affected by Scout skill level of castle governor
 1. Castles, and Towns with a smithy, can provide forging services (crafting by proxy) to PC for a price
 
 #### Kingdom management (Long-term)
