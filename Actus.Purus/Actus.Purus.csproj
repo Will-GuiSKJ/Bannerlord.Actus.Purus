@@ -232,6 +232,7 @@
     <Compile Include="Patches\SkillLevelingManagerPatch.cs" />
     <Compile Include="Patches\TownPatch.cs" />
     <Compile Include="Quests\JawwalQuestLine.cs" />
+    <Compile Include="Reports\GarrisonRecruitmentReport.cs" />
     <Compile Include="Screens\CharacterGenPreset.cs" />
     <Compile Include="Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

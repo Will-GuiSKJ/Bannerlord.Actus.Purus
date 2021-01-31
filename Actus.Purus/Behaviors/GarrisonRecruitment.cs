@@ -1,4 +1,5 @@
-﻿using Bannerlord.Actus.Purus.Utils;
+﻿using Bannerlord.Actus.Purus.Reports;
+using Bannerlord.Actus.Purus.Utils;
 using System;
 using TaleWorlds.CampaignSystem;
 
@@ -29,6 +30,11 @@ namespace Bannerlord.Actus.Purus.Behaviors
                         settlement.Town.GarrisonParty.MemberRoster.AddToCounts(troop, numberOfTroopsToAdd);
                         if (settlement.OwnerClan.Leader.StringId == Hero.MainHero.StringId)
                             Logger.Log($"{numberOfTroopsToAdd} {troop.Name} were added to {settlement.Name}'s guarrison", true);
+
+                        if (ModSettings.Settings.DebugMode)
+                        {
+                            GarrisonRecruitmentReport.AddEntry(settlement, troop, numberOfTroopsToAdd);
+                        }
                     }
                     else
                         Logger.Log($"{settlement.Culture.Name} or {settlement.OwnerClan.Culture} have missing troop data");
@@ -38,7 +44,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private bool CheckEligibility(Settlement settlement)
         {
-            if (settlement == null || !(settlement.IsTown || settlement.IsCastle))
+            if (settlement == null || !(settlement.IsTown || settlement.IsCastle) || settlement.OwnerClan == null || settlement.Town.GarrisonParty == null)
                 return false;
 
             var isPlayerSettlement = settlement.OwnerClan.Leader.StringId == Hero.MainHero.StringId;
@@ -66,9 +72,9 @@ namespace Bannerlord.Actus.Purus.Behaviors
             if (isOwnerCultureTroop)
             {
                 if (isNobleTroop)
-                    troop = Hero.MainHero.Culture.EliteBasicTroop;
+                    troop = settlement.OwnerClan.Culture.EliteBasicTroop;
                 else
-                    troop = Hero.MainHero.Culture.BasicTroop;
+                    troop = settlement.OwnerClan.Culture.BasicTroop;
             }
             else
             {

@@ -51,7 +51,7 @@ Many of the perks will still require that the player spend time in their settlem
 ### Combat AI Progression
 Vanilla Bannerlord unlocks the full potential of Combat AI prowess in a linear format based on the combat skill of the unit in question, from 0 prowess at Skill level 0 of a combat skill to full prowess at Skill level 350.  
 This means that a unit with One Handed Skill at level 250 (a very high level) only has 5/7 of its AI Combat prowess unlocked.  
-This option changes this linear progression to a logarithmic progression, meaning 80% of a unit's AI Combat prowess is unlocked at a combat Skill level of around 110, with the full 100% still unlocked at level 350.  
+This option changes this linear progression to a logarithmic progression, meaning 80% of a unit's AI Combat prowess is unlocked at a combat Skill level of around 180, with the full 100% still unlocked at level 350.  
 This will make combat more difficult, specially against AI Hero units.  
 Vanilla difficulty combat settings are still respected and influence this progression accordingly.
 

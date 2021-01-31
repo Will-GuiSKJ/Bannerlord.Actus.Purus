@@ -95,9 +95,9 @@
   </InitialWorkshopCount>
 
   <!--
-  AI Combat capabality is tied to the unit's Skill level, where a 300 value unlocks the full Combat AI in Realistc setting
-  In Vanilla, this Combat AI increases linearly, from Skill Level 0 to 300, meaning the most units behave far below what the AI can do
-  This enables a logarithmic progression for the Combat AI, meaning most of the AI prowess will be unlocked between Skill Level 0 to 200
+  AI Combat capabality is tied to the unit's Skill level, where a 350 value unlocks the full Combat AI in Realistc setting
+  In Vanilla, this Combat AI increases linearly, from Skill Level 0 to 350, meaning that most units behave far below what the AI can do
+  This setting enables a logarithmic progression for the Combat AI, meaning most of the AI prowess will be unlocked between Skill Level 0 to 200, while still maxing out at 350
   -->
   <LogarithmicAICombatDifficulty>
     <Enabled>true</Enabled>
@@ -161,24 +161,24 @@
     <!--Skill level cap where passive XP stops being awarded-->
     <PassiveXPSkillLevelCap>125</PassiveXPSkillLevelCap>
 
-    <!--Award Passive XP to Skills (as long as learning rate is not 0 for the Skill). This value is multiplied by the current skill level-->
-    <PassiveOneHandedXP>2</PassiveOneHandedXP>
-    <PassiveTwoHandedXP>2</PassiveTwoHandedXP>
-    <PassivePolearmXP>2</PassivePolearmXP>
-    <PassiveBowXP>2</PassiveBowXP>
-    <PassiveCrossbowXP>2</PassiveCrossbowXP>
+    <!--Award Passive XP to Skills (as long as learning rate is not 0 for the Skill). This value is multiplied by 1/3 of the current skill level-->
+    <PassiveOneHandedXP>1</PassiveOneHandedXP>
+    <PassiveTwoHandedXP>1</PassiveTwoHandedXP>
+    <PassivePolearmXP>1</PassivePolearmXP>
+    <PassiveBowXP>1</PassiveBowXP>
+    <PassiveCrossbowXP>1</PassiveCrossbowXP>
     <PassiveThrowingXP>3</PassiveThrowingXP>
     <PassiveRidingXP>1</PassiveRidingXP>
-    <PassiveAthleticsXP>1</PassiveAthleticsXP>
+    <PassiveAthleticsXP>2</PassiveAthleticsXP>
     <PassiveCraftingXP>0</PassiveCraftingXP>
     <PassiveScoutingXP>0</PassiveScoutingXP>
-    <PassiveTacticsXP>5</PassiveTacticsXP>
-    <PassiveRogueryXP>10</PassiveRogueryXP>
-    <PassiveCharmXP>2</PassiveCharmXP>
-    <PassiveLeadershipXP>10</PassiveLeadershipXP>
-    <PassiveTradeXP>0</PassiveTradeXP>
+    <PassiveTacticsXP>2</PassiveTacticsXP>
+    <PassiveRogueryXP>3</PassiveRogueryXP>
+    <PassiveCharmXP>0</PassiveCharmXP>
+    <PassiveLeadershipXP>5</PassiveLeadershipXP>
+    <PassiveTradeXP>1</PassiveTradeXP>
     <PassiveStewardXP>0</PassiveStewardXP>
-    <PassiveMedicineXP>5</PassiveMedicineXP>
-    <PassiveEngineeringXP>10</PassiveEngineeringXP>
+    <PassiveMedicineXP>3</PassiveMedicineXP>
+    <PassiveEngineeringXP>5</PassiveEngineeringXP>
   </PassiveXPSettings>
 </Settings>

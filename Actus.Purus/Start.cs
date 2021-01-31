@@ -1,4 +1,5 @@
 ﻿using Bannerlord.Actus.Purus.Behaviors;
+using Bannerlord.Actus.Purus.Reports;
 using Bannerlord.Actus.Purus.Utils;
 using HarmonyLib;
 using TaleWorlds.CampaignSystem;
@@ -91,6 +92,14 @@ namespace Bannerlord.Actus.Purus
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
             Logger.Log("Bannerlord Actus Purus has been loaded", true);
+        }
+
+        public override void OnGameEnd(Game game)
+        {
+            if (ModSettings.Settings.DebugMode)
+            {
+                GarrisonRecruitmentReport.WriteReport();
+            }
         }
     }
 }
