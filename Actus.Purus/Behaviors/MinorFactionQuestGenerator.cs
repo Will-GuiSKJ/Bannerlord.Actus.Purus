@@ -23,12 +23,12 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {
-            starter.AddPlayerLine(TavernWorkQuery.Id, TavernWorkQuery.entry, TavernWorkQuery.next, TavernWorkQuery.message, null, null);
-            starter.AddDialogLine(TavernWorkResponse.Id, TavernWorkResponse.entry, TavernWorkResponse.next, TavernWorkResponse.message, new ConversationSentence.OnConditionDelegate(NoQuestCheck), null);
+            starter.AddPlayerLine(TavernWorkQuery.Id, TavernWorkQuery.entry, TavernWorkQuery.next, TavernWorkQuery.message.ToString(), null, null);
+            starter.AddDialogLine(TavernWorkResponse.Id, TavernWorkResponse.entry, TavernWorkResponse.next, TavernWorkResponse.message.ToString(), new ConversationSentence.OnConditionDelegate(NoQuestCheck), null);
 
             // Jawwal Questline
-            starter.AddDialogLine(TavernWorkJawwalResponse1.Id, TavernWorkJawwalResponse1.entry, TavernWorkJawwalResponse1.next, TavernWorkJawwalResponse1.message, new ConversationSentence.OnConditionDelegate(JawwalCheck), null);
-            starter.AddDialogLine(TavernWorkJawwalResponse2.Id, TavernWorkJawwalResponse2.entry, TavernWorkJawwalResponse2.next, TavernWorkJawwalResponse2.message, new ConversationSentence.OnConditionDelegate(JawwalResponse2Setup), new ConversationSentence.OnConsequenceDelegate(JawwalResponse2Consequence));
+            starter.AddDialogLine(TavernWorkJawwalResponse1.Id, TavernWorkJawwalResponse1.entry, TavernWorkJawwalResponse1.next, TavernWorkJawwalResponse1.message.ToString(), new ConversationSentence.OnConditionDelegate(JawwalCheck), null);
+            starter.AddDialogLine(TavernWorkJawwalResponse2.Id, TavernWorkJawwalResponse2.entry, TavernWorkJawwalResponse2.next, TavernWorkJawwalResponse2.message.ToString(), new ConversationSentence.OnConditionDelegate(JawwalResponse2Setup), new ConversationSentence.OnConsequenceDelegate(JawwalResponse2Consequence));
         }
 
         private bool NoQuestCheck()
@@ -55,7 +55,7 @@ namespace Bannerlord.Actus.Purus.Behaviors
             var pickedMerchantIndex = (new Random()).Next(0, townMerchants.Count);
             questGiver = townMerchants[pickedMerchantIndex];
             MBTextManager.SetTextVariable("MERCHANT", questGiver.Name);
-            MBTextManager.SetTextVariable("GENDER_PRONOUN", questGiver.IsFemale ? "she" : "he");
+            MBTextManager.SetTextVariable("IS_MALE", questGiver.IsFemale ? 0 : 1);
             return true;
         }
 

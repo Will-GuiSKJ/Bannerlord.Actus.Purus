@@ -10,7 +10,8 @@ To achieve such, these are my principles:
 1. Keep as much of the core of Bannerlord intact, both as functionality as well as Lore.
 1. Keep new functionality simple whenever possible. Complex functionality is hard to test, balance and maintain.
 1. Add content to existing system rather than create new ones. Though new systems *may* be added in the future, the focus is largely on enhancing existing gameplay elements for a more enjoyable experience.
-1. Modular & Configurable. Considering the various systems that will be affected by this mod, being able to turn off each one is important so players can combine Actus Purus with other mods to create *their* vision of a perfected Bannerlord.
+1. Modular & Configurable. Considering the various systems that will be affected by this mod, being able to turn off or configure each one is important so players can combine Actus Purus with other mods to create *their* vision of a perfected Bannerlord.
+1. Self-contained. Basically, this means keeping requirements of other mods at a minimum, hopefully to 0.
 
 ## Features
 

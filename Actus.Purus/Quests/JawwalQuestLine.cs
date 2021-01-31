@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Localization;
 using TaleWorlds.SaveSystem;
+using QuestDialogs = Bannerlord.Actus.Purus.Dialogs.Quests.JawwalQuestLineDialogs;
+using System.Linq;
+using TaleWorlds.CampaignSystem.Actions;
 
 namespace Bannerlord.Actus.Purus.Quests
 {
@@ -13,12 +16,15 @@ namespace Bannerlord.Actus.Purus.Quests
         private bool _metMerchant;
 
         [SaveableField(2)]
-        private bool _merchantQuestAccpted;
+        private bool _merchantQuestAccepted;
 
         [SaveableField(3)]
-        private Hero _metJawwal;
+        private bool _metJawwal;
 
-        public override TextObject Title => new TextObject("Beduin Trouble");
+        [SaveableField(4)]
+        private bool _sidedWithJawwal;
+
+        public override TextObject Title => QuestDialogs.Title.message;
 
         public override bool IsRemainingTimeHidden => false;
 
@@ -36,49 +42,62 @@ namespace Bannerlord.Actus.Purus.Quests
         protected override void SetDialogs()
         {
             SetMerchantDialog();
+            SetJawwalDialog();
         }
 
         protected override void OnStartQuest()
         {
-            AddLog(new TextObject($"Find {QuestGiver.Name} at {QuestGiver.CurrentSettlement.Name} and ask about the Jawwal problem."));
+            var log = QuestDialogs.QuestStartedLog.message;
+            log.SetTextVariable("QuestGiverName", QuestGiver.Name);
+            log.SetTextVariable("SettlementName", QuestGiver.CurrentSettlement.Name);
+            AddLog(log);
+        }
+
+        protected override void OnTimedOut()
+        {
+            var log = QuestDialogs.QuestTimedOutLog.message;
+            log.SetTextVariable("QuestGiverName", QuestGiver.Name);
+            log.SetTextVariable("IsMale", QuestGiver.IsFemale ? 0 : 1);
+            AddLog(log);
         }
 
         private void SetMerchantDialog()
         {
             string questOptionsToken;
             var dialogFlowStart = DialogFlow.CreateDialogFlow(DialogTokenShortcuts.mainOptions)
-                .PlayerLine("I heard the Jawwal are praying upon your caravans. I may be able to help.")
+                .PlayerLine(QuestDialogs.PlayerAsksMerchantForQuest.message)
                     .Condition(() => Hero.OneToOneConversationHero != null && Hero.OneToOneConversationHero == QuestGiver && !_metMerchant)
                     .Consequence(() => _metMerchant = true)
-                .NpcLine("Those jackals hide behind their nomad ways so that they can pillage and plunder civilized folk!")
-                .NpcLine("They have been raiding my caravans with impunity, lately. If you defeat even one of their rading parties and bring me its leader, I'll make you rich.")
+                .NpcLine(QuestDialogs.MerchantInitialResponse1.message)
+                .NpcLine(QuestDialogs.MerchantInitialResponse2.message)
                     .GetOutputToken(out questOptionsToken)
                 .BeginPlayerOptions()
-                    .PlayerOption("Why you? Have they targetd anyone else?")
-                        .NpcLine("How would I know? All I can tell you is that I am bleeding denars because of them.")
+                    .PlayerOption(QuestDialogs.PlayerQuestInformationOption1.message)
+                        .NpcLine(QuestDialogs.MerchantQuestInformationOption1Response.message)
                         .GotoDialogState(questOptionsToken)
-                    .PlayerOption("Tell me more about the Jawwal.")
-                        .NpcLine("Their name means Roamers, I think. What they are is simply disguised bandits.")
-                        .NpcLine("They use the veil of their so called old ways to run around claiming territory and demanding tribute.")
+                    .PlayerOption(QuestDialogs.PlayerQuestInformationOption2.message)
+                        .NpcLine(QuestDialogs.MerchantQuestInformationOption2Response1.message)
+                        .NpcLine(QuestDialogs.MerchantQuestInformationOption2Response2.message)
                         .GotoDialogState(questOptionsToken)
-                    .PlayerOption("Alright, consider it done.")
+                    .PlayerOption(QuestDialogs.PlayerAcceptQuest.message)
                         .Consequence(MerchantDialogConsequence)
                 .EndPlayerOptions()
                 .CloseDialog();
 
             var dialogFlowEnd = DialogFlow.CreateDialogFlow(DialogTokenShortcuts.mainOptions)
-                .PlayerLine("About your Jawwal problem.")
+                .PlayerLine(QuestDialogs.PlayerReturnsToMerchant.message)
                     .Condition(() => Hero.OneToOneConversationHero != null && Hero.OneToOneConversationHero == QuestGiver && _metMerchant)
-                .NpcLine("I hope you are here to tell me you have one of the leaders of those Jackals with you.")
-                .PlayerLine("No, not yet.")
+                .NpcLine(QuestDialogs.MerchantQueryOnCompletion.message)
+                .PlayerLine(QuestDialogs.PlayerNotCompletedResponse.message)
                     .Condition(() => !hasJawwalPrisonersCondition())
                     .CloseDialog()
-                .PlayerLine("I do, but it is going to cost you.")
+                .PlayerLine(QuestDialogs.PlayerReadyToSideWithMerchant.message)
                     .Condition(() => hasJawwalPrisonersCondition())
-                    .NpcLine($"I'll pay you 1000{DialogIconShortcuts.gold} for each one you have brought me.")
+                    .NpcLine(QuestDialogs.MerchantInitialOffer.message)
                     .BeginPlayerOptions()
                         .PlayerOption("You'll have to do better than that - ADD PERSUASION FLOW HERE.")
-                        .PlayerOption("Deal.")
+                            .ClickableCondition(ClickableConditionTest)
+                        .PlayerOption(QuestDialogs.PlayerAcceptedOffer.message)
                             .Consequence(EndQuestBySidingWithMerchantConsequence)
                             .CloseDialog()
                     .EndPlayerOptions();
@@ -89,27 +108,74 @@ namespace Bannerlord.Actus.Purus.Quests
 
         private void MerchantDialogConsequence()
         {
-            _merchantQuestAccpted = true;
-            AddLog(new TextObject($"{QuestGiver.Name} has asked you to defeat at least one of the Jawwal parties and bring the leader as a prisoner back."));
+            _merchantQuestAccepted = true;
+            var log = QuestDialogs.QuestAcceptedLog.message;
+            log.SetTextVariable("QuestGiverName", QuestGiver.Name);
+            AddLog(log);
         }
 
         private bool hasJawwalPrisonersCondition()
         {
-            var playerParties = new List<PartyBase>(Hero.MainHero.OwnedParties);
-            var playerPrisoners = new List<CharacterObject>(playerParties[0].PrisonerHeroes());
-            var jawwalPrisoners = playerPrisoners.FindAll(c => c.HeroObject.Clan.StringId == "jawwal");
-            return jawwalPrisoners.Count > 0;
+            return GetJawwalPrisoners().Count > 0;
+        }
+
+        private bool ClickableConditionTest(out TextObject explanation)
+        {
+            explanation = new TextObject("Testing clickable condition");
+            return false;
         }
 
         private void EndQuestBySidingWithMerchantConsequence()
         {
+            var garrisonParty = QuestGiver.CurrentSettlement.Town.GarrisonParty;
+            var jawwalPrisoners = GetJawwalPrisoners();
+            var reward = 0;
+            foreach (var prisoner in jawwalPrisoners)
+            {
+                garrisonParty.AddPrisoner(prisoner, 1);
+                EnterSettlementAction.ApplyForPrisoner(prisoner.HeroObject, QuestGiver.CurrentSettlement);
+                CampaignEvents.Instance.OnPlayerDonatedHeroPrisoner(prisoner.HeroObject, QuestGiver.CurrentSettlement);
+                reward += 1000;
+            }
+
+            Hero.MainHero.ChangeHeroGold(reward);
+            ChangeRelationAction.ApplyPlayerRelation(QuestGiver, 50);
+            CompleteQuestWithSuccess();
+        }
+
+        private List<CharacterObject> GetJawwalPrisoners()
+        {
             var playerParties = new List<PartyBase>(Hero.MainHero.OwnedParties);
             var playerPrisoners = new List<CharacterObject>(playerParties[0].PrisonerHeroes());
             var jawwalPrisoners = playerPrisoners.FindAll(c => c.HeroObject.Clan.StringId == "jawwal");
-            foreach (var prisoner in jawwalPrisoners)
-            {
-                //QuestGiver.HomeSettlement.
-            }
+            return jawwalPrisoners;
+        }
+
+        private void SetJawwalDialog()
+        {
+            QuestDialogs.PlayerMeetsJawwal.message.SetTextVariable("SettlementName", QuestGiver.CurrentSettlement.Name);
+            QuestDialogs.JawwalMeetingResponse.message.SetTextVariable("QuestGiverName", QuestGiver.Name);
+
+            var dialogFlowStart = DialogFlow.CreateDialogFlow(DialogTokenShortcuts.mainOptions)
+                .PlayerLine(QuestDialogs.PlayerMeetsJawwal.message)
+                    .Condition(() => Hero.OneToOneConversationHero != null && _merchantQuestAccepted && !_metJawwal && GetAllJawwalHeroes().Contains(Hero.OneToOneConversationHero.CharacterObject))
+                    .Consequence(() => _metJawwal = true)
+                .NpcLine(QuestDialogs.JawwalMeetingResponse.message)
+                .BeginPlayerOptions()
+                    .PlayerOption(QuestDialogs.PlayerAttacksJawwal.message)
+                        .CloseDialog()
+                .EndPlayerOptions();
+
+            var dialogFlowEnd = DialogFlow.CreateDialogFlow(DialogTokenShortcuts.mainOptions);
+
+            Campaign.Current.ConversationManager.AddDialogFlow(dialogFlowStart, this);
+            Campaign.Current.ConversationManager.AddDialogFlow(dialogFlowEnd, this);
+        }
+
+        private List<CharacterObject> GetAllJawwalHeroes()
+        {
+            var jawwalHeroes = new List<CharacterObject>(CharacterObject.All.Where(c => c.IsHero && c.HeroObject?.Clan?.StringId == "jawwal"));
+            return jawwalHeroes;
         }
     }
 }

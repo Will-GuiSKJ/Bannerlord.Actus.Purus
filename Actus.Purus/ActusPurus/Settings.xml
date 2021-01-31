@@ -74,7 +74,7 @@
   All Settlements owned by the player without a governor assigned will use the player's character perks as if the player was the assigned governor
   Many of the perks will still require that the player spend time in their settlement for them to take effect
   -->
-  <EnablePlayerAsGovernor>true</EnablePlayerAsGovernor>
+  <EnablePlayerAsGovernor>false</EnablePlayerAsGovernor>
 
   <!--Number of companions the player character can have at Clan Tier 0-->
   <InitialCompanionCount>

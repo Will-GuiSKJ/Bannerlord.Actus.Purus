@@ -21,21 +21,21 @@ namespace Bannerlord.Actus.Purus.Behaviors
 
         private void OnSessionLaunched(CampaignGameStarter starter)
         {
-            starter.AddPlayerLine(MinorFactionTroopRecruitmentQuery.Id, MinorFactionTroopRecruitmentQuery.entry, MinorFactionTroopRecruitmentQuery.next, MinorFactionTroopRecruitmentQuery.message, () => Hero.OneToOneConversationHero.IsMinorFactionHero, null);
+            starter.AddPlayerLine(MinorFactionTroopRecruitmentQuery.Id, MinorFactionTroopRecruitmentQuery.entry, MinorFactionTroopRecruitmentQuery.next, MinorFactionTroopRecruitmentQuery.message.ToString(), () => Hero.OneToOneConversationHero.IsMinorFactionHero, null);
 
             // Main Flow
-            starter.AddDialogLine(MinorFactionTroopRecruitmentResponsePositive.Id, MinorFactionTroopRecruitmentResponsePositive.entry, MinorFactionTroopRecruitmentResponsePositive.next, MinorFactionTroopRecruitmentResponsePositive.message, RecruitmentCondition, null);
-            starter.AddPlayerLine(MinorFactionTroopRecruitmentAgreement.Id, MinorFactionTroopRecruitmentAgreement.entry, MinorFactionTroopRecruitmentAgreement.next, MinorFactionTroopRecruitmentAgreement.message, null, null);
-            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseSuccess.Id, MinorFactionTroopRecruitmentResponseSuccess.entry, MinorFactionTroopRecruitmentResponseSuccess.next, MinorFactionTroopRecruitmentResponseSuccess.message, null, RecruitmentConsequence);
+            starter.AddDialogLine(MinorFactionTroopRecruitmentResponsePositive.Id, MinorFactionTroopRecruitmentResponsePositive.entry, MinorFactionTroopRecruitmentResponsePositive.next, MinorFactionTroopRecruitmentResponsePositive.message.ToString(), RecruitmentCondition, null);
+            starter.AddPlayerLine(MinorFactionTroopRecruitmentAgreement.Id, MinorFactionTroopRecruitmentAgreement.entry, MinorFactionTroopRecruitmentAgreement.next, MinorFactionTroopRecruitmentAgreement.message.ToString(), null, null);
+            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseSuccess.Id, MinorFactionTroopRecruitmentResponseSuccess.entry, MinorFactionTroopRecruitmentResponseSuccess.next, MinorFactionTroopRecruitmentResponseSuccess.message.ToString(), null, RecruitmentConsequence);
 
             // Player Cancel Flow
-            starter.AddPlayerLine(MinorFactionTroopRecruitmentDecline.Id, MinorFactionTroopRecruitmentDecline.entry, MinorFactionTroopRecruitmentDecline.next, MinorFactionTroopRecruitmentDecline.message, null, null);
+            starter.AddPlayerLine(MinorFactionTroopRecruitmentDecline.Id, MinorFactionTroopRecruitmentDecline.entry, MinorFactionTroopRecruitmentDecline.next, MinorFactionTroopRecruitmentDecline.message.ToString(), null, null);
 
             // Negative Flows
-            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeRenown.Id, MinorFactionTroopRecruitmentResponseNegativeRenown.entry, MinorFactionTroopRecruitmentResponseNegativeRenown.next, MinorFactionTroopRecruitmentResponseNegativeRenown.message, LacksRenown, null);
-            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeRelation.Id, MinorFactionTroopRecruitmentResponseNegativeRelation.entry, MinorFactionTroopRecruitmentResponseNegativeRelation.next, MinorFactionTroopRecruitmentResponseNegativeRelation.message, LacksRelationship, null);
-            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.Id, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.entry, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.next, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.message, HasRecruits, LowerRelationConsequence);
-            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeNoMoney.Id, MinorFactionTroopRecruitmentResponseNegativeNoMoney.entry, MinorFactionTroopRecruitmentResponseNegativeNoMoney.next, MinorFactionTroopRecruitmentResponseNegativeNoMoney.message, LacksMoney, null);
+            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeRenown.Id, MinorFactionTroopRecruitmentResponseNegativeRenown.entry, MinorFactionTroopRecruitmentResponseNegativeRenown.next, MinorFactionTroopRecruitmentResponseNegativeRenown.message.ToString(), LacksRenown, null);
+            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeRelation.Id, MinorFactionTroopRecruitmentResponseNegativeRelation.entry, MinorFactionTroopRecruitmentResponseNegativeRelation.next, MinorFactionTroopRecruitmentResponseNegativeRelation.message.ToString(), LacksRelationship, null);
+            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.Id, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.entry, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.next, MinorFactionTroopRecruitmentResponseNegativeAlreadyRecruited.message.ToString(), HasRecruits, LowerRelationConsequence);
+            starter.AddDialogLine(MinorFactionTroopRecruitmentResponseNegativeNoMoney.Id, MinorFactionTroopRecruitmentResponseNegativeNoMoney.entry, MinorFactionTroopRecruitmentResponseNegativeNoMoney.next, MinorFactionTroopRecruitmentResponseNegativeNoMoney.message.ToString(), LacksMoney, null);
         }
 
         private bool RecruitmentCondition()
@@ -107,11 +107,13 @@ namespace Bannerlord.Actus.Purus.Behaviors
         {
             GiveGoldAction.ApplyBetweenCharacters(Hero.MainHero, Hero.OneToOneConversationHero, 1000);
             MobileParty.MainParty.MemberRoster.AddToCounts(MBObjectManager.Instance.GetObject<CharacterObject>(GetRecruitUnitId()), 20);
+            PlayerEncounter.LeaveEncounter = true;
         }
 
         private void LowerRelationConsequence()
         {
             ChangeRelationAction.ApplyPlayerRelation(Hero.OneToOneConversationHero, -5);
+            PlayerEncounter.LeaveEncounter = true;
         }
     }
 }

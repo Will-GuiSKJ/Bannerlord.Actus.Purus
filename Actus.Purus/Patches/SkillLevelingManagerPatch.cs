@@ -26,7 +26,7 @@ namespace Bannerlord.Actus.Purus.Patches
         [HarmonyPatch("OnSettlementSkillExercised")]
         private static bool OnSettlementSkillExercisedPatch(Settlement settlement)
         {
-            if (ModSettings.Settings.EnablePlayerAsGovernor && settlement != null && settlement.Town?.Governor.StringId == Hero.MainHero.StringId && Hero.MainHero.CurrentSettlement != settlement)
+            if (ModSettings.Settings.EnablePlayerAsGovernor && settlement != null && settlement.Town?.Governor?.StringId == Hero.MainHero.StringId && Hero.MainHero.CurrentSettlement != settlement)
             {
                 return false;
             }

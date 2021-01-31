@@ -220,6 +220,7 @@
     <Compile Include="Dialogs\DialogTokenShortcuts.cs" />
     <Compile Include="Dialogs\MinorFactionTroopRecruitmentDialogs.cs" />
     <Compile Include="Dialogs\MinorFactionQuestStarterDialogs.cs" />
+    <Compile Include="Dialogs\Quests\JawwalQuestLineDialogs.cs" />
     <Compile Include="Models\BattleRewardModel.cs" />
     <Compile Include="Models\ClanTierModel.cs" />
     <Compile Include="Models\AgentApplyDamageModel.cs" />
