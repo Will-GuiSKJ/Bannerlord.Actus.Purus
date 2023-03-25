@@ -114,7 +114,7 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- Clans should maintain at least one caravan led by one of its members. More if in need of money
 	- Clans should own workshops, at least one.
 	- Clans with settlements should be in a better financial situation than Clans with not
-1. War rework
+1. War rework - Ars Imperatoria
 	- War should only be declared for a specific goal. Once achieved, kingdom should protect its goal until the other party is ready to capitulate
 	- War goal influences the target number of armies the AI will create, and how large each army will be.
 		- If the desired number of armies fall bellow its target, the AI will try to create a new army
@@ -133,6 +133,7 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- During war time, Clan parties are filled to capacity using their Garrison troops, or Manpower if needed
 	- When not in an army, a Clan party is always in defense mode. 
 	- **Double check how sieges affect a Settlement attributes and buildings**
+	- **Double check how sieges are handling starvation. Militia should go down first, than Garrison. Parties present at Settlement shoudl share their food**
 1. Non-aggression pacts
 	- Faction rulers can broke marriages between two clans from each faction. While said marriage exists, both kingdoms will be much less likely to go to war with each other
 1. Alligiences
@@ -253,3 +254,10 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- Kingdoms will not try to go to war if they have a Feast ongoing
 	- Feasts are automatically cancelled if a war is declared
 	- All attending Clans gain small relations with each other. This gain is boosted if relations were already strong
+1. Disease & Famine
+	- Bad crop years, generating a debuff either local or Calradia-wide
+	- Disease outbreaks that hurt a Settlement stats and can kill characters. Potential shake up of kingdom politics
+1. Invasions
+	- Big pillaging invasions, aimed at breaking long periods of stability.
+	- They only take over Settlements so they can devastate it
+	- Highly focused on raiding and executions
