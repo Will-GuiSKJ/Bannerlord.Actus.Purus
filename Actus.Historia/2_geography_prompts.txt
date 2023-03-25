@@ -1,0 +1,44 @@
+Now I am going to describe the geography of Calradia.
+Calradia is a landmass of continental proportions similar to the size of Earth's European continent.
+For the purposes of ChatGPT-generated content, no narrative content should involve the main character with maritime navigation or warfare, nor the navigation of rivers.
+
+------------------------------------------------
+
+I'll now describe the geography of the kingdom of the Khuzaits. Its main characteristics are:
+1. It is the east-most kingdom within Calradia
+2. Its east-west width is much narrower than its north-south height
+3. It is a vast steppe covered by temperate grasslands
+4. At its south-most area, its climate starts to resemble a savanna
+5. At its north-most area, its climate starts to resemble more tundra-like conditions
+6. It is bordered to its south-west by the kingdom of the Aserai
+7. It is bordered to its north-west by the kingdom of Sturgia
+8. It is bordered to its west by the Northern Empire and Southern Empire factions of the Calradic Empire
+9. It does not have any land borders to the kingdom of Vlandia
+10. It does not have any land borders to the kingdom of Battania
+11. It does not have sea access
+12. To its east, there is a landmass beyond Calradia. No narrative content can happen there.
+13. There is a large lake that covers about half of the political border between the kingdom of the Khuzaits and the Calradic Empire. It resembles Earth's Caspian Sea lake. It is called the Khuzait Sea
+14. A large river runs accross the northern part of the kingdom of the Khuzait
+
+------------------------------------------------
+
+I'll now describe the geography of the kingdom of Sturgia. Its main characteristics are:
+1. It is the north-most kingdom within Calradia
+2. Its east-west width is much longer than its north-south height
+3. It is covered by tundra forests and mountains, making it difficult to travel
+4. It is covered in snow in all but the summer months
+5. It is bordered to its east by the kingdom of the Khuzait
+6. It is bordered to its south-east and south by the Northern Empire
+7. It is bordered to its south-west by the kingdom of Battania
+8. It does not have any land borders to the kingdom of Vlandia
+9. It does not have any land borders to the kingdom of the Aserai
+10. An icy sea touches the entirety of its northern border
+11. An inland sea separates much of the border between the kingdom of Sturgia and the Northern Empire
+12. The kingdom of Sturgia have an exclave territory. This territory sits at the north of the kingdom of Battania and it is the only territory from the kingdom of Sturgia that borders the kingdom of Battania
+
+------------------------------------------------
+
+I'll now describe the geography of the kingdom of the Aserai. Its main characteristics are:
+1. It is the south-most kingdom within Calradia
+2. Its east-west width is much longer than its north-south height
+3. The Perassic Sea is an interior sea that separates southern Calradia from Nahasa lands and the territories of the Aserai. It opens to the west on the ocean by what is called the Gulf of Charas",

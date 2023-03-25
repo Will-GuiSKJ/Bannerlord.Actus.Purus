@@ -1,0 +1,7 @@
+I'll now ask you to create content that takes place in Calradia. Some of this content will be in the form of quest dialogue that involves our main character.
+Hera are some general rules for when creating these quests:
+1. There are three main types of quests: Common Issues, Noble Issues and Character quests
+2. Common Issues are quests akin to side-quests in other modern RPGs. They never involve a member of a Major Clan, but they can involve Minor Clans, Town Notables and Village Notables. These quests often deal with topics that relate to the common folk, banditry, trade, villagers, raiders, food, farming, etc.
+3. Noble Issues are quests akin to side-quests in other modern RPGs. They always involve at least one member. They can also involve Minor Clans, Town Notables and Village Notables. They never involve the player's family or Clan.
+4. Character quests are longer questlines that try to involve an ensemble cast of characters from Major Clans and often have political ramifications. The majority of character interactions should involve a single Major Clan, but could less often involve more than one Major Clan. Characters from Minor Clans, Village Notables and Town Notables are often secondary characters in these quests.
+5. The main player character's parents are dead
