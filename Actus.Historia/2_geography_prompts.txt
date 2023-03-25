@@ -5,40 +5,73 @@ For the purposes of ChatGPT-generated content, no narrative content should invol
 ------------------------------------------------
 
 I'll now describe the geography of the kingdom of the Khuzaits. Its main characteristics are:
-1. It is the east-most kingdom within Calradia
-2. Its east-west width is much narrower than its north-south height
-3. It is a vast steppe covered by temperate grasslands
-4. At its south-most area, its climate starts to resemble a savanna
-5. At its north-most area, its climate starts to resemble more tundra-like conditions
-6. It is bordered to its south-west by the kingdom of the Aserai
-7. It is bordered to its north-west by the kingdom of Sturgia
-8. It is bordered to its west by the Northern Empire and Southern Empire factions of the Calradic Empire
-9. It does not have any land borders to the kingdom of Vlandia
-10. It does not have any land borders to the kingdom of Battania
-11. It does not have sea access
-12. To its east, there is a landmass beyond Calradia. No narrative content can happen there.
-13. There is a large lake that covers about half of the political border between the kingdom of the Khuzaits and the Calradic Empire. It resembles Earth's Caspian Sea lake. It is called the Khuzait Sea
-14. A large river runs accross the northern part of the kingdom of the Khuzait
+* It is the east-most kingdom within Calradia
+* Its east-west width is much narrower than its north-south height
+* It is a vast steppe covered by temperate grasslands
+* At its south-most area, its climate starts to resemble a savanna
+* At its north-most area, its climate starts to resemble more tundra-like conditions
+* It is bordered to its south-west by the kingdom of the Aserai
+* It is bordered to its north-west by the kingdom of Sturgia
+* It is bordered to its west by the Northern Empire and Southern Empire factions of the Calradic Empire
+* It does not have any land borders to the kingdom of Vlandia
+* It does not have any land borders to the kingdom of Battania
+* It does not have sea access
+* To its east, there is a landmass beyond Calradia. No narrative content can happen there.
+* There is a large lake that covers about half of the political border between the kingdom of the Khuzaits and the Calradic Empire, called Lake Tanesis
+* A large river runs accross the northern part of the kingdom of the Khuzait, called the Karakaz River. The river ends at the north tip of Lake Tanesis
+* Running down its north to south lands, several mountain ranges mark the landscape. Starting from the north, the Bars Dag mountain range connects to the Sulun Dag mountains when it aproaches the east.
+* To the west of the Sulun Dag mountains sits the Devseg Plateau. This plateau is at center of the kingdom of the Khuzaits
+* South of the Devseg Plateau is Lover's Mountain. It is a small mountain with a nearby small lake, Lake Tsanga Nor, against the mountain's east side
+* South of Lover's Mountain is yet another small mountain, but larger than Lover's Mountain. It is called the Kohi Rohini Mountains. It marks that shouthern third part of the kingdom of the Khuzait and it is the south-most moutain in their lands
+* The east side of the Devseg Plateau ends at the Adecan(??) Hills. East of these hills lie Lake Tanesis
+* Starting at the southmost point of the Adecan(??) Hills is the Ozu River, which runs south and creates much of the natural border between the kingdom of the Khuzait and the Souther Empire, eventually even separating much of the Khuzait lands from the Aserai lands
 
 ------------------------------------------------
 
 I'll now describe the geography of the kingdom of Sturgia. Its main characteristics are:
-1. It is the north-most kingdom within Calradia
-2. Its east-west width is much longer than its north-south height
-3. It is covered by tundra forests and mountains, making it difficult to travel
-4. It is covered in snow in all but the summer months
-5. It is bordered to its east by the kingdom of the Khuzait
-6. It is bordered to its south-east and south by the Northern Empire
-7. It is bordered to its south-west by the kingdom of Battania
-8. It does not have any land borders to the kingdom of Vlandia
-9. It does not have any land borders to the kingdom of the Aserai
-10. An icy sea touches the entirety of its northern border
-11. An inland sea separates much of the border between the kingdom of Sturgia and the Northern Empire
-12. The kingdom of Sturgia have an exclave territory. This territory sits at the north of the kingdom of Battania and it is the only territory from the kingdom of Sturgia that borders the kingdom of Battania
+* It is the north-most kingdom within Calradia
+* Its east-west width is much longer than its north-south height
+* It is covered by tundra forests and mountains, making it difficult to travel
+* It is covered in snow in all but the summer months
+* It is bordered to its east by the kingdom of the Khuzait
+* It is bordered to its south-east and south by the Northern Empire
+* It is bordered to its south-west by the kingdom of Battania
+* It does not have any land borders to the kingdom of Vlandia
+* It does not have any land borders to the kingdom of the Aserai
+* An icy sea touches the entirety of its northern border, called the Byallic Sea
+* An inland sea separates much of the border between the kingdom of Sturgia and the Northern Empire, called Lake Laconis, leaving only two land bridges connecting the two, at the east and west side of the Northern Empire
+* The kingdom of Sturgia has an exclave territory. This territory sits at the north of the kingdom of Battania and it is the only territory from the kingdom of Sturgia that borders the kingdom of Battania
+* To the east of the Karakaz River and north of Lake Tanesis are three small bodies of water collectively know as the Portages of Iltan and they mark the transition between Khuzait land and Sturgian land
+* Northwest of the Portages of Iltan and north east of Lake Laconis is Mount Iltan
+* Running through most of the first half northern part of Sturgia is the Chertyg Mountains. At the northern side of these mountains, about the midway point before the eastern and western extremities of the Cherttyg Mountains, is found the Vanni Woods
+* Touching much of the western bank of Lake Laconis is a densely wooded area called the Icara Wilds, where game is plentiful and hunting is a way of life
+* At the western part of Sturgia lies the Kachyar Peninsula, full of mountain ranges
+* South of the Kachyar Peninsula, across the Bay of Varcheg, is the Sturgian exclave land that bothers the Battanians to its south and south east and the Vlandians to the west, with the Ailta Druins Cliffs serving as a natural border
+
+------------------------------------------------
+
+I'll now describe the geography of the kingdom of Battania. Its main characteristics are:
+* It is located south west of the kingdom of Sturgia
+* It borders the kingdom of Vlandia by three sides: northwest, west and south west
+* At its southeast and easter borders is the Southern Empire
+* Much of its northeast border touches Sturgia, with only a thin strip of land connecting it to Northern Empire
+* Much of Battania is confined to the largest plateau in Calradia, the Uchalion Plateau
+* Ailta Druin Cliffs sits at the northern extremity of the Uchalion Plateau
+* The Rhennod Hills sits at the western end of the Uchalion Plateau and serve as a natural border between Battania and Vlandia
+* At the northwest end of the Uchalion Plateau, between the Ailta Druin Cliffs and The Rhennod Hills, is the Morcomb Valley, which serves as the only easy way to travel from Battania to northern Vlandia
+* Apart from the Morcomb Valley, the only way to enter Vlandian lands from Battania is through the Cafalcombe Valley, which operates as the southwest travel corredor between Battania and Vlandia
+* For Battanians, the Cafalcombe Valley also gives access to the Western Empire, as much of the estern border between Battania and the Western Empire is separated by the mountains that frame the western side of the Uchalion Plateau
+* Almost at the very center of the Uchalion Plateau lies lake Llyn Tywal
+* At the west bank of lake Llyn Tywal is a regions of hills called the The Rock of Glannys. Between the Rock of Glannys and the Rhennod Hills is a valley of idyllic forests
+
+------------------------------------------------
+
+I'll now describe the geography of the Northern Empire. Its main characteristics are:
+* It is located south of the kingdom of Sturgia
 
 ------------------------------------------------
 
 I'll now describe the geography of the kingdom of the Aserai. Its main characteristics are:
-1. It is the south-most kingdom within Calradia
-2. Its east-west width is much longer than its north-south height
-3. The Perassic Sea is an interior sea that separates southern Calradia from Nahasa lands and the territories of the Aserai. It opens to the west on the ocean by what is called the Gulf of Charas",
+* It is the south-most kingdom within Calradia
+* Its east-west width is much longer than its north-south height
+* The Perassic Sea is an interior sea that separates southern Calradia from Nahasa lands and the territories of the Aserai. It opens to the west on the ocean by what is called the Gulf of Charas",
