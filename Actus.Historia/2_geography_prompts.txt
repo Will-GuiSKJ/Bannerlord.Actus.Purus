@@ -67,7 +67,22 @@ I'll now describe the geography of the kingdom of Battania. Its main characteris
 ------------------------------------------------
 
 I'll now describe the geography of the Northern Empire. Its main characteristics are:
-* It is located south of the kingdom of Sturgia
+* It is located south of the kingdom of Sturgia, connected through the Western Empire's northeast border through the Portages of Iltan the lands around it
+* The Southern Empire is located to the south of the Northern Empire
+* The Western Empire is located to the south west of the Northern Empire
+* The kingdom of the Khuzait is located east of the Northern Empire
+* A major landmark in the Western Empire are the Dryatic Mountains. A mountain range that starts southwest of Lake Laconis and snakes through much of the Northern Empire lands
+* The Nevis River marks the general middle of the Western Empire, running north from the Dryatic Mountains until it reaches Lake Laconis
+
+------------------------------------------------
+
+I'll now describe the geography of the Southern Empire. Its main characteristics are:
+* It is located south of the Northern Empire
+* To the east lies the kingdom of the Khuzait
+* To the west, it borders the Western Empire
+* South is the Perassic Sea, Calradia's largest inland sea
+* The Perrassic Sea is contained to the north west by the Western Empire, to the north by the Northern Empire and to the east and south and south west by the kingdom of the Aserai
+* The Perassic Sea spills onto the vast ocean to its east through first the Bay of Ortysia, then the straight that connects the Western Empire to the kingdom of the Aserai and after the straight through Gulf of Charas
 
 ------------------------------------------------
 
