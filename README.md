@@ -1,17 +1,13 @@
 # Bannerlord.Actus.Purus
-["Pure Actuality"](https://en.wikipedia.org/wiki/Actus_purus)
 
 **Bannerlord Supported Version: 1.5.7**
 
-## Goal
-This project is a mod for Mount &amp; Blade 2 Bannerlord that aims to create a perfected version of the game, in my eyes anyway. Though I plan for this mod to grow and include many facets, its main goal is to provide Quality of Life features and more Roleplaying content to the game, making the world of Calradia feel more alive.
+## Summary
+Actus Purus aims to be a Vanila+ Total Conversion mod. It tries to deepen almost every aspect present in the vanila experience, with a focus on role-play, gameplay and player-agency.
 
-To achieve such, these are my principles:
-1. Keep as much of the core of Bannerlord intact, both as functionality as well as Lore.
-1. Keep new functionality simple whenever possible. Complex functionality is hard to test, balance and maintain.
-1. Add content to existing system rather than create new ones. Though new systems *may* be added in the future, the focus is largely on enhancing existing gameplay elements for a more enjoyable experience.
-1. Modular & Configurable. Considering the various systems that will be affected by this mod, being able to turn off or configure each one is important so players can combine Actus Purus with other mods to create *their* vision of a perfected Bannerlord.
-1. Self-contained. Basically, this means keeping requirements of other mods at a minimum, hopefully to 0.
+Although you technically _can_ use Actus Purus with other mods, I highly discourage you. This mod aims to touch almost every system of the base game, which will almost cause incompatibility with other mods. But perhaps most importantly, this mod is designed to ofer a self-contained experience where many different gameplay systems inflence and affect others.
+
+Beyond anything, though, I hope you enjoy my mod.
 
 ## Features
 
@@ -34,14 +30,6 @@ That faction will not allow you to recruit more until you have no more of those 
 For players with high Roguery skill, the relation requirement is reduced to as little as 5 for outlaw minor factions.  
 This is completely generic, meaning this *should* work with any custom minor faction such as those added by the [Calradia at War mod](https://www.nexusmods.com/mountandblade2bannerlord/mods/411).
 
-### Generic Configurations
-- Set starting cap of number of workshops for player, at Clan tier 0.
-- Set starting cap of number of parties for player, at Clan tier 0.
-- Set starting cap of number of companions for player, at Clan tier 0.
-- Garrisons are made up of a configurable percentage of units from the settlement's owner's culture
-	- Each day, a configurable number of garrison base troops are generated.
-	- Ex: an Empire castle held by a Sturgian lord will have some of its automatically generated garrison units be Sturgian units
-
 ### Skills
 
 #### Governor Perks
@@ -56,7 +44,7 @@ This will make combat more difficult, specially against AI Hero units.
 Vanilla difficulty combat settings are still respected and influence this progression accordingly.
 
 ### Combat Damage Multipliers
-Vanilla Bannerlord allows the player to control the difficulty by allowing the player to choose how much damage the Player, its parties and friendly units can receive.  
+Vanilla Bannerlord allows the player to control the difficulty by allowing the player to choose how much damage the Player, its parties and friendly units can receive.
 This setting allows the player to control how much damage is dealt to all units, both friendly and enemy.  
 This setting allows the player to gain some control over the *pace* of battle. Lengthening the engagements by lowering the overall damage that units do to each other, or speeding it up by increasing this damage.  
 The vanilla difficulty settings are not overridden by this option, meaning that an easy difficulty coupled with a low Combat Damage Multiplier will make the game even **easier**.
@@ -103,6 +91,10 @@ Each day, several skills are awarded a set amount of XP for the player.
 1. Roguery rework
 	- Roguery only impacts non-equipment loot and always generates some denars from battles won. (New bags of denar loot?)
 	- New Clan role for characters with Roguery skill
+1. XP Rework
+	- Investigate how AI gains and spends XP
+	- Player clan gains daily XP on a single skill they have Focus on and do not have a learning rate of 0
+	- The skill is chosen through a weighted random formula that favours skills with the highest learning rate
 1. Troop tree rework
 	- Auto generate alternative gear set up for each unit so that it has at least 3 variants
 	- All Tier one Faction troop should have either a shield or a two-handed weapon
@@ -166,7 +158,6 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- Add policies tied to each kingdom that dictates how wars and peace can be declared
 	- Add policies tied to each kingdom that dictates how it handles succession
 	- Landed Clans of lower tier owe tithe to Clans of the immediate upper tier. Factions will be populated at game start to make sure pyramid of Clan tier hierarchy exists to support this
-	- Unlanded Clans are opperate exactly like hired mercenaries, from a gameplay perspective, receiving money from the ruler
 	- When not at war, landed Clan parties stay at their owned Settlements (based on Governorship assignments). Their parties consist of a small retinue of units taken from their Clan's Settlements, influenced by Clan tiers
 		- Clan members are spread among the owned Settlements (Towns, Castles and Villages), with senior members being assigned to higher prosperity/hearth Settlements
 	- When not at war, landed Clan parties do not move around, as their primary job while at peace is to oversee their Settlements
@@ -190,6 +181,7 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- Villags instead provide Manpower points to its bound Settlement, which is converted into garrison by that Settlement or conscripts during war
 		- Player Settlements do not auto generate Garrison, instead allowing the player to spend their Manpower points as they see fit
 		- During war, players can only spend Manpower to recruit tier 1 units
+		- Villager parties will physically travel to their bound Settlement, meaning if they get killed the Manpower gets wasted
 	- Villages Manpower depends also depends on Notables relation to the owner Clan
 1. Governorship
 	- When Governors are at a Settlement, it can resolve the issues of that settlement. Bound Villages have a smaller/delayed chance of having its issues resolved, unless a Governor is placed directly at that Village
@@ -223,7 +215,12 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- Bandit Minor Factions should be much more interwoven with the criminal gameplay
 	- Kingdoms are always at war with their Cultural bandit Minor Faction
 	- Rulers will pay good money for the execution of Minor Faction characters. This works for the AI too, but it depends on how much money the ruler has
-	- Players with very good relations with a Minor Factions add their unit troop to the player Garissons' list of possible units they can spend Manpower on
+	- Players with very good relations with a Minor Faction add their unit troop to the player Garissons' list of possible units they can spend Manpower on
+	- Mercenary Minor Factions will be headquartered at their Culture's capital.
+		- Headquarters give the Town they belong to access to their troop tree, regardless of relations, at a discount. Unless the owner is of a different clan, in which case they no longer offer these services
+		- Clans can convince (pay) Minor Factions to relocate their headquarter if the Minor Faction has negative relation with their Town's owner or if owner is of a different Clan, this will incour in negative relation gain with owner
+	- **Validate that Minor Faction relation is decreased if dues are not payed**
+	- New Minor Faction Issues, aimed at increasing relations (work for them? player needs to join them to become a mercenary at Clan tier 1? Part of their mercenary wage goes to Minor Faction, increasing relations based on total money given?)
 1. Tournaments rework
 	- Arena fights are a good way the player can train their combat skills during peace time
 	- Regular Tournaments will happen less often, and never when the kingdom is at war
@@ -261,3 +258,17 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- Big pillaging invasions, aimed at breaking long periods of stability.
 	- They only take over Settlements so they can devastate it
 	- Highly focused on raiding and executions
+1. Bandit camp rework
+	- AI Camps store items and money from their parties' battles, making them lucrative to clear. If they are owned by the player, this can result in a semi-regular passive income
+	- Camps can launch ambushes of caravans in a radius from the camp itself, and even grow so powerful that they can raid unprotected Villages. Bandit parties will continue to be opportunistic, preying mostly on villagers trying to sell their goods
+	- Threshold for outright spotting camps should require very high Scouting skill. Instead the player must try and find the tracks that lead to the camp itself
+	- Each Bandit Minor Factions will have a camp as their headquarters. This camp is very hard to find using Scouting alone. It can be revealed by having high relations with the Clan or with one of their criminal agents (town criminals)
+	- Players can own bandit camps and benefit from the same mecahnics. They can participate in ambushes and village raids
+	- **Validate that the AI does indeed try to clear these out as part of Issues**
+	- Owned camps can be a source of bandit troop recruitment for the player, for a price
+	- Different camps will have different perks, some tied to the camp scene, some randomly assigned
+	- New Minor Faction Issues, aimed at increasing relations (work for them? player join them to gain easier foothold in criminal underworld? They take a cut the and Player gains relations based on total money given?)
+	- Player can leverage Bandit Minor Factions and owned camps to destabilize other Major Factions, essetially bankrolling bandit acttivity
+	- The player owning a camp counts against their Workshop max
+	- Taking over a camp will still require the Player to invest a large amount of money to get it up and running
+	- 
