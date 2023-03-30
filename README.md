@@ -133,6 +133,10 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- This is much cheaper, but still crazy expensive, if the two clans have a Non-aggression pact
 1. Battle rework
 	- Unit AI tweak so that it is competent at the 150+ skill level
+	- More options during defeat:
+		* Player can charm for immediate release, including with troops
+		* Released nobles can keep their wounded party for promise of not fighting in current war anymore
+		* Prisoner escape rework. When noble prisoner is present, someone must be assigned as the prisoner guard.
 1. Field battle Auto-resolve rework
 	- Auto resolve will group units into the four basic groups: Melee, Foot Archer, Cavalry, Ranged Cavalry
 	- Unit Groups are better at damaging certain types of Unit Groups, acting as one tier above its normal tier
@@ -265,10 +269,29 @@ Each day, several skills are awarded a set amount of XP for the player.
 	- Each Bandit Minor Factions will have a camp as their headquarters. This camp is very hard to find using Scouting alone. It can be revealed by having high relations with the Clan or with one of their criminal agents (town criminals)
 	- Players can own bandit camps and benefit from the same mecahnics. They can participate in ambushes and village raids
 	- **Validate that the AI does indeed try to clear these out as part of Issues**
-	- Owned camps can be a source of bandit troop recruitment for the player, for a price
+	- Owned camps can be a source of bandit troop recruitment for the player, with prices varying based on nearby Settlement security
 	- Different camps will have different perks, some tied to the camp scene, some randomly assigned
 	- New Minor Faction Issues, aimed at increasing relations (work for them? player join them to gain easier foothold in criminal underworld? They take a cut the and Player gains relations based on total money given?)
 	- Player can leverage Bandit Minor Factions and owned camps to destabilize other Major Factions, essetially bankrolling bandit acttivity
 	- The player owning a camp counts against their Workshop max
 	- Taking over a camp will still require the Player to invest a large amount of money to get it up and running
-	- 
+	- AI and Player can work with Bandit Minor Factions against their faction leader
+	- Interplay with Town criminal activity, like owning Alleys?
+	- Player can work with town criminals to create new camps
+	- Taking over camps means loosing relations with nearby criminal notables
+	- Renow makes bandit activity much harder to go unnoticed. Factions will expell the Player if they amass too much criminal rating and potentially DOW until the Player character dies
+1. Missions
+	- War mission ideas:
+		* Sabotage enemy siege
+		* Resupply sieged Settlement
+		* Poison sieged Settlement
+		* Kidnap non-combatant nobles for ransom or war negitiations
+	- Bandit mission ideas:
+		* Raid workshop
+		* Stablish organized crime in Town
+		* Subjugate Bandit Minor Faction (hold all 4 leaders)
+		* Give up family member for peace with major faction?
+1. Companions
+	- Create custom companions with quests and much more lore
+	- Any companion can be added to Player clan after a minimal character level, relation and time spent in service
+	- Add more sources of relation gain/loss with companions
