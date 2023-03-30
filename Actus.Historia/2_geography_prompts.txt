@@ -1,10 +1,17 @@
 Now I am going to describe the geography of Calradia.
 Calradia is a landmass of continental proportions similar to the size of Earth's European continent.
-For the purposes of ChatGPT-generated content, no narrative content should involve the main character with maritime navigation or warfare, nor the navigation of rivers.
+For the purposes of generated content, no narrative content should involve the main character with maritime navigation or warfare, nor the navigation of rivers.
+One important characteristic of population settlements in Calradia, there exists three main categories:
+* Towns. These are the commercial and population centres in Calradia where shops, merchants, taverns and tournaments are
+* Castles. These are the defence anchor points of Calradian kingdoms.
+* Villages. These are the smaller settlements where all of the resources (food, minerals, livestock, etc) are produced
+    - Every village is bound to either a castle or town, to which they owe taxes and belong to the Clan that owns the bound town or castle
+    - Villagers travel between their village and the nearest town to sell the resources they produced
+    - Villagers travel between their village and their bound town/castle to deliver recruits for its garrison
 
 ------------------------------------------------
 
-I'll now describe the geography of the kingdom of the Khuzaits. Its main characteristics are:
+I'll now describe the geography of the kingdom of the Khuzait. Its main characteristics are:
 * It is the east-most kingdom within Calradia
 * Its east-west territorial width is much narrower than its territorial north-south height
 * It is a vast steppe covered by temperate grasslands
@@ -17,14 +24,66 @@ I'll now describe the geography of the kingdom of the Khuzaits. Its main charact
 * It does not have any land borders to the kingdom of Battania
 * It does not have sea access
 * To its east, there is a landmass beyond Calradia. No narrative content can happen there.
-* There is a large lake that covers about half of the political border between the kingdom of the Khuzaits and the Calradic Empire, called Lake Tanesis
+* There is a large lake that covers about half of the political border between the kingdom of the Khuzait and the Calradic Empire, called Lake Tanesis
 * A large river runs across the northern part of the kingdom of the Khuzait, called the Karakaz River. The river ends at the north tip of Lake Tanesis
 * Running down its north to south lands, several mountain ranges mark the landscape. Starting from the north, the Bars Dag mountain range connects to the Sulun Dag mountains when it approaches the east.
-* To the west of the Sulun Dag mountains sits the Devseg Plateau. This plateau is at centre of the kingdom of the Khuzaits
+* To the west of the Sulun Dag mountains sits the Devseg Plateau. This plateau is at centre of the kingdom of the Khuzait
 * South of the Devseg Plateau is Lover's Mountain. It is a small mountain with a nearby small lake, Lake Tsanga Nor, against the mountain's east side
 * South of Lover's Mountain is yet another small mountain, but larger than Lover's Mountain. It is called the Kohi Rohini Mountains. It marks that southern third part of the kingdom of the Khuzait and it is the south-most mountain in their lands
-* The east side of the Devseg Plateau ends at the Adecan(??) Hills. East of these hills lie Lake Tanesis
-* Starting at the southmost point of the Adecan(??) Hills is the Ozu River, which runs south and creates much of the natural border between the kingdom of the Khuzait and the Souther Empire, eventually even separating much of the Khuzait lands from the Aserai lands
+* The east side of the Devseg Plateau ends at the Adecan Hills. East of these hills lie Lake Tanesis
+* Starting at the southmost point of the Adecan Hills is the Ozu River, which runs south and creates much of the natural border between the kingdom of the Khuzait and the Souther Empire, eventually even separating much of the Khuzait lands from the Aserai lands
+
+I'll now describe the kingdom of the Khuzait settlements.
+* Karahalli is the northmost village in Khuzait territory. It is bound to Dinar castle, which is located to its south. Southeast is Dinar village
+* Dinar is a village of the Khuzait in its northmost province. It is bound to Dinar castle, located at its west. Northwest is Karahalli village. The Karakaz River is at its south. Southeast, across the Karakaz River, is Ulaan village. Southwest, across the Karakaz River, is Payam village
+* Dinar Castle is the northmost castle of the Khuzait. It sits south of Karahalli village, west of Dinar village, east of Bukits village and northeast of the Portages of Iltan
+* Payam is a village of the Khuzait southwest of Dinar village, across the Karakaz River. It is bound to Kaysar castle, found at its southwest. It sits on the south bank of the Karakaz River. To its east is Ulaan village
+* Kaysar is a village of the Khuzait east of Kaysar castle and southeast of Payam village. It is bound to Kaysar castle, found at its west. It is south of Ulaan village and north of the town of Baltakhand
+* Kaysar Castle is a castle of the Khuzait and is southwest of Payam village. The Portages of Iltan are at its west. To its east is the Kaysar village. To its south is Fisnar village. To its southeast is Baltakhand town
+* Ulaan is a village of the Khuzait and south of the Karakaz River and east of Payam village. To its south, past Kaysar village, is the town of Baltakhand. Ulann village is bound to the town of Baltakhand
+* Fisnar is a village of the Khuzait, bound to the town of Baltakhand which is to its east. It is to the east of the Portages of Iltan
+* Baltakhand is a town of the Khuzait. It is the northmost town in Khuzait land. To its west is Fisnar village and to its south is the Zakhan River, and across that river to the south is Asalig village
+* Asalig is a village of the Khuzait bound to the town of Baltakhand. It sits west of the Bars Dag Mountain. To its north, across the Zakhan River, is the town of Baltakhand. To its west, across the Zakhan River, is Kuruluk village. Far to its south is Khimli village
+* Kuruluk is a village of the Khuzait, bound to Tepes Castle. It sits in the northern bank of the Zakhan River. The village of Tepes is southwest of Kuruluk village. To its east, across Zakhan River, is Asalig village
+* Tepes is a village of the Khuzait, bound to Tepes Castle which sits east of Tepes village. To its west is Shapeshte village and to its southwest is the town of Makeb. The Portages of Iltan are at its northwest
+* Tepes Castle is a castle of the Khuzait. It is east of the village of Tepes, north of the village of Hanekhy and northeast of the town of Makeb
+* Shapeshte is a village of the Khuzait, bound to the town of Makeb which is to its south. It is west of Tepes. To its west is Karakaz River
+* Makeb is a town of the Khuzait, protected to its east by the Adecan Hills. It is south of Shapeshte village, north of Mazen village and west of Hanekhy village. To its west, across Lake Tanesis, is the land of the Northern Empire
+* Hanekhy is a village of the Khuzait, bound to the town of Makeb which sits at its west. It is south of Tepes Castle and west of Khimli Village. To its south is Esme village
+* Mazen is a village of the Khuzait, bound to the town of Makeb which sits at its north. It is north of Pabastan village and east, past the Adecan Hills, of Esme village. To its east is Lake Tanesis
+* Khimli is a village of the Khuzat, bound to Khimli Castle which sits at its southeast. It sits at the northern entrance to the Devseg Plateau. It is southeast to Hanekhy village and northeast of Esme village
+* Khimli Castle is a castle of the Khuzait. It is southeast of Khimli village, north of Ortongard town, northwest of Omrotok village and east of Esme village
+* Omrotok is a village of the Khuzait, bound to Khimli Castle which sits at its northwest. It is sheltered to its east by the Sulun Dag Mountains. It is northeast to Ortongard, north of Ransam village and northwest of Mivanjan village
+* Esme is a village of the Khuzait, bound to Usek Castle which sits at its southwest. It is west of Khimli Castle and east of Mazen village. The town of Ortongard sits at its southeast
+* Usek Castle is a castle of the Khuzait, in the eastern side of the Adecan Hills. It is southeast of Makeb, southwest of Esme village, west of Ortongard town and northeast to Usek village
+* Usek is a village of the Khuzait, bound to Usek Castle which sits at its northeast. It is east of Pabastan village and northeast to Chaikand town. Far to its east is the town of Ortongard
+* Ortongard is a town of the Khuzait. Deep in the Devseg Plateau, tt is south of Khimli Castle, southwest of Omrotok village, east of Usek Castle, northeast of Urunjan village and northwest from both Mivanjan village and Ransam village
+* Urunjan is a village of the Khuzait, bound to the town of Ortongard which is to its northeast. It is east, past the Adecan Hills, of the town of Chaikand and quite a bit west of Mivanjan village. Hakkun Castle is to its southwest
+* Ransam is a village of the Khuzait, bound to the town of Ortongard which is to its northwest. It is southeast of Mivanjan village and southwest of Urunjan village. It is part of the Devseg Plateau 
+* Mivanjan is a village of the Khuzait, bound to the town of Ortongard which sits at its northwest. It is sheltered by the Sulun Dag Mountains at its east. To its far west is the village of Urunjan. Still to its southwest, but much closer than Urunjan, is the village of Ransam. Following the Sulun Dag Mountains north is the village of Omrotok
+* Pabastan is a village of the Khuzait, bound to the town of Chaikand which sits at its south. To its east is the village of Usek. To its west is Lake Tanesis and to its north is Mazen village
+* Chaikand is a town of the Khuzait. It sits between Lake Tanesis and the Adecan Hills. To its north is Pabastan village. To its northeast is the village of Usek. To its east, through the Adecan Hills, is the village of Hakkun. To its south is Okhutan village, and past that, the village of Ispantar
+* Okhutan is a village of the Khuzait, bound to the town of Chaikand to its north. To its northeast is the village of Hakkun and to its south is the village of Ispantar. Lake Tanesis sits at its east
+* Ispantar is a village of the Khuzait, bound to the town of Chaikand to its north, past the village of Okhutan. To its east, past the Adecan Hills is the village of Akiser. To its southwest is the village of Kamshar
+* Hakkun is a village of the Khuzait, bound to Hakkun Castle to its east. It sits in the eastern face of the Adecan Hills. It is northwest of Akiser village
+* Hakkun Castle is a castle of the Khuzait. It is found in the southwestern area of the Devseg Plateau. Hakkun village is to its west and Kiraz village is to its east. It is northeast of the village of Akiser and quite a bit north of the town of Akkalat
+* Kiraz is a village of the Khuzait, bound to Hakkun Castle which sits to its west. It is northwest of Karakalat village, northeast of Akkalat town, southeast of Urunjan village and southwest of Ransam village
+* Simira Castle is a castle of the Khuzait. Lodged within Lover's Mountain, it is east of the town of Akkalat, past Lake Tsanga Nor. To its north is the village of Simira and to its southeast is the village of Kohi Ajik
+* Simira is a village of the Khuzait, bound to Simira Castle which sits at its south. It is east of Karakalat and south of Mivanjan. It is southeast of Ransam and north Kohi Ajik
+* Kohi Ajik is a village of the Khuzait, bound to Simira Castle which sits at its northwest. It is south of Simira village and east of Lake Tsanga Nor. Kohi Ajik is Khuzait's east-most settlement
+* Karakalat is a village of the Khuzait, bound to the town of Akkalat which sits at its southwest. It is southeast of Kiraz village and southwest of Simira village. Simira Castle sits to the southeast and Lake Tsanga Nor is due south
+* Akkalat is a town of the Khuzait. It is east of Akiser Castle, past the beginnings of the Ozu River. To its east is Lake Tsanga Nor and to its southwest is Tismil village. Far southeast lies the town of Odokh
+* Tismil is a village of the Khuzait, bound to the town of Akkalat to its northeast. It sits on the northeastern bank of the Ozu River. To its northwest, across Ozu River, is Akiser Castle. To its south is Erzenur Castle. Far to its east is Danara village and far southeast is the town of Odokh
+* Akiser is a village of the Khuzait, bound to Akiser Castle to its south. Northeast is Hakkun Castle and northwest is Hakkun village. To its west are both villages of Okhutan and Ispantar
+* Kamshar is a village of the Khuzait, bound to Akiser Castle to its southeast. It sits on the southeastern bank of Lake Tanesis. Far north is the town of Chaikand
+* Akiser Castle is a castle of the Khuzait. It sits at the northwestern bank of the Ozu River and across said river to its east is the town of Akkalat
+* Danara is a village of the Khuzait, bound to the town of Odokh to its south. At its north is Lake Tsanga Nor and at its west is Tismil village. Far southwest is Erzenur Castle
+* Odokh is a town of the Khuzait. Situated at the northwestern face of the Kohi Rohini Mountain, to its north is Danara village. To its west is Erzenur Castle. To its south is Karahan village and to its southeast is Nutyuk village
+* Karahalli is a village of the Khuzait, bound to the town of Odokh which sits at its north. East nearby is the village of Nutyuk. Far northwest is Erzenur Castle and far southwest is the village of Erzenur
+* Nutyuk is a village of the Khuzait, bound to the town of Odokh which sits at its northwest. Nearby to its east is the village of Karahan and to its north is Kohi Rohini Mountain
+* Erzenur Castle is a castle of the Khuzait. It is east of Ozu River, southwest of Tismil village and the town of Akkalat. It is west of the town of Odokh. Southwest is the village of Gereden. Across Ozu River to the west is the Southern Empire
+* Gereden is a village of the Khuzait, bound to Erzenur Castle which sits to its northeast. It sits on the eastern bank of Ozu River. Across the river, to its southwest is Odrysa Castle. Far southeast to Gereden is the village of Erzenur
+* Erzenur is a village of the Khuzait, bound to Erzenur Castle which sits far to its north. It is the southernmost settlement of the Khuzait, bordering the Southern Empire to the west and the Azerai kingdom to the south. To its south is the village of Hoqqa
 
 ------------------------------------------------
 
@@ -83,7 +142,7 @@ I'll now describe the geography of the Southern Empire. Its main characteristics
 * South is the Perassic Sea, Calradia's largest inland sea
 * The Perrassic Sea is contained to the north west by the Western Empire, to the north by the Northern Empire and to the east and south and south west by the kingdom of the Aserai
 * The Perassic Sea spills onto the vast ocean to its east through first the Bay of Ortysia, then the straight that connects the Western Empire to the kingdom of the Aserai and after the straight through Gulf of Charas
-* The Tanaeitic Plain is the main geographical corridor linking the Southern Empire to the land of the Khuzaits. Northeast of this plain is the southern bank of Lake Tanesis
+* The Tanaeitic Plain is the main geographical corridor linking the Southern Empire to the land of the Khuzait. Northeast of this plain is the southern bank of Lake Tanesis
 * There are two other important plains in the Southern Empire: Lycarean Plain and the Temea Valley
 
 ------------------------------------------------
@@ -108,7 +167,7 @@ I'll now describe the geography of the kingdom of Vlandia, also known as the Vla
 * It is located west of the kingdom of Battania
 * It is located northwest to the Western Empire
 * At its southeast, through the Gulf of Charas, lies the kingdom of the Aserai
-* At Vlandia's northwest territory is the Ebor Peninsula. The peninsula's natural borders are the Bay of Varcheg in the northeast and the Morcomb Valley at its southeast
+* At Vlandia's northwestern territory is the Ebor Peninsula. The peninsula's natural borders are the Bay of Varcheg in the northeast and the Morcomb Valley at its southeast
 * The Trand Valley lies south of Ebor Peninsula, sandwiched between the peninsula and Trand River
 * East of Trand Valley is Ocspool lake, and east to this lake are the Rhennod Hills
 * At its south, the Biscan Hills, which in truth are a mountain range, has the Etir River run west-bound accross its northern face
@@ -123,6 +182,6 @@ I'll now describe the geography of the kingdom of the Aserai. Its main character
 * South of the Gulf of Charas is the western-most mountain range in Aserai territory, called the Jabal Tamar Mountains
 * The Jabal Tamar Mountains are southwest of the Perassic Sea and the Bay of Ortysia
 * The Jabal Ashab Hills are a mountain range in the eastern Aserai territory. It is southeast to the Perrassic Sea
-* Norhteast of the Jabal Ashab Hills, across a smaller mountain range, is the Nahr al-Kais River, which divides the Aserai territory and the Khuzait territory
+* Northeast of the Jabal Ashab Hills, across a smaller mountain range, is the Nahr al-Kais River, which divides the Aserai territory and the Khuzait territory
 * Between the Jabal Tamar Mountains and the Jabal Ashab Hills, and south of the Perassic Sea, is a vast desert territory where many of the Aserai settlements can be found
 * There is only one river that truly runs through Aserai territory, almost splitting its desert territory in half. This river runs north-bound until it meets the Perassic Sea
