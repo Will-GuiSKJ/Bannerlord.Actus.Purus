@@ -8,8 +8,8 @@ I'll now describe the geography of the kingdom of the Khuzaits. Its main charact
 * It is the east-most kingdom within Calradia
 * Its east-west territorial width is much narrower than its territorial north-south height
 * It is a vast steppe covered by temperate grasslands
-* At its south-most area, its climate starts to resemble a savanna
-* At its north-most area, its climate starts to resemble more tundra-like conditions
+* At its southernmost area, its climate starts to resemble a savanna
+* At its northernmost area, its climate starts to resemble more tundra-like conditions
 * It is bordered to its south-west by the kingdom of the Aserai
 * It is bordered to its north-west by the kingdom of Sturgia
 * It is bordered to its west by the Northern Empire and Southern Empire factions of the Calradic Empire
@@ -18,11 +18,11 @@ I'll now describe the geography of the kingdom of the Khuzaits. Its main charact
 * It does not have sea access
 * To its east, there is a landmass beyond Calradia. No narrative content can happen there.
 * There is a large lake that covers about half of the political border between the kingdom of the Khuzaits and the Calradic Empire, called Lake Tanesis
-* A large river runs accross the northern part of the kingdom of the Khuzait, called the Karakaz River. The river ends at the north tip of Lake Tanesis
-* Running down its north to south lands, several mountain ranges mark the landscape. Starting from the north, the Bars Dag mountain range connects to the Sulun Dag mountains when it aproaches the east.
-* To the west of the Sulun Dag mountains sits the Devseg Plateau. This plateau is at center of the kingdom of the Khuzaits
+* A large river runs across the northern part of the kingdom of the Khuzait, called the Karakaz River. The river ends at the north tip of Lake Tanesis
+* Running down its north to south lands, several mountain ranges mark the landscape. Starting from the north, the Bars Dag mountain range connects to the Sulun Dag mountains when it approaches the east.
+* To the west of the Sulun Dag mountains sits the Devseg Plateau. This plateau is at centre of the kingdom of the Khuzaits
 * South of the Devseg Plateau is Lover's Mountain. It is a small mountain with a nearby small lake, Lake Tsanga Nor, against the mountain's east side
-* South of Lover's Mountain is yet another small mountain, but larger than Lover's Mountain. It is called the Kohi Rohini Mountains. It marks that shouthern third part of the kingdom of the Khuzait and it is the south-most moutain in their lands
+* South of Lover's Mountain is yet another small mountain, but larger than Lover's Mountain. It is called the Kohi Rohini Mountains. It marks that southern third part of the kingdom of the Khuzait and it is the south-most mountain in their lands
 * The east side of the Devseg Plateau ends at the Adecan(??) Hills. East of these hills lie Lake Tanesis
 * Starting at the southmost point of the Adecan(??) Hills is the Ozu River, which runs south and creates much of the natural border between the kingdom of the Khuzait and the Souther Empire, eventually even separating much of the Khuzait lands from the Aserai lands
 
@@ -41,7 +41,7 @@ I'll now describe the geography of the kingdom of Sturgia. Its main characterist
 * An icy sea touches the entirety of its northern border, called the Byallic Sea
 * An inland sea separates much of the border between the kingdom of Sturgia and the Northern Empire, called Lake Laconis, leaving only two land bridges connecting the two, at the east and west side of the Northern Empire
 * The kingdom of Sturgia has an exclave territory. This territory sits at the north of the kingdom of Battania and it is the only territory from the kingdom of Sturgia that borders the kingdom of Battania
-* To the east of the Karakaz River and north of Lake Tanesis are three small bodies of water collectively know as the Portages of Iltan and they mark the transition between Khuzait land and Sturgian land
+* To the east of the Karakaz River and north of Lake Tanesis are three small bodies of water collectively known as the Portages of Iltan and they mark the transition between Khuzait land and Sturgian land
 * Northwest of the Portages of Iltan and north east of Lake Laconis is Mount Iltan
 * Running through most of the first half northern part of Sturgia is the Chertyg Mountains. At the northern side of these mountains, about the midway point before the eastern and western extremities of the Cherttyg Mountains, is found the Vanni Woods
 * Touching much of the western bank of Lake Laconis is a densely wooded area called the Icara Wilds, where game is plentiful and hunting is a way of life
@@ -51,18 +51,18 @@ I'll now describe the geography of the kingdom of Sturgia. Its main characterist
 ------------------------------------------------
 
 I'll now describe the geography of the kingdom of Battania. Its main characteristics are:
-* It is located south west of the kingdom of Sturgia
+* It is located southwest of the kingdom of Sturgia
 * It borders the kingdom of Vlandia by three sides: northwest, west and south west
 * At its southeast and easter borders is the Southern Empire
 * Much of its northeast border touches Sturgia, with only a thin strip of land connecting it to Northern Empire
 * Much of Battania is confined to the largest plateau in Calradia, the Uchalion Plateau
 * Ailta Druin Cliffs sits at the northern extremity of the Uchalion Plateau
-* The Rhennod Hills, which in truth is a true moutain range, sits at the western end of the Uchalion Plateau and serve as a natural border between Battania and Vlandia
+* The Rhennod Hills, which in truth is a true mountain range, sits at the western end of the Uchalion Plateau and serve as a natural border between Battania and Vlandia
 * At the northwest end of the Uchalion Plateau, between the Ailta Druin Cliffs and The Rhennod Hills, is the Morcomb Valley, which serves as the only easy way to travel from Battania to northern Vlandia
-* Apart from the Morcomb Valley, the only way to enter Vlandian lands from Battania is through the Cafalcombe Valley, which operates as the southwest travel corredor between Battania and Vlandia
-* For Battanians, the Cafalcombe Valley also gives access to the Western Empire, as much of the estern border between Battania and the Western Empire is separated by the mountains that frame the western side of the Uchalion Plateau
-* Almost at the very center of the Uchalion Plateau lies lake Llyn Tywal
-* At the west bank of lake Llyn Tywal is a regions of hills called the The Rock of Glannys. Between the Rock of Glannys and the Rhennod Hills is a valley of idyllic forests
+* Apart from the Morcomb Valley, the only way to enter Vlandian lands from Battania is through the Cafalcombe Valley, which operates as the southwest travel hallway between Battania and Vlandia
+* For Battanians, the Cafalcombe Valley also gives access to the Western Empire, as much of the eastern border between Battania and the Western Empire is separated by the mountains that frame the western side of the Uchalion Plateau
+* Almost at the very centre of the Uchalion Plateau lies lake Llyn Tywal
+* At the west bank of lake Llyn Tywal is a region of hills called The Rock of Glannys. Between the Rock of Glannys and the Rhennod Hills is a valley of idyllic forests
 
 ------------------------------------------------
 
@@ -90,10 +90,10 @@ I'll now describe the geography of the Southern Empire. Its main characteristics
 
 I'll now describe the geography of the Western Empire. Its main characteristics are:
 * It is located west of the Southern Empire
-* It is located south west of the Northern Empire
-* It is located south east of the kingdom of Battania
+* It is located southwest of the Northern Empire
+* It is located southeast of the kingdom of Battania
 * It is located east of the kingdom of Vlandia
-* Near the center of its territory lies the lonely Mount Erithrys
+* Near the centre of its territory lies the lonely Mount Erithrys
 * West of Mount Erithrys runs Zeos River, and west of this river lies the Gavy's Valley, which in turn has the Gavy's River in the west
 * The Bay of Ortysia is in its south west border
 * From Mount Erithrys's southeast face, the Aminys River runs south, meating Gavy's River and the Lesser Aminys river before they all end at the Bay of Ortysia
@@ -109,20 +109,20 @@ I'll now describe the geography of the kingdom of Vlandia, also known as the Vla
 * It is located northwest to the Western Empire
 * At its southeast, through the Gulf of Charas, lies the kingdom of the Aserai
 * At Vlandia's northwest territory is the Ebor Peninsula. The peninsula's natural borders are the Bay of Varcheg in the northeast and the Morcomb Valley at its southeast
-* The Trand Valley lies south of Ebor Peninsula, sandwitched between the peninsula and Trand River
+* The Trand Valley lies south of Ebor Peninsula, sandwiched between the peninsula and Trand River
 * East of Trand Valley is Ocspool lake, and east to this lake are the Rhennod Hills
 * At its south, the Biscan Hills, which in truth are a mountain range, has the Etir River run west-bound accross its northern face
-* The Epiric Hills are the south-most moutain range in Vlandian territory. It creates a valley between itself and the Biscan Hills in the north
+* The Epiric Hills are the south-most mountain range in Vlandian territory. It creates a valley between itself and the Biscan Hills in the north
 
 ------------------------------------------------
 
 I'll now describe the geography of the kingdom of the Aserai. Its main characteristics are:
 * It is the south-most kingdom within Calradia
 * Its east-west territorial width is much longer than its north-south territorial height
-* The Perassic Sea is an interior sea that separates most of southern Calradia from the territories of the Aserai. It opens to the west on the ocean by what is called the Gulf of Charas
-* South of the Gulf of Charas is the western-most moutain range in Aserai territory, called the Jabal Tamar Mountains
+* The Perassic Sea is an inland sea that separates most of southern Calradia from the territories of the Aserai. It opens to the west on the ocean by what is called the Gulf of Charas
+* South of the Gulf of Charas is the western-most mountain range in Aserai territory, called the Jabal Tamar Mountains
 * The Jabal Tamar Mountains are southwest of the Perassic Sea and the Bay of Ortysia
-* The Jabal Ashab Hills are a mountain range in the easter Aserai territory. It is southeast to the Perrassic Sea
+* The Jabal Ashab Hills are a mountain range in the eastern Aserai territory. It is southeast to the Perrassic Sea
 * Norhteast of the Jabal Ashab Hills, across a smaller mountain range, is the Nahr al-Kais River, which divides the Aserai territory and the Khuzait territory
 * Between the Jabal Tamar Mountains and the Jabal Ashab Hills, and south of the Perassic Sea, is a vast desert territory where many of the Aserai settlements can be found
-* There is only one river that truly runs through Aserai territory, alsmost splitting its desert territory in half. This river runs north-bound until it meets the Perassic Sea
+* There is only one river that truly runs through Aserai territory, almost splitting its desert territory in half. This river runs north-bound until it meets the Perassic Sea
