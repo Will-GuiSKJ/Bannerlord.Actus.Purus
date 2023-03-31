@@ -106,3 +106,28 @@ Company of the Golden Boar:
 The company are Vlandians, mostly local levies who don't adjust well to peacetime and opted for a life of constant warfare. They are probably the least disciplined and most brigandish of Calradia's mercenaries, and a scourge to any bit of countryside where they are allowed to run loose. Still, like all mercenaries, they know that their future earnings depend on their reputation, so they honor contracts and practice their skills, particularly with the crossbow, to ensure their employers receive their money's worth.
 
 ----------------------------------------
+
+Battania
+
+The Kingdom of Battania is one of the kingdoms in Calradia. Ruled by High King Caladog, it occupies heavily forested lands in the northwest of the continent of Calradia. The Battanians are based on real life Celtic peoples, in particular from the early medieval times.
+
+Battanian civilization consists of loosely organized clans who originally populated most of the Calradian continent, but has been reduced to a small pocket of free territory after much of their land was conquered by the expansion of the Calradic Empire. Specialties of the Battanian warrior culture include forest warfare, longbowmen, and two-handed swordsmen.
+
+The misty hills of north-western Calradia are dominated by the Battanian clans, the original inhabitants of much of the continent. Their hilltop fortresses have born witness to countless wars fought to resist outside invaders: first the Empire's legions, and more recently the rising Sturgian and Vlandian kingdoms. They are masters of the longbow, the night raid, the sudden wild charge out of the woods. They idolise valour, but especially like it when mixed with a bit of mischief - the cattle thief who can whisk an entire herd into the fog; the champion who dines with a rival tribe, and, regaling his hosts with an anecdote of battle, produces from his bag the skull of one of their kinsmen that he took as a souvenir.
+
+Caladog fen Gruffendoc is the high king of Battania and the leader of the "fen Gruffendoc" clan. He is the owner of the town of Marunath, Rhemtoil Castle and Uthelaim Castle. Before Caladog, Battania was led by High King Aeril fen Derngil, whose disapearence led to the rise of clan fen Gruffendoc.
+
+The other clans of Battania are:
+* fen Derngil, led by Chieftain Ergeon. They own the town of Dunglanys and Aster Castle
+* fen Uvain, led by Chieftain Melidir. They own the town of Car Banseth and Pendraic Castle
+* fen Giall, led by Chieftain Aeron. They own the town of Pen Cannoc
+* fen Eingal, led by Chieftain Aradwyr. They own Druimmor Castle
+* fen Morcar, led by Chieftain Pryndor. They own Llanoc Hen Castle
+* fen Penraic, led by Chieftain Luichan. They own the town of Seonon and Flintolg Castle
+* fen Caernacht, led by ???
+* fen Uthelaim, led by ???
+
+The Wolfskins:
+The Wolfskins are heirs to a long tradition in the Battanian lands wherein great warriors went "wildling" for part of their youth, learning the ways of the woods and how to suffer hardship. So long as a Wolfskin wears no sewn clothes, eats no cooked food, and sleeps under no roof, he is immune from the laws of man. In fact, the modern wolfskins tend to be the sons of wealthy families taking a few years to indulge their feral side, robbing travellers and living viciously and not necessarily hewing to the old code.
+
+----------------------------------------
