@@ -50,29 +50,30 @@ The Sultanate of the Aserai is one of the kingdoms in Calradia. Ruled by Sultan 
 
 The Banu Asera, also known as Aserai, is a civilization that is comprised of numerous clans who all claim their descent from the legendary patriarch Asera. The clans have occupied the springs, oases and coastline settlements of the Nahasa desert and its surrounding areas since ancient times. Now that the Calradic Empire has become weaker, it has shown an opportunity to the clans, who have formed a confederation in the interests of conquest.
 
-About the lands of the Aserai:
 To the south of the imperial heartland lies the Nahasa, the Bronze Desert, ringed by mountains, hammered by the sun. A traveler coming over the passes from greener lands would first see fields of dunes broken by gravel plains and volcanic outcrops, shimmering under the heat haze. But there is water to be found underground, trapped in depressions or beneath the wadis where the occasional flash flood rumbles by. It is in these oases that people have settled. They are divided into dozens of clans and sub-clans, each with its elaborate genealogy, but are collectively known as the Banu Asera or the Aserai after the legendary patriarch Asera, whom they all claim as an ancestor.
 
 Unqid Banu Hulyan is the sultan of the Aserai and the leader of the Banu Hulyan clan. He is owner of the town of Quyaz and Ain Baliq Castle.
 
 The other clans of the Aserai are:
-* Banu Sarran, led by Adram. They own the town of Husn Fulq and the town of Razih
-* Banu Qild, led by Tais. They own the town of Hubyar, Sahel Castle and Shibal Zumr Castle
-* Banu Qaraz, led by Suruq. They own the town of Iyakis and Jamayeh Castle
-* Banu Arbas, led by Iyalas. They own the town of Askar
-* Banu Atji, led by Talas. They own the town of Qasira
-* Banu Sarmal, led by Awdhan. They own Ain Baliq Castle and Uqba Castle
-* Banu Habbab, led by Karith. They own Sahel Castle
-* Banu Ruwaid, led by Aqar. They own Barihal Castle
+* Banu Sarran, led by emir Adram. They own the town of Husn Fulq and the town of Razih
+* Banu Qild, led by emir Tais. They own the town of Hubyar, Sahel Castle and Shibal Zumr Castle
+* Banu Qaraz, led by emir Suruq. They own the town of Iyakis and Jamayeh Castle
+* Banu Arbas, led by emir Iyalas. They own the town of Askar
+* Banu Atji, led by emir Talas. They own the town of Qasira
+* Banu Sarmal, led by emir Awdhan. They own Ain Baliq Castle and Uqba Castle
+* Banu Habbab, led by emir Karith. They own Sahel Castle
+* Banu Ruwaid, led by emir Aqar. They own Barihal Castle
 
 The Beni Zilal:
 The Beni Zilal are a minor faction of Aserai. They are the self-proclaimed "keepers of the secret" who "watch from the shadows".
 The origins of the Beni Zilal, the Sons of the Shadows, are shrouded in legend. Many of the stories tell of a messianic preacher who rule from a citadel deep in the desert, entracing his followers with the help of hallucinogenic herbs and terrorizing the Aserai nobility with the threat of assassination. Regardless of how much truth these stories contain, this brotherhood is now a powerful institution in the deep reaches of the Nahasa, collecting protection money from caravans passing through its territory and cutting deals with local potentates while it awaits the day when it may reveal its hand more openly.
 
 The Jawwal:
+The Jawwal are a minor faction of Aserai, consisting of Bedouin nomads.
 The Jawwal, or “Roamers,” are the main bedouin confederacy in the Nahasa desert. They wander from highland to lowland grazing ground, declaring huge swathes of the desert their “territory” in which any caravan must offer protection money. They compose poems of their deeds and mock the other clans of the Banu Asera for giving up the “freedom” of black wool tents for stone houses in the oases. The other clans consider them boastful nuisances, though grudgingly respect them as protectors of the old ways.
 
 The Ghilman:
+The Ghilman are a minor faction of Aserai, they consist of a brotherhood of slave-warriors.
 The Ghilman are a band of mercenaries who recruit from the tribes of southern Calradia and the lands to the east. They are legally their own slaves and masters: each "sells" himself to the order and, in the process, becomes a part-owner. They are known for their fine horses and fine clothes. But no one should assume from their oiled locks, perfumes and peacock feathers that they spend more time preening then training. Their skills as mounted archers are second to none, and as lancers are close behind the Vlandians and the imperial cataphracts.
 
 ----------------------------------------
@@ -81,6 +82,8 @@ Vlandia
 
 The Kingdom of Vlandia is one of the kingdoms in Calradia. Ruled by King Derthert, it occupies the western forests and coastal plains of the Calradian continent. The Vlandians are based on real life Normans from Normandy during the times of William the Conqueror, Robert Guiscard of Sicily, and the Crusader Bohemond.
 
+The Vlandian kingdom, named after the early warlord Wilund the Bold (Valandion, in Calradic), began as a large number of barbarian tribes, who migrated into former Battanian lands during the waning period of the Calradic Empire. The Empire was at war on all sides, so it offered these new barbarian tribes land grants in exchange for mercenary work. Unfortunately, this gave Vlandian nobility a taste for Empire lands, and they united under King Osric Iron-Arm to conquer the far west of the Empire and declare themselves an independent nation.
+
 The Vlandians originated overseas and came to Calradia as mercenaries and adventurers. They take their name from one of their first warlords Wilund the Bold (Calradic: Valandion). The Vlandians were employed by the Calradic Empire primarily for the use of sieges, utilizing their skill in crossbows and board shields, and paid in land grants and titles, predominately located along the western coast.
 
 During a period of instability in the Empire, Osric Iron-Arm declared himself king of Vlandia, leading to de facto independence. He in turn recognized his lieutenants as barons and counts, granting them suzerainty over their lands in exchange for rallying to his banner in war. Some Vlandian kings have sought to expand the powers of the kingship; others have allowed the barons to feud amonst themselves so long as the money and manpower is there when needed.
@@ -88,22 +91,22 @@ During a period of instability in the Empire, Osric Iron-Arm declared himself ki
 Derthert dey Meroc is the King of Vlandia and the head of the clan dey Meroc. He is the owner of the town of Galend, the town of Sargot and Talivel Castle.
 
 The other clans of Vlandia are:
-* dey Tihr, led by Baron Aldric. They own the town of Pravend and Drapand Castle
-* dey Arromanc, led by Baronnes Calatild. They own the town of Jaculan
-* dey Fortes, led by Baron Belgir. They own the town of Ocs Hall and Verecsand Castle
-* dey Gunric, led by Baron Ostir. They own the town of Ostican and Tirby Castle
-* dey Cortain, led by Baron Ingalther. They own the town of Charas
-* dey Valant, led by Baron Servic. They own the town of Rovalt and Caleus Castle
-* dey Molarn, led by Baron Hecard. They own Usanc Castle
-* dey Jelind, led by Baron Vartin. They own Hongard Castle
-* dey Folcun, led by Baron Ecarand. They own Ormanfard Castle
-* dey Rothad, led by Baron Berican. They own Usanc Castle
+* dey Tihr, led by baron Aldric. They own the town of Pravend and Drapand Castle
+* dey Arromanc, led by baronnes Calatild. They own the town of Jaculan
+* dey Fortes, led by baron Belgir. They own the town of Ocs Hall and Verecsand Castle
+* dey Gunric, led by baron Ostir. They own the town of Ostican and Tirby Castle
+* dey Cortain, led by baron Ingalther. They own the town of Charas
+* dey Valant, led by baron Servic. They own the town of Rovalt and Caleus Castle
+* dey Molarn, led by baron Hecard. They own Usanc Castle
+* dey Jelind, led by baron Vartin. They own Hongard Castle
+* dey Folcun, led by baron Ecarand. They own Ormanfard Castle
+* dey Rothad, led by baron Berican. They own Usanc Castle
 
 Brotherhood of the Woods:
-The Brotherhood of the Woods started out as a Vlandian peasant movement, hiding out in the forests, robbing from the rich and giving to the poor. However, they encountered the usual problems that any long-running rebel movement might face - they needed to ensure a steady supply of food, and also ensure that none of the poor would dare earn a bag of coin by informing on them. Slowly but surely, the movement began to make use of extortion, terror, and corrupt deals with the local authorities to survive, becoming little different from any other organized bandit group in Calradia.
+The Brotherhood of the Woods is a minor faction of Vlandia. It started out as a Vlandian peasant movement, hiding out in the forests, robbing from the rich and giving to the poor. However, they encountered the usual problems that any long-running rebel movement might face - they needed to ensure a steady supply of food, and also ensure that none of the poor would dare earn a bag of coin by informing on them. Slowly but surely, the movement began to make use of extortion, terror, and corrupt deals with the local authorities to survive, becoming little different from any other organized bandit group in Calradia.
 
 Company of the Golden Boar:
-The company are Vlandians, mostly local levies who don't adjust well to peacetime and opted for a life of constant warfare. They are probably the least disciplined and most brigandish of Calradia's mercenaries, and a scourge to any bit of countryside where they are allowed to run loose. Still, like all mercenaries, they know that their future earnings depend on their reputation, so they honor contracts and practice their skills, particularly with the crossbow, to ensure their employers receive their money's worth.
+The Company of the Golden Boar are a minor faction of Vlandia. The company are Vlandians, mostly local levies who don't adjust well to peacetime and opted for a life of constant warfare. They are probably the least disciplined and most brigandish of Calradia's mercenaries, and a scourge to any bit of countryside where they are allowed to run loose. Still, like all mercenaries, they know that their future earnings depend on their reputation, so they honor contracts and practice their skills, particularly with the crossbow, to ensure their employers receive their money's worth.
 
 ----------------------------------------
 
@@ -118,16 +121,17 @@ The misty hills of north-western Calradia are dominated by the Battanian clans, 
 Caladog fen Gruffendoc is the high king of Battania and the leader of the "fen Gruffendoc" clan. He is the owner of the town of Marunath, Rhemtoil Castle and Uthelaim Castle. Before Caladog, Battania was led by High King Aeril fen Derngil, whose disapearence led to the rise of clan fen Gruffendoc.
 
 The other clans of Battania are:
-* fen Derngil, led by Chieftain Ergeon. They own the town of Dunglanys and Aster Castle
-* fen Uvain, led by Chieftain Melidir. They own the town of Car Banseth and Pendraic Castle
-* fen Giall, led by Chieftain Aeron. They own the town of Pen Cannoc
-* fen Eingal, led by Chieftain Aradwyr. They own Druimmor Castle
-* fen Morcar, led by Chieftain Pryndor. They own Llanoc Hen Castle
-* fen Penraic, led by Chieftain Luichan. They own the town of Seonon and Flintolg Castle
+* fen Derngil, led by mormaer Ergeon. They own the town of Dunglanys and Aster Castle
+* fen Uvain, led by mormaer Melidir. They own the town of Car Banseth and Pendraic Castle
+* fen Giall, led by mormaer Aeron. They own the town of Pen Cannoc
+* fen Eingal, led by mormaer Aradwyr. They own Druimmor Castle
+* fen Morcar, led by mormaer Pryndor. They own Llanoc Hen Castle
+* fen Penraic, led by mormaer Luichan. They own the town of Seonon and Flintolg Castle
 * fen Caernacht, led by ???
 * fen Uthelaim, led by ???
 
 The Wolfskins:
+The Wolfskins are a minor faction based in Battania. They are a society of young warriors who have left their clans to lead a life of violence and freedom in the wilderness. They live like wolves, eating raw flesh, not sleeping under any roof, not wearing woven cloth and they follow The Code of the Wolf.
 The Wolfskins are heirs to a long tradition in the Battanian lands wherein great warriors went "wildling" for part of their youth, learning the ways of the woods and how to suffer hardship. So long as a Wolfskin wears no sewn clothes, eats no cooked food, and sleeps under no roof, he is immune from the laws of man. In fact, the modern wolfskins tend to be the sons of wealthy families taking a few years to indulge their feral side, robbing travellers and living viciously and not necessarily hewing to the old code.
 
 ----------------------------------------
@@ -153,13 +157,45 @@ The other clans of Sturgia are:
 * Kostoroving, led by knayz Rolan. THey own Kranirog Castle
 
 The Forest People:
+The Forest People are a minor faction based around the Principality of Sturgia, consisting of a semi-nomadic clan that practices swidden agriculture in the depths of the woods.
 The tribes known as the Forest People practice slash-and-burn farming in the deep woods, outside the grasp of the Sturgian boyars. They burn down tracts of trees, grow crops on the virgin soil fertilized by ash for a few years until the land is exhausted, and move on. It is an inefficient use of land but a very efficient use of labor, suitable for a numerically small population in a large area. Also, because the plots are hard to measure and tax, it's a very good strategy for people who don't care to be governed.
 
 The Lake Rats:
-They are dangerous uncaring barbarian plunderers and raiders that operate in the coasts of Sturgia and sometimes in Vlandia. Their hideouts are inside hidden sea caves by the coasts. Because of how they operate and their lack of morality they are universally disliked in Calradia.
+The Lake Rats are a minor faction based in the Principality of Sturgia. They are dangerous uncaring barbarian plunderers and raiders that operate in the coasts of Sturgia and sometimes in Vlandia. Their hideouts are inside hidden sea caves by the coasts. Because of how they operate and their lack of morality they are universally disliked in Calradia.
 The Lake Rats live in the marshes on the shores of the great northern lake, in shacks made out of the timbers of ruined ships. They live by "wrecking" - i.e. luring ships onto shoals with false lighthouses and beacons. Because they're scorned by the rest of Calradia - "all criminals, smell like marsh gas and mud and rotten fish" - they scorn everyone else back. Although mostly Sturgian, their ranks have been swelled by fugitives, debtors, and anyone else who'd rather live by a thieves' code than by the laws of nobles.
 
 The Skolderbroda:
+Skolderbroda is a minor faction based in Sturgia, they are a mercenary brotherhood based on our real world's Jomsvikings of the Baltic.
 The Skolderbroda, or Shield Brothers, are a mercenary company for those who take fighting and training very seriously. They are primarily Nordic but do allow recruits from other cultures, as long as an already-serving Shield Brother will vouch for them. Their rules are almost monastic: no women in their encampments and no amusements, and no Brother is allowed to spend the night outside without permission. In combat, they fight with spear and axe in the Nordic style and are valued by all the noble houses of the north.
 
 ----------------------------------------
+
+Khuzait
+
+The Khuzait Khanate is one of the kingdoms of Calradia. Ruled by Monchug Khan, it occupies the eastern grasslands and steppes outside of the continent of Calradia. The Khuzait are based on the real world peoples of the Eurasian Steppe, Turks and Mongolia that existed during the Classical Era and Middle Ages.
+
+Khuzait peoples were once nomadic tribes who roamed the east borders of the Calradic Empire, until threats from further to the east forced them to band together as a Khanate under Urkhun the Khuzait. This Khanate moved into, and conquered, the poorly defended eastern lands of the Empire. Eventually, these nomadic tribes became settled in the towns and villages they had taken.
+
+A century before the start of Bannerlord, the Calradic Empire extended all the way to the border of the Great Grass Sea. The steppe tribes on the border, which included the Khuzaits, Nachaghan, Arkits, Khergits, and Karakhuzaits, were disunited. The Empire was able to keep the tribes fighting among themselves by bribing chiefs and assassinating khans that were consolidating power.
+
+However, two generations before the start of the game, steppe tribes from the far east pushed westward toward the Empire. Caught between a hammer and an anvil, the border tribes united in a confederacy under Urkhun the Khuzait. This confederation grew in power by conquering and raiding the most eastern extents of the Empire. Taxes and tariffs were levied on these conquered towns and lands. Eventually, the Confederacy became known as a Khanate.
+
+Urkhun ruled the Khuzait Khanate with supreme authority, not allowing vassalized clans to raid or declare war without his approval. This settled and more conventional lifestyle did not sit well with some of the more unruly clans, such as the Karakhergits. After Urkhun's death, his descendants continued to rule. However, many clans felt they should be the ones to rule the Khanate.
+
+The nine-horsetail banner is the symbol of the Khuzait Khanate.
+
+Monchug Urkhunait is the khan of Khuzait and the leader of the Urkhunait clan. He owns the town of Makeb and the town of Chaikand.
+
+The other clans of the Khuzait are:
+* Khergit, led by begum Mesui. They own the town of Baltakhand
+* Arkit, led by beg Tulag, They own the town of Ortongard and Usek Castle
+* Baltait, led by beg Ilatar. They own Dinar Castle and Kaysar Castle
+* Harfit, led by beg Akrum. They own the town of Odokh
+* Koltit, led by beg Kanujan. They own Simira Castle and Akiser Castle
+* Tigrit, led by beg Hurunag. They own the town of Akkalat
+* Yanserit, led by beg Taslur. They own Hakkun Castle
+* Oburit ??
+
+The Karakhergit:
+The Karakhergit are a Khuzait minor faction that keeps to the old ways of the Khuzait (raiding, pillaging and small clans).
+The Karakhergit are a nomadic clan that has resisted all efforts by the centralizing Urkhunid khans to keep them in one place, give them farmlands and serfs, and force them to give over taxes and military levies. They are treated by the other clans with a combination of envy and contempt. They trade and sometimes even intermarry with their settled brethren, but they also do a limited amount of kidnapping for ransom and raiding of flocks, and scoff at those who would blame them for carrying on with the heroic old ways.
