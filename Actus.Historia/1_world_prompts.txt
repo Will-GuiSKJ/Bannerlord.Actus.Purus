@@ -1,5 +1,5 @@
 During this conversation session, I will be discussing things related to a game called "Mount & Blade II: Bannerlord".
-The following are all information pertaining to this game and its game world.
+The following are several pieces of information pertaining to this game and its game world.
 
 ------------------------------------------
 
@@ -34,13 +34,49 @@ Here are some general details about the world where Calradia exists:
 ---------------------------------------
 
 Calradia recent history:
-Calradia has long been ruled by the Rome-like Calradic Empire. At its peak, all other factions within Calradia were either dominated by the Empire, or allowed to exist by it. But in recent centuries the Empire grows ever weaker. And recently, a batle has put to question weather the Empire will survive or crumble.
+Calradia has long been ruled by the Rome-like Calradic Empire. At its peak, all other factions within Calradia were either dominated by the Empire, or allowed to exist by it. But in recent centuries the Empire grows ever weaker. And recently, the Battle of Pendraic has put to question weather the Empire will survive or crumble.
+
+The Calradic Empire can trace its beginnings to a warlord named Calradios the Great, who led a band of exiles northwards into the land that would eventually be named Calradia in order to make a new home for themselves through conquest. His descendants, the Calradoi, became one of the many tribes living in the hills bordering the Southern Sea and the Battanian woodlands.
+
+It is believed Calradios or one of his descendants found the first Calradoi settlement of Charasea which would later be known as Charas. From this place of Calradios' landfall, the Calradoi began to form colonies in the lands around them such as Pravend and Ortysia. Eventually, the Calradoi moved their capital to Pravend. During this early wave of expansion, the Calradoi subjugated their neighbors and forced them to join a confederation of city-states.
+
+The Calradoi were governed by a monarch until its last ruler, the tyrant Cypegos, was slain by Echerion. After this event, the Calradoi were governed by two bodies: an assembly of free citizens who would meet occasionally and a permanent Senate of elders, mostly comprised of the largest landowners. Only when military necessity required it would the Calradoi appoint an emperor to serve as their supreme commander.
+
+Calradios and his descendants conquered many of the natives and incorporated them into the burgeoning nation under the Dragon Banner, many ancient tribes such as the Palaic, Ialoic, Laconians, and Dryatic and assimilated as imperial citizens. The Empire came to stretch all the way from the western coast of Calradia to the Great Grass Sea in the east, the single greatest power on the continent for hundreds of years.
+
+During the years of expansion, emperors were appointed more frequently until they simply remained in office even after the military need was gone. The imperial capital was moved out of Pravend and based where ever the emperor was typically in an army camp. When the free assembly of citizens met with the emperor, the army's veterans could shout down dissenters. The senators grew wealthy and corrupt, moving out into the conquered territories to stake their claim on new landholdings.
+
+The Empire had a policy of keeping the border tribes in a state of disarray: creating clients and allies in the Nahasa Desert and reducing the power of any ambitious Battanian king or nomadic khan through bribes and assassinations. Despite this, the Calradic Empire still experienced its share of conflict with these foreign states, sending imperial legions and hiring Vlandian mercenaries from overseas to continue its expansion and protect their borders.
+
+However, for sometime before the reign of Emperor Neretzes, the Calradic Empire was in a state of decline. Matters of imperial succession often caused a crisis which had to be resolved on the battlefield. A great interregnum struck the Empire in which the most eastern and most western territories fell away and were only ruled by petty kings, governors and generals while the center fought over the crown of the Emperor.
+
+Nearly a century before the events of the game, the Vlandian mercenaries who had settled within the Empire's borders declared their independence under Osric Iron-Arm, seizing control of the capital city of Baravenos (which was later renamed to Pravend) and the rest of the Western Coast. Meanwhile, the steppe and desert tribes united into the Khuzait Khanate and the Aserai respectively, with the Khuzaits pushing west into the Empire and taking its eastern provinces.
+
+During the year 1077, the Empire experienced one of its worst defeats in all its history. An alliance of Sturgians, Battanians and Vlandians had declared war against the Empire and its Aserai and Khuzait allies. Under Emperor Neretzes, the army marched into Battanian lands, culminating in the Battle of Pendraic , wherein the imperials were slaughtered by falxmen, Vlandian horsemen, and Sturgian warriors. Neretzes fell in battle as the imperial camp was stormed by the enemy, with the dragon banner lost and only a handful of soldiers escaping to the safety of imperial territory.
 
 The Battle of Pendraic, nicknamed Neretzes' Folly as a form of ridicule, was a major military engagement in the year 1077 involving all major factions in Calradia. The battle was fought between the Empire and Sturgia, with the Aserai and Khuzait siding with the former, and the Vlandians and Battanians siding with the latter.
+
 There is much discrepancy in what actually occurred, but what is certain is that the Empire suffered significant casualties, including Emperor Neretzes himself, whose death would only further accelerate the decline of imperial authority. In the aftermath, Arenicos (who participated in the battle) ascended to the imperial throne. In his rule as emperor, he slowed the Empire's decline that had resulted from the devastating defeat at Pendraic.
 
-Emperor Arenicos was the last undisputed ruler of the Calradic Empire, whose military exploits and careful stewardship of the Empire slowed the Imperial decline that peaked during the Battle of Pendraic. Elected by the Senate to succeed the unpopular Emperor Neretzes soon after the disastrous battle against the Battanian and Sturgian coalition, Arenicos used the rift between Sturgia and Battania to end the war after a series of successful military campaigns as Emperor. Prior to ascending to the Imperial title, he had a senatorial, competent and esteemed reputation — he served as one of Neretzes's most trusted subordinates and commanders. Viewed as the savior of the Empire, a cult had begun to worship him as a partly divine ruler. Arenicos was assassinated before naming his successor, which caused the Imperial fragmentation and Civil War between Lucon (leader of the Western Empire), Garios (leader of the Northern Empire) and Rhagaea (leader of the Southern Empire).
-He was the husband of Rhagaea, and the father of Ira. Further, he was the leader of the Pethros clan.
+Emperor Arenicos was the last undisputed ruler of the Calradic Empire, whose military exploits and careful stewardship of the Empire slowed the Imperial decline that peaked during the Battle of Pendraic. Elected by the Senate to succeed the unpopular Emperor Neretzes soon after the disastrous battle against the Battanian and Sturgian coalition, Arenicos used the rift between Sturgia and Battania to end the war after a series of successful military campaigns as Emperor. Prior to ascending to the Imperial title, he had a senatorial, competent and esteemed reputation — he served as one of Neretzes's most trusted subordinates and commanders. Viewed as the savior of the Empire, a cult had begun to worship him as a partly divine ruler. Arenicos was assassinated before naming his successor, which caused the Imperial fragmentation and Civil War between Lucon (leader of the Western Empire), Garios (leader of the Northern Empire) and Rhagaea (leader of the Southern Empire). Arenicos was the husband of Rhagaea, and the father of Ira. Further, he was the leader of the Pethros clan.
+
+----------------------------------------
+
+Calradic Empire
+
+The Calradic Empire, also known as the Calradian Empire or the Calrad Empire, is currently a collection of three kingdoms. Since the death of Emperor Arenicos, The Calradic Empire has been embroiled in the Calradic Civil War, engaged between the Western Empire, Northern Empire, and Southern Empire. The Empire is loosely based on our real world Roman Empire and Byzantine Empire.
+
+The Southern Calradic Empire is one of the civil war factions of the Calradic Empire. Ruled by Rhagaea Pethros, the widow of Emperor Arenicos, who claims the throne for her daughter Ira, the only child of the late emperor. Empress Rhagaea is the ruler of the Southerm Empire and the leader of clan Pethros. She owns the town of Lycaron, the town of Onira, Chanopsis Castle and Sestadaim Castle.
+
+The other Empire clans that have sworn to Rhagaea are:
+* Leonipardes, led by archon Pharon. They own the town of Poros
+* Mestricaros, led by archon Oros. They own the town of Danustica, Lavenia Castle and Odrysa Castle
+* Hongeros, led by archon Turados. They own the town of Vostrum
+* Julios, led by archon Baranor. They own the town of Syronea and Corenia Castle
+* Vizartos, led by archon Sichanis. They won the town of Phycaon
+* Avlonos, led by archon Serandon. They own Melion Castle
+* Prienicos, led by archon Abalytos. They own Morenia Castle
+* Vetranis, led by archon Satros. They own ??
 
 ----------------------------------------
 
