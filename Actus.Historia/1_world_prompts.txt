@@ -9,10 +9,10 @@ First, I would like to describe the World, which is called Calradia.
 At the start of the game, it is the year 1084 in Calradia. The world of Calradia takes inspiration from our own world, Earth, during the Middle Ages.
 Calradia contains within it 6 kingdoms:
 1. The Calradic Empire, also know simply as the Empire
-2. The kingdom of Vlandia, also known as the Vlandian kingdom
-3. The kingdom of Battania, also known as the Battanian kingdom
-4. The kingdom of Sturgia, also known as the Sturgian kingdom
-5. The kingdom of the Khuzaits, also known as the Khuzait kingdom
+2. The Kingdom of Vlandia, also known as the Vlandian kingdom
+3. The Kingdom of Battania, also known as the Battanian kingdom
+4. The Principality of Sturgia, also known as the Sturgian kingdom
+5. The Khuzait Khanate, also known as the Khuzait kingdom
 6. The Sultanate of the Aserai, also known as the Azerai kingdom
 
 Furthermore, the Calradic Empire is undergoing a civil war and it has been divided into three factions:
@@ -74,5 +74,35 @@ The Jawwal, or “Roamers,” are the main bedouin confederacy in the Nahasa des
 
 The Ghilman:
 The Ghilman are a band of mercenaries who recruit from the tribes of southern Calradia and the lands to the east. They are legally their own slaves and masters: each "sells" himself to the order and, in the process, becomes a part-owner. They are known for their fine horses and fine clothes. But no one should assume from their oiled locks, perfumes and peacock feathers that they spend more time preening then training. Their skills as mounted archers are second to none, and as lancers are close behind the Vlandians and the imperial cataphracts.
+
+----------------------------------------
+
+Vlandia
+
+The Kingdom of Vlandia is one of the kingdoms in Calradia. Ruled by King Derthert, it occupies the western forests and coastal plains of the Calradian continent. The Vlandians are based on real life Normans from Normandy during the times of William the Conqueror, Robert Guiscard of Sicily, and the Crusader Bohemond.
+
+The Vlandians originated overseas and came to Calradia as mercenaries and adventurers. They take their name from one of their first warlords Wilund the Bold (Calradic: Valandion). The Vlandians were employed by the Calradic Empire primarily for the use of sieges, utilizing their skill in crossbows and board shields, and paid in land grants and titles, predominately located along the western coast.
+
+During a period of instability in the Empire, Osric Iron-Arm declared himself king of Vlandia, leading to de facto independence. He in turn recognized his lieutenants as barons and counts, granting them suzerainty over their lands in exchange for rallying to his banner in war. Some Vlandian kings have sought to expand the powers of the kingship; others have allowed the barons to feud amonst themselves so long as the money and manpower is there when needed.
+
+Derthert dey Meroc is the King of Vlandia and the head of the clan dey Meroc. He is the owner of the town of Galend, the town of Sargot and Talivel Castle.
+
+The other clans of Vlandia are:
+* dey Tihr, led by Baron Aldric. They own the town of Pravend and Drapand Castle
+* dey Arromanc, led by Baronnes Calatild. They own the town of Jaculan
+* dey Fortes, led by Baron Belgir. They own the town of Ocs Hall and Verecsand Castle
+* dey Gunric, led by Baron Ostir. They own the town of Ostican and Tirby Castle
+* dey Cortain, led by Baron Ingalther. They own the town of Charas
+* dey Valant, led by Baron Servic. They own the town of Rovalt and Caleus Castle
+* dey Molarn, led by Baron Hecard. They own Usanc Castle
+* dey Jelind, led by Baron Vartin. They own Hongard Castle
+* dey Folcun, led by Baron Ecarand. They own Ormanfard Castle
+* dey Rothad, led by Baron Berican. They own Usanc Castle
+
+Brotherhood of the Woods:
+The Brotherhood of the Woods started out as a Vlandian peasant movement, hiding out in the forests, robbing from the rich and giving to the poor. However, they encountered the usual problems that any long-running rebel movement might face - they needed to ensure a steady supply of food, and also ensure that none of the poor would dare earn a bag of coin by informing on them. Slowly but surely, the movement began to make use of extortion, terror, and corrupt deals with the local authorities to survive, becoming little different from any other organized bandit group in Calradia.
+
+Company of the Golden Boar:
+The company are Vlandians, mostly local levies who don't adjust well to peacetime and opted for a life of constant warfare. They are probably the least disciplined and most brigandish of Calradia's mercenaries, and a scourge to any bit of countryside where they are allowed to run loose. Still, like all mercenaries, they know that their future earnings depend on their reputation, so they honor contracts and practice their skills, particularly with the crossbow, to ensure their employers receive their money's worth.
 
 ----------------------------------------
