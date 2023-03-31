@@ -13,7 +13,7 @@ Calradia contains within it 6 kingdoms:
 3. The kingdom of Battania, also known as the Battanian kingdom
 4. The kingdom of Sturgia, also known as the Sturgian kingdom
 5. The kingdom of the Khuzaits, also known as the Khuzait kingdom
-6. The kingdom of the Aserai, also known as the Azerai kingdom
+6. The Sultanate of the Aserai, also known as the Azerai kingdom
 
 Furthermore, the Calradic Empire is undergoing a civil war and it has been divided into three factions:
 1. The Southern Empire
@@ -31,11 +31,45 @@ Here are some general details about the world where Calradia exists:
 6. Mercenaries and hired blades can earn a living by protecting these caravans
 7. Bandits and raiders are very common, using the instability brought by the Calradic Empire current civil war to wreak havok on the land. Bandit hideouts are therefore scattered across the land
 8. The Calradic Empire was once the dominant power in Calradia, but was weakened by internal strife and external threats. Civil war erupted between three factions after the death of Emperor Arenicos
-9. Calradia is home to a variety of different religions, which include the faith of the holy order of the Aserai, popular in the kingdom of the Azerai and neighbouring territories
-            LETS CREATE SOME RELIGIONS. ASERAI CAN BE BASED ON EARLY ISLAM, VLANDIA CAN BE BASED ON CHRISTIANITY, KHUZAIT AND BATTANIA ARE MORE TRIBAL, STURGIA IS VERY VIKING AND EMPIRE IS GRECO-ROMAN
+9. Calradia is home to a variety of different religions
 
+---------------------------------------
 
+Calradia recent history:
+The Battle of Pendraic, nicknamed Neretzes' Folly as a form of ridicule, was a major military engagement in the year 1077 involving all major factions in Calradia. The battle was fought between the Empire and Sturgia, with the Aserai and Khuzait siding with the former, and the Vlandians and Battanians siding with the latter.
+There is much discrepancy in what actually occurred, but what is certain is that the Empire suffered significant casualties, including the Emperor Neretzes himself, whose death would only further accelerate the decline of imperial authority. In the aftermath, Arenicos (who participated in the battle) ascended to the imperial throne. In his rule as emperor, he slowed the Empire's decline that had resulted from the devastating defeat at Pendraic.
 
+----------------------------------------
 
-Drosios Neretzes from Calradic Empire, died in battle, at age 77 in 1077
-In year 1077, a major battle occured near Pendraic. Battle fought between Northern Empire, Southern Empire, Aserai, Khuzait as attacker and Vlandia, Battania, Sturgia as defender. Defenders won the battle
+Aserai
+
+The Sultanate of the Aserai is one of the kingdoms in Calradia. Ruled by Sultan Unqid, it occupies the shores and the desert beyond the Perassic Sea, to the south below the continent of Calradia. Aserai are based on the real life Arab tribes that existed before the Islamic conquests in the seventh century.
+
+The Banu Asera, also known as Aserai, is a civilization that is comprised of numerous clans who all claim their descent from the legendary patriarch Asera. The clans have occupied the springs, oases and coastline settlements of the Nahasa desert and its surrounding areas since ancient times. Now that the Calradic Empire has become weaker, it has shown an opportunity to the clans, who have formed a confederation in the interests of conquest.
+
+About the lands of the Aserai:
+To the south of the imperial heartland lies the Nahasa, the Bronze Desert, ringed by mountains, hammered by the sun. A traveler coming over the passes from greener lands would first see fields of dunes broken by gravel plains and volcanic outcrops, shimmering under the heat haze. But there is water to be found underground, trapped in depressions or beneath the wadis where the occasional flash flood rumbles by. It is in these oases that people have settled. They are divided into dozens of clans and sub-clans, each with its elaborate genealogy, but are collectively known as the Banu Asera or the Aserai after the legendary patriarch Asera, whom they all claim as an ancestor.
+
+Unqid Banu Hulyan is the sultan of the Aserai and the leader of the Banu Hulyan clan. He is owner of the town of Quyaz and Ain Baliq Castle.
+
+The other clans of the Aserai are:
+* Banu Sarran, led by Adram. They own the town of Husn Fulq and the town of Razih
+* Banu Qild, led by Tais. They own the town of Hubyar, Sahel Castle and Shibal Zumr Castle
+* Banu Qaraz, led by Suruq. They own the town of Iyakis and Jamayeh Castle
+* Banu Arbas, led by Iyalas. They own the town of Askar
+* Banu Atji, led by Talas. They own the town of Qasira
+* Banu Sarmal, led by Awdhan. They own Ain Baliq Castle and Uqba Castle
+* Banu Habbab, led by Karith. They own Sahel Castle
+* Banu Ruwaid, led by Aqar. They own Barihal Castle
+
+The Beni Zilal:
+The Beni Zilal are a minor faction of Aserai. They are the self-proclaimed "keepers of the secret" who "watch from the shadows".
+The origins of the Beni Zilal, the Sons of the Shadows, are shrouded in legend. Many of the stories tell of a messianic preacher who rule from a citadel deep in the desert, entracing his followers with the help of hallucinogenic herbs and terrorizing the Aserai nobility with the threat of assassination. Regardless of how much truth these stories contain, this brotherhood is now a powerful institution in the deep reaches of the Nahasa, collecting protection money from caravans passing through its territory and cutting deals with local potentates while it awaits the day when it may reveal its hand more openly.
+
+The Jawwal:
+The Jawwal, or “Roamers,” are the main bedouin confederacy in the Nahasa desert. They wander from highland to lowland grazing ground, declaring huge swathes of the desert their “territory” in which any caravan must offer protection money. They compose poems of their deeds and mock the other clans of the Banu Asera for giving up the “freedom” of black wool tents for stone houses in the oases. The other clans consider them boastful nuisances, though grudgingly respect them as protectors of the old ways.
+
+The Ghilman:
+The Ghilman are a band of mercenaries who recruit from the tribes of southern Calradia and the lands to the east. They are legally their own slaves and masters: each "sells" himself to the order and, in the process, becomes a part-owner. They are known for their fine horses and fine clothes. But no one should assume from their oiled locks, perfumes and peacock feathers that they spend more time preening then training. Their skills as mounted archers are second to none, and as lancers are close behind the Vlandians and the imperial cataphracts.
+
+----------------------------------------
