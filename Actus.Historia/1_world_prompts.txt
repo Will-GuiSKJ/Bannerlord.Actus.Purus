@@ -1,12 +1,10 @@
-During this conversation session, I will be discussing things related to a game called "Mount & Blade II: Bannerlord". This game is the sequal to another game, called "Mount & Blade: Warband".
-Throughout this conversation session, I will be asking for you to create narrative content for "Mount & Blade II: Bannerlord".
-Before I ask anything from you, I will be providing a lot of details about the World in which "Mount & Blade II: Bannerlord" is set, its factions, geography, characters and history.
-Please wait until I have entered all my context. When I am ready for you to create any content, I'll ask you directly.
+During this conversation session, I will be discussing things related to a game called "Mount & Blade II: Bannerlord".
+The following are all information pertaining to this game and its game world.
 
 ------------------------------------------
 
-First, I would like to describe the World, which is called Calradia.
-At the start of the game, it is the year 1084 in Calradia. The world of Calradia takes inspiration from our own world, Earth, during the Middle Ages.
+First, I would like to describe the continent where the game takes place, which is called Calradia.
+At the start of the game, it is the year 1084 in Calradia. The world of Calradia takes inspiration from our own world, Earth, during the 10th and 11th century of the Middle Ages.
 Calradia contains within it 6 kingdoms:
 1. The Calradic Empire, also know simply as the Empire
 2. The Kingdom of Vlandia, also known as the Vlandian kingdom
@@ -36,10 +34,12 @@ Here are some general details about the world where Calradia exists:
 ---------------------------------------
 
 Calradia recent history:
-The Battle of Pendraic, nicknamed Neretzes' Folly as a form of ridicule, was a major military engagement in the year 1077 involving all major factions in Calradia. The battle was fought between the Empire and Sturgia, with the Aserai and Khuzait siding with the former, and the Vlandians and Battanians siding with the latter.
-There is much discrepancy in what actually occurred, but what is certain is that the Empire suffered significant casualties, including the Emperor Neretzes himself, whose death would only further accelerate the decline of imperial authority. In the aftermath, Arenicos (who participated in the battle) ascended to the imperial throne. In his rule as emperor, he slowed the Empire's decline that had resulted from the devastating defeat at Pendraic.
+Calradia has long been ruled by the Rome-like Calradic Empire. At its peak, all other factions within Calradia were either dominated by the Empire, or allowed to exist by it. But in recent centuries the Empire grows ever weaker. And recently, a batle has put to question weather the Empire will survive or crumble.
 
-Emperor Arenicos was the last undisputed ruler of the Calradic Empire, whose military exploits and careful stewardship of the Empire slowed the Imperial decline that peaked during the Battle of Pendraic. Elected by the Senate to succeed the unpopular Emperor Neretzes soon after the disastrous battle against the Battanian and Sturgian coalition, Arenicos used the rift between Sturgia and Battania to end the war after a series of successful military campaigns as Emperor. Prior to ascending to the Imperial title, he had a senatorial, competent and esteemed reputation — he served as one of Neretzes's most trusted subordinates and commanders. Viewed as the savior of the Empire, a cult had begun to worship him as a partly divine ruler. Arenicos was assassinated before naming his successor, which caused the Imperial fragmentation and Civil War between Lucon, Garios and Rhagaea.
+The Battle of Pendraic, nicknamed Neretzes' Folly as a form of ridicule, was a major military engagement in the year 1077 involving all major factions in Calradia. The battle was fought between the Empire and Sturgia, with the Aserai and Khuzait siding with the former, and the Vlandians and Battanians siding with the latter.
+There is much discrepancy in what actually occurred, but what is certain is that the Empire suffered significant casualties, including Emperor Neretzes himself, whose death would only further accelerate the decline of imperial authority. In the aftermath, Arenicos (who participated in the battle) ascended to the imperial throne. In his rule as emperor, he slowed the Empire's decline that had resulted from the devastating defeat at Pendraic.
+
+Emperor Arenicos was the last undisputed ruler of the Calradic Empire, whose military exploits and careful stewardship of the Empire slowed the Imperial decline that peaked during the Battle of Pendraic. Elected by the Senate to succeed the unpopular Emperor Neretzes soon after the disastrous battle against the Battanian and Sturgian coalition, Arenicos used the rift between Sturgia and Battania to end the war after a series of successful military campaigns as Emperor. Prior to ascending to the Imperial title, he had a senatorial, competent and esteemed reputation — he served as one of Neretzes's most trusted subordinates and commanders. Viewed as the savior of the Empire, a cult had begun to worship him as a partly divine ruler. Arenicos was assassinated before naming his successor, which caused the Imperial fragmentation and Civil War between Lucon (leader of the Western Empire), Garios (leader of the Northern Empire) and Rhagaea (leader of the Southern Empire).
 He was the husband of Rhagaea, and the father of Ira. Further, he was the leader of the Pethros clan.
 
 ----------------------------------------
