@@ -1,7 +1,7 @@
 Now I am going to describe the geography of Calradia.
 Calradia is a landmass of continental proportions similar to the size of Earth's European continent.
 For the purposes of generated content, no narrative content should involve the main character with maritime navigation or warfare, nor the navigation of rivers.
-One important characteristic of population settlements in Calradia, there exists three main categories:
+Here is an important characteristic of population settlements in Calradia; there exists three main categories:
 * Towns. These are the commercial and population centres in Calradia where shops, merchants, taverns and tournaments are
 * Castles. These are the defence anchor points of Calradian kingdoms.
 * Villages. These are the smaller settlements where all of the resources (food, minerals, livestock, etc) are produced

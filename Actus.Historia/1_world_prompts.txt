@@ -1,6 +1,7 @@
 During this conversation session, I will be discussing things related to a game called "Mount & Blade II: Bannerlord". This game is the sequal to another game, called "Mount & Blade: Warband".
-Throughout this conversation session, I will be asking for you to create narrative content for this game called "Mount & Blade II: Bannerlord".
-Before I ask anything from you, I will be providing a lot of details about the World in which the game "Mount & Blade II: Bannerlord" is set, its factions, geography, characters and history.
+Throughout this conversation session, I will be asking for you to create narrative content for "Mount & Blade II: Bannerlord".
+Before I ask anything from you, I will be providing a lot of details about the World in which "Mount & Blade II: Bannerlord" is set, its factions, geography, characters and history.
+Please wait until I have entered all my context. When I am ready for you to create any content, I'll ask you directly.
 
 ------------------------------------------
 
@@ -30,7 +31,7 @@ Here are some general details about the world where Calradia exists:
 6. Mercenaries and hired blades can earn a living by protecting these caravans
 7. Bandits and raiders are very common, using the instability brought by the Calradic Empire current civil war to wreak havok on the land. Bandit hideouts are therefore scattered across the land
 8. The Calradic Empire was once the dominant power in Calradia, but was weakened by internal strife and external threats. Civil war erupted between three factions after the death of Emperor Arenicos
-9. Calradia is home to a variety of different religions, with the majority of the population following the faith of the holy order of the Aserai
+9. Calradia is home to a variety of different religions, which include the faith of the holy order of the Aserai, popular in the kingdom of the Azerai and neighbouring territories
             LETS CREATE SOME RELIGIONS. ASERAI CAN BE BASED ON EARLY ISLAM, VLANDIA CAN BE BASED ON CHRISTIANITY, KHUZAIT AND BATTANIA ARE MORE TRIBAL, STURGIA IS VERY VIKING AND EMPIRE IS GRECO-ROMAN
 
 
