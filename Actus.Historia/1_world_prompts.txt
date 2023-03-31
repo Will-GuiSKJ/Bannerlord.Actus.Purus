@@ -131,3 +131,35 @@ The Wolfskins:
 The Wolfskins are heirs to a long tradition in the Battanian lands wherein great warriors went "wildling" for part of their youth, learning the ways of the woods and how to suffer hardship. So long as a Wolfskin wears no sewn clothes, eats no cooked food, and sleeps under no roof, he is immune from the laws of man. In fact, the modern wolfskins tend to be the sons of wealthy families taking a few years to indulge their feral side, robbing travellers and living viciously and not necessarily hewing to the old code.
 
 ----------------------------------------
+
+Sturgia
+
+The Principality of Sturgia is one if the kingdoms of Calradia. Ruled by Grand Prince Raganvad, it occupies the snowy northernmost mountain territories of the continent of Calradia. The Sturgians are based on the real world Kievan Rus', a polity in medieval eastern Europe consisting of Slavic peoples and some Varangians, who were Norse and mixed Norse-Slavic traders, warriors, and adventurers. It was a loose federation of city states, most of whom were located in the area of modern Russia, Belarus and Ukraine.
+
+The principality's history began when Nordic traders and adventurers migrated from the northeast territories seeking land and wealth, and eventually formed diplomatic and marriage alliances with the native tribes of the Sturgian region, merging the two cultures together into something new, with a violent, warlike but also mercantile mentality.
+
+The Sturgian forests are forbidding and cold, but great wealth lies within. Wild honey can be found, and bog iron, but the real prize has always been fur. For centuries, brave traders ventured there to buy the pelts of fox, rabbit and ermine from the tribes of the woods. As the empire expanded eastward, that trickle of traders became a flood. Great towns sprung up on the rivers. Fortune-seekers came from the coast, from the steppes, and most of all from the Nordlands. Tribal elders made alliances with the newcomers, sealed by wedding vows, and with their share of the trading profits hired mercenaries to subdue other tribes. Sturgia became a collection of principalities, then a kingdom, the great powerhouse of the north.
+
+Raganvad Gundaroving is the grand prince of Sturgia and the leader of the Gundaroving clan. He is the owner of the town of Balgard, the town of Varcheg, Mazhadan Castle and Nevyansk Castle.
+
+The other clans of Sturgia are:
+* Vagiroving, led by the boyar Godun. They own the town of Tyal and Urikskala Castle
+* Ormidoving, led by the boyar Yorig. They own the city of Varnovapol and Vladiv Castle
+* Vezhoving, led by the boyar Vashorki. They own Ov Castle
+* Togaroving, led by the knyaz Vyldur. They own the town of Revyl and Ustokol Castle
+* Isyaroving, led by the knyaz Fafen. They own the town of Sibir
+* Ubroving, led by the boyar Tovir. They own Takor Castle
+* Kuloving, led by the knyaz Olek. They own the town of Omor
+* Kostoroving, led by knayz Rolan. THey own Kranirog Castle
+
+The Forest People:
+The tribes known as the Forest People practice slash-and-burn farming in the deep woods, outside the grasp of the Sturgian boyars. They burn down tracts of trees, grow crops on the virgin soil fertilized by ash for a few years until the land is exhausted, and move on. It is an inefficient use of land but a very efficient use of labor, suitable for a numerically small population in a large area. Also, because the plots are hard to measure and tax, it's a very good strategy for people who don't care to be governed.
+
+The Lake Rats:
+They are dangerous uncaring barbarian plunderers and raiders that operate in the coasts of Sturgia and sometimes in Vlandia. Their hideouts are inside hidden sea caves by the coasts. Because of how they operate and their lack of morality they are universally disliked in Calradia.
+The Lake Rats live in the marshes on the shores of the great northern lake, in shacks made out of the timbers of ruined ships. They live by "wrecking" - i.e. luring ships onto shoals with false lighthouses and beacons. Because they're scorned by the rest of Calradia - "all criminals, smell like marsh gas and mud and rotten fish" - they scorn everyone else back. Although mostly Sturgian, their ranks have been swelled by fugitives, debtors, and anyone else who'd rather live by a thieves' code than by the laws of nobles.
+
+The Skolderbroda:
+The Skolderbroda, or Shield Brothers, are a mercenary company for those who take fighting and training very seriously. They are primarily Nordic but do allow recruits from other cultures, as long as an already-serving Shield Brother will vouch for them. Their rules are almost monastic: no women in their encampments and no amusements, and no Brother is allowed to spend the night outside without permission. In combat, they fight with spear and axe in the Nordic style and are valued by all the noble houses of the north.
+
+----------------------------------------
