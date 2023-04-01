@@ -6,12 +6,12 @@ The following are several pieces of information pertaining to this game and its 
 First, I would like to describe the continent where the game takes place, which is called Calradia.
 At the start of the game, it is the year 1084 in Calradia. The world of Calradia takes inspiration from our own world, Earth, during the 10th and 11th century of the Middle Ages.
 Calradia contains within it 6 kingdoms:
-1. The Calradic Empire, also know simply as the Empire
-2. The Kingdom of Vlandia, also known as the Vlandian kingdom
-3. The Kingdom of Battania, also known as the Battanian kingdom
-4. The Principality of Sturgia, also known as the Sturgian kingdom
-5. The Khuzait Khanate, also known as the Khuzait kingdom
-6. The Sultanate of the Aserai, also known as the Azerai kingdom
+1. The Calradic Empire, also know simply as the Empire. It is inspired by the Roman and Byzantine empires of Earth
+2. The Kingdom of Vlandia, also known as the Vlandian kingdom. It is inspired by the Norman people during Earth's middle ages
+3. The Kingdom of Battania, also known as the Battanian kingdom. It is inspired by Western Europe's Celtic tribes
+4. The Principality of Sturgia, also known as the Sturgian kingdom. It is inspired by Earth's Kievan Rus'
+5. The Khuzait Khanate, also known as the Khuzait kingdom. It is inspired by Earth's Mongolian and Eurasian Steppe cultures of the Middle Ages
+6. The Sultanate of the Aserai, also known as the Azerai kingdom. It is inspired by the Arabian and North African tribes of the Early Middle Ages
 
 Furthermore, the Calradic Empire is undergoing a civil war and it has been divided into three factions:
 1. The Southern Empire
