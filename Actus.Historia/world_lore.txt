@@ -20,7 +20,7 @@ Furthermore, the Calradic Empire is undergoing a civil war and it has been divid
 
 -----------------------------------------
 
-Here are some general details about the world where Calradia exists:
+These are some general details about the world where Calradia exists:
 1. Magic does not exist, but people can be supersticious
 2. Only humans exist in Calradia, there is no other race in it
 3. Calradia is a fictional world. Earth's historical or modern factions do not exist within Calradia
@@ -58,7 +58,7 @@ The Battle of Pendraic, nicknamed Neretzes' Folly as a form of ridicule, was a m
 
 There is much discrepancy in what actually occurred, but what is certain is that the Empire suffered significant casualties, including Emperor Neretzes himself, whose death would only further accelerate the decline of imperial authority. In the aftermath, Arenicos (who participated in the battle) ascended to the imperial throne. In his rule as emperor, he slowed the Empire's decline that had resulted from the devastating defeat at Pendraic.
 
-Emperor Arenicos was the last undisputed ruler of the Calradic Empire, whose military exploits and careful stewardship of the Empire slowed the Imperial decline that peaked during the Battle of Pendraic. Elected by the Senate to succeed the unpopular Emperor Neretzes soon after the disastrous battle against the Battanian and Sturgian coalition, Arenicos used the rift between Sturgia and Battania to end the war after a series of successful military campaigns as Emperor. Prior to ascending to the Imperial title, he had a senatorial, competent and esteemed reputation — he served as one of Neretzes's most trusted subordinates and commanders. Viewed as the savior of the Empire, a cult had begun to worship him as a partly divine ruler. Arenicos was assassinated before naming his successor, which caused the Imperial fragmentation and Civil War between Lucon (leader of the Western Empire), Garios (leader of the Northern Empire) and Rhagaea (leader of the Southern Empire). Arenicos was the husband of Rhagaea, and the father of Ira. Further, he was the leader of the Pethros clan.
+Emperor Arenicos was the last undisputed ruler of the Calradic Empire, whose military exploits and careful stewardship of the Empire slowed the Imperial decline that peaked during the Battle of Pendraic. Elected by the Senate to succeed the unpopular Emperor Neretzes soon after the disastrous battle against the Battanian and Sturgian coalition, Arenicos used the rift between Sturgia and Battania to end the war after a series of successful military campaigns as Emperor. Prior to ascending to the Imperial title, he had a senatorial, competent and esteemed reputation — he served as one of Neretzes's most trusted subordinates and commanders. Viewed as the savior of the Empire, a cult had begun to worship him as a partly divine ruler. Arenicos was assassinated before naming his successor, which caused the Imperial fragmentation and Civil War between Lucon (leader of the Western Empire), Garios (leader of the Northern Empire) and Rhagaea (leader of the Southern Empire). Arenicos was the husband of Rhagaea, and the father of Ira. Further, he was the leader of the Pethros clan. Arenicos reluctance to choose an heir is still debated but no definitive answer exists. This has allowed for many different extrapolations, each supporting different political groups.
 
 ----------------------------------------
 
@@ -90,11 +90,35 @@ The other Empire clans that have sowrn to Lucon are:
 * Vatatzes ??
 * Serapides ??
 
+The Western Calradic Empire is one of the civil war factions of the Calradic Empire. Ruled by Garios Comnos, a war hero and military populist who believes the armies should choose the emperor and has named himself Emperor of Calradia. Emperor Garios Comnos is the ruler of the Western Empire and the leader of clan Comnos. He owns the town of Jalmarys, the town of Zeonica and Onica Castle.
+
+The other Empire clans that have sowrn to Garios are:
+* Varros, led by archon Apys. They own the town of Ortysia and Garontor Castle
+* Elaches, led by archon Tynops. They own the town of Amitatys and Thorios Castle
+* Dionicos, led by archon Crotor. They own the town of Lageta and Thractorae Castle
+* Lonalion, led by archon Desporion. They own the town of Rhotae
+* Sorados, led by archon Saratis. They own Gersegos Castle
+* Corenios, led by archon Achios. They own Veron Castle
+* Maneolis, led by archon Vipon. They own Hertogea Castle
+* Palladios ??
+
+The Embers of the Flame:
+The Embers of the Flame is a minor faction of the Calradic Empire. They are the descendants of a rebel movement that rose up nearly a century ago, after the saintly but ineffective teenaged Emperor Darusos was toppled by one of his generals. They claim that they are preparing the way for Heaven to bring back Darusos and usher in a new golden age, but like so many other rebel movements in Calradia they have been forced to turn to extortion to survive.
+
+The Eleftheroi:
+The Eleftheroi is a minor faction of the Calradic Empire. The Eleftheroi, the free people, live on the steppelands at the edge of the Empire. Originally the descendants of runaway slaves and debtors, they soon became highly valued by the local imperial commanders for their knowledge of this frontier zone. Their leaders have been granted titles, their young men taken into the retinues of archons and emperors. But although they are loyal to the idea of the Empire, they remain quite hostile to its actual authority.
+
+The Hidden Hand:
+The Hidden Hand is a minor faction of the Calradic Empire. They are a mafia who dominate the rural areas, and sometimes the towns, of the southern parts of the Empire. They thrive by making themselves useful to authorities: repressing unrest, silencing troublesome preachers, and robbing from merchants who compete with their patrons. Many of them go back and forth between a respectable life in the towns and a criminal life on the countryside, spending two or three months a year as brigands and enforcers and the rest of the year as "traders" specializing in stolen goods, knowing full well that no one will bother them.
+
+Legion of the Betrayed:
+The Legion of the Betrayed is a minor faction of the Calradic Empire. They were created after Emperor Arenicos enacted his reforms, abolishing the last of the Empire's standing armies in favor of archon's private retinues that were significantly cheaper and better at controlling territory. The Legion is made up of men who detested this change: they loved the old army, its standards and its unit histories and its camp life, and they blame the new system for destroying the empire. But an army does not hold together unless it is paid regulary, and they take contracts from imperial and foreign lords alike.
+
 ----------------------------------------
 
 Aserai
 
-The Sultanate of the Aserai is one of the kingdoms in Calradia. Ruled by Sultan Unqid, it occupies the shores and the desert beyond the Perassic Sea, to the south below the continent of Calradia. Aserai are based on the real life Arab tribes that existed before the Islamic conquests in the seventh century.
+The Sultanate of the Aserai is one of the kingdoms in Calradia. Ruled by Sultan Unqid, it occupies the shores and the desert beyond the Perassic Sea, to the south below the continent of Calradia. Aserai are based on the real life Arab tribes that existed on Earth before the Islamic conquests in the seventh century.
 
 The Banu Asera, also known as Aserai, is a civilization that is comprised of numerous clans who all claim their descent from the legendary patriarch Asera. The clans have occupied the springs, oases and coastline settlements of the Nahasa desert and its surrounding areas since ancient times. Now that the Calradic Empire has become weaker, it has shown an opportunity to the clans, who have formed a confederation in the interests of conquest.
 
@@ -160,7 +184,7 @@ The Company of the Golden Boar are a minor faction of Vlandia. The company are V
 
 Battania
 
-The Kingdom of Battania is one of the kingdoms in Calradia. Ruled by High King Caladog, it occupies heavily forested lands in the northwest of the continent of Calradia. The Battanians are based on real life Celtic peoples, in particular from the early medieval times.
+The Kingdom of Battania is one of the kingdoms in Calradia. Ruled by High King Caladog, it occupies heavily forested lands in the northwest of the continent of Calradia. The Battanians are based on real life Celtic peoples of Western Europe, in particular, the Picts, Irish, and Welsh of the early medieval era.
 
 Battanian civilization consists of loosely organized clans who originally populated most of the Calradian continent, but has been reduced to a small pocket of free territory after much of their land was conquered by the expansion of the Calradic Empire. Specialties of the Battanian warrior culture include forest warfare, longbowmen, and two-handed swordsmen.
 
@@ -175,8 +199,7 @@ The other clans of Battania are:
 * fen Eingal, led by mormaer Aradwyr. They own Druimmor Castle
 * fen Morcar, led by mormaer Pryndor. They own Llanoc Hen Castle
 * fen Penraic, led by mormaer Luichan. They own the town of Seonon and Flintolg Castle
-* fen Caernacht, led by ???
-* fen Uthelaim, led by ???
+* fen Caernacht, led by mormaer(?) Maireas. They own??
 
 The Wolfskins:
 The Wolfskins are a minor faction based in Battania. They are a society of young warriors who have left their clans to lead a life of violence and freedom in the wilderness. They live like wolves, eating raw flesh, not sleeping under any roof, not wearing woven cloth and they follow The Code of the Wolf.
@@ -186,7 +209,7 @@ The Wolfskins are heirs to a long tradition in the Battanian lands wherein great
 
 Sturgia
 
-The Principality of Sturgia is one if the kingdoms of Calradia. Ruled by Grand Prince Raganvad, it occupies the snowy northernmost mountain territories of the continent of Calradia. The Sturgians are based on the real world Kievan Rus', a polity in medieval eastern Europe consisting of Slavic peoples and some Varangians, who were Norse and mixed Norse-Slavic traders, warriors, and adventurers. It was a loose federation of city states, most of whom were located in the area of modern Russia, Belarus and Ukraine.
+The Principality of Sturgia is one if the kingdoms of Calradia. Ruled by Grand Prince Raganvad, it occupies the snowy northernmost mountain territories of the continent of Calradia. The Sturgians are based on our real world Kievan Rus' and share ancestry with the Nords, a group of people from beyond Calradia who themselves are based on the real world Nordic people of northern Europe.
 
 The principality's history began when Nordic traders and adventurers migrated from the northeast territories seeking land and wealth, and eventually formed diplomatic and marriage alliances with the native tribes of the Sturgian region, merging the two cultures together into something new, with a violent, warlike but also mercantile mentality.
 
